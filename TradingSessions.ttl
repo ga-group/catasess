@@ -1,0 +1,587 @@
+@prefix cata: <http://data.ga-group.nl/catasess/Catalogues/> .
+@prefix cfi: <http://schema.ga-group.nl/meta/classification/CFI/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
+@prefix fibo-fip: <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> .
+@prefix fibo-mic: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/> .
+@prefix fibo-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> .
+@prefix fibo-rel: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sess: <http://data.ga-group.nl/catasess/TradingSessions/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.ga-group.nl/catasess/TradingSessions/>
+	a	owl:Ontology ;
+	dct:abstract	"""This ontology includes individuals representing trading sessions as defined by exchange rulebooks.
+
+This ontology draws heavily upon vocabulary from FIBO which is why there is no supporting ontology file defining classes or properties.
+
+The identifier for a session is the product group's identifier suffixed by a session name in plain English."""@en ;
+	dct:issued	"2022-05-31T02:25:19Z"^^xsd:dateTime ;
+	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
+	dct:modified	"2022-05-31T06:51:08Z"^^xsd:dateTime ;
+	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> ;
+	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/TradingSessions/> ;
+	rdfs:label	"Trading Sessions" ;
+	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
+	sm:contributor	"GA Financial Solutions GmbH" ;
+	sm:copyright	"Copyright (c) 2022 GA Financial Solutions GmbH" ;
+	sm:fileAbbreviation	"sess" ;
+	sm:filename	"TradingSessions.ttl" .
+
+sess:AMXO-OXXICS-CT
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"09:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www.nyse.com/markets/american-options/market-info> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:45:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"NYSE American Index Options Continuous Trading" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:AMXO-OXXICS ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:IINX-FXXXXX-CT-1
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"04:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www.indiainx.com/markets/market_timings.aspx> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"India INX Futures Session 1" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:IINX-FXXXXX ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+sess:IINX-FXXXXX-CT-2
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"02:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:00:01"^^xsd:time ;
+	pav:importedFrom	<https://www.indiainx.com/markets/market_timings.aspx> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"India INX Futures Session 2" ;
+	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:IINX-FXXXXX ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+sess:MFOX-FFICSX-BT
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"18:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
+	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Euronext Index Futures Large-in-Scale facility" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:MFOX-FFICSX ;
+	tempo:validFrom	"2021-09-06"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
+
+sess:MFOX-FFICSX-CT
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"17:40:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"09:01:00"^^xsd:time ;
+	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Euronext Index Futures central order book" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:MFOX-FFICSX ;
+	tempo:validFrom	"2021-09-06"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
+
+sess:XADE-FFICSX-CT
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"17:20:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"10:10:00"^^xsd:time ;
+	pav:importedFrom	<https://www.athexgroup.gr/web/guest/derivatives-market-schedule> ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-10T06:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"XADE Index Futures & Options CAMM Session Market ID 1" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XADE-FFICSX , cata:XADE-OXXICS ;
+	tempo:validFrom	"2019-10"^^xsd:gYearMonth ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Athens> .
+
+sess:XADE-FFICSX-CT-2
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"15:20:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"10:10:00"^^xsd:time ;
+	pav:importedFrom	<https://www.athexgroup.gr/web/guest/derivatives-market-schedule> ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-10T06:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"XADE Index Futures & Options CAMM Session Market ID 1, half trading" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XADE-FFICSX , cata:XADE-OXXICS ;
+	tempo:validFrom	"2021-12-31"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Athens> .
+
+sess:XASX-OXXICS-CT-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"09:50:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"ASX Index Options Day Session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XASX-OXXICS ;
+	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XASX-OXXICS-CT-Night-EDT
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"ASX Index Options Night Session during New York Daylight Saving" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XASX-OXXICS ;
+	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XASX-OXXICS-CT-Night-EST
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"08:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"ASX Index Options Night Session during New York Standard" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XASX-OXXICS ;
+	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XCBT-FCAPXX-CT-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"13:20:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Agricultural Physical Futures Day" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XCBT-FCAPXX ;
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+sess:XCBT-FCAPXX-CT-Night
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:45:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"19:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Agricultural Physical Futures Day" ;
+	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XCBT-FCAPXX ;
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+sess:XCBT-FCAXXX-CT
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Agricultural Futures Continuous Trading" ;
+	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XCBT-FCAXXX ;
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+sess:XCBT-FFXXXX-CT
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Agricultural Futures Continuous Trading" ;
+	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XCBT-FCAXXX ;
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+sess:XCBT-ZR-CT-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"13:20:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Rough Rice day continuous trading" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XCBT-ZR ;
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+sess:XCBT-ZR-CT-Late
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"21:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"19:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Rough Rice late trading" ;
+	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XCBT-ZR ;
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+sess:XCBT-ZR-PO-Mon
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"19:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"16:45:00"^^xsd:time ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Rough Rice Monday pre-open" ;
+	sess:efficaciousOn	time:Monday ;
+	sess:isTradingSessionFor	cata:XCBT-ZR ;
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+sess:XCBT-ZR-PO-Sun
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"19:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"16:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Rough Rice Sunday pre-open" ;
+	sess:efficaciousOn	time:Sunday ;
+	sess:isTradingSessionFor	cata:XCBT-ZR ;
+	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
+
+sess:XSFE-BB-CT-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"NZ 90 Day Bank Bill Futures and Options day session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-BB ;
+	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
+
+sess:XSFE-BB-CT-Night
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:40:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"NZ 90 Day Bank Bill Futures and Options night session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-BB ;
+	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
+
+sess:XSFE-FFICSX-CT-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"09:50:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Index derivatives day session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-FFICSX-CT-Night-D
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"08:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Index Derivatives night session daylight saving" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-FFICSX-CT-Night-S
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Index Derivatives night session standard" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-IB-CT-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:34:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"30 Day Interbank Cash Rate Futures and Options day session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-IB ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-IB-CT-Night-D
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:14:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"30 Day Interbank Cash Rate Futures and Options night session daylight saving" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-IB ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-IB-CT-Night-S
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:14:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"30 Day Interbank Cash Rate Futures and Options night session standard" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-IB ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-IR-CT-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:28:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"90 Day Bank Bill Futures and Options day session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-IR ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-IR-CT-Night-D
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:08:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"90 Day Bank Bill Futures and Options night session daylight saving" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-IR ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-IR-CT-Night-S
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"90 Day Bank Bill Futures and Options night session standard" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-IR ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-XT-CT-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:32:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"10 Year Treasury Bond Futures and Options day session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-XT ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-XT-CT-Night-D
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:12:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"10 Year Treasury Bond Futures and Options night session daylight saving" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-XT ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-XT-CT-Night-S
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:12:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"10 Year Treasury Bond Futures and Options night session standard" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-XT ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-YT-CT-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"3 Year Treasury Bond Futures and Options day session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-YT ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-YT-CT-Night-D
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:30:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"3 Year Treasury Bond Futures and Options night session daylight saving" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-YT ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-YT-CT-Night-S
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"3 Year Treasury Bond Futures and Options night session standard" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-YT ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSGO-FFCPSX-CT
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"14:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Bolsa de Santiago currency futures" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSGO-FFCPSX ;
+	tempo:validFrom	"2015-08-12"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
+
+sess:XSGO-FFICSX-CT-summer
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Bolsa de Santiago index futures, summer schedule" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSGO-FFICSX ;
+	tempo:validFrom	"2015-08-12"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
+
+sess:XSGO-FFICSX-CT-winter
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Bolsa de Santiago index futures, winter schedule" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSGO-FFICSX ;
+	tempo:validFrom	"2015-08-12"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
+
+sess:XSGO-FFNCSX-CT-summer
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"09:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Bolsa de Santiago rate futures, winter schedule" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSGO-FFNCSX ;
+	tempo:validFrom	"2015-08-12"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
+
+sess:XSGO-FFNCSX-CT-winter
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"09:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Bolsa de Santiago rate futures, winter schedule" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSGO-FFNCSX ;
+	tempo:validFrom	"2015-08-12"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
+
+sess:efficaciousOn
+	a	owl:AnnotationProperty ;
+	rdfs:domain	fibo-fip:TradingSession ;
+	rdfs:label	"efficacious on"@en ;
+	skos:definition	"sets the efficacy of a session to a trading day or an abstract trading day specifier, such as the last trading day"@en .
+
+sess:inefficaciousOn
+	a	owl:AnnotationProperty ;
+	rdfs:domain	fibo-fip:TradingSession ;
+	rdfs:label	"inefficacious on"@en ;
+	skos:definition	"unsets the efficacy of a session on a particular day or day specifier, such as a public holiday"@en .
+
+sess:isTradingSessionFor
+	a	owl:ObjectProperty ;
+	rdfs:domain	fibo-fip:TradingSession ;
+	rdfs:label	"session for"@en ;
+	skos:definition	"relates the session to a product or product catalogue"@en .

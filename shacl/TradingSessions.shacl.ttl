@@ -1,0 +1,75 @@
+@prefix cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
+@prefix fibo-fip: <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> .
+@prefix fibo-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> .
+@prefix gleif: <https://rdf.gleif.org/L1/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sess: <http://data.ga-group.nl/catasess/TradingSessions/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+<> sh:entailment <http://www.w3.org/ns/entailment/RDFS> .
+
+## shapes
+fibo-fip:TradingSession-shape a sh:NodeShape ;
+	sh:targetClass fibo-fip:TradingSession ;
+	## tests
+	sh:property rdfs:label-property ;
+	sh:property time:timeZone-property ;
+	sh:property fibo-fd:hasOpeningDateTime-property ;
+	sh:property fibo-fd:hasClosingDateTime-property ;
+	sh:property sess:isTradingSessionFor-property ;
+	sh:property sess:efficaciousOn-property ;
+	.
+
+## properties
+rdfs:label-property a sh:PropertyShape ;
+	sh:path rdfs:label ;
+	sh:minCount 1 ;
+	sh:type xsd:string ;
+	sh:uniqueLang true ;
+	.
+
+time:timeZone-property a sh:PropertyShape ;
+	sh:path time:timeZone ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:type sh:IRI ;
+	.
+
+fibo-fd:hasOpeningDateTime-property a sh:PropertyShape ;
+	sh:path fibo-fd:hasOpeningDateTime ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:type xsd:time ;
+	.
+
+fibo-fd:hasClosingDateTime-property a sh:PropertyShape ;
+	sh:path fibo-fd:hasClosingDateTime ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:type xsd:time ;
+	.
+
+sess:isTradingSessionFor-property a sh:PropertyShape ;
+	sh:path sess:isTradingSessionFor ;
+	sh:minCount 1 ;
+	sh:class fibo-fpas:FinancialProductCatalog ;
+	.
+
+sess:efficaciousOn-property a sh:PropertyShape ;
+	sh:path sess:efficaciousOn ;
+	sh:minCount 1 ;
+	sh:type xsd:date ;
+	.

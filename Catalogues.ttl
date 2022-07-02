@@ -1,0 +1,221 @@
+@prefix cata: <http://data.ga-group.nl/catasess/Catalogues/> .
+@prefix cfi: <http://schema.ga-group.nl/meta/classification/CFI/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
+@prefix fibo-fip: <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> .
+@prefix fibo-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> .
+@prefix fibo-mic: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/> .
+@prefix fibo-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> .
+@prefix fibo-rel: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.ga-group.nl/catasess/Catalogues/>
+	a	owl:Ontology ;
+	dct:abstract	"""This ontology includes individuals representing products and product catalogues traded on exchanges.
+A product group's only purpose is to segment a market (identified by it's Market Segment MIC or Operating MIC) further to allow for a unique assignment of trading sessions.
+
+This ontology draws heavily upon vocabulary from FIBO which is why there is no supporting ontology file defining classes or properties.
+
+The identifier for a product group is, if possible, the concatenation of the MIC (ISO 10383) and the CFI (ISO 10962) for the product group in question.
+For further distinction a plain a term in plain English might be appended.
+
+Supplementary information regarding a product group, e.g. the products it comprises, is out of scope, and is expected to be sourced from elsewhere."""@en ;
+	dct:issued	"2022-06-28T02:25:19Z"^^xsd:dateTime ;
+	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
+	dct:modified	"2022-06-28T06:51:08Z"^^xsd:dateTime ;
+	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/Catalogues/> ;
+	rdfs:label	"Catalogues" ;
+	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
+	sm:contributor	"GA Financial Solutions GmbH" ;
+	sm:copyright	"Copyright (c) 2022 GA Financial Solutions GmbH" ;
+	sm:fileAbbreviation	"cata" ;
+	sm:filename	"Catalogues.ttl" .
+
+cata:AMXO-OXXICS
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-AMXO ;
+	lcc-cr:isClassifiedBy	cfi:OXXICS ;
+	pav:importedFrom	<https://www.nyse.com/markets/american-options/market-info> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:45:24Z"^^xsd:dateTime ;
+	rdfs:label	"NYSE American Index Options" .
+
+cata:IINX-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-IINX ;
+	lcc-cr:isClassifiedBy	cfi:FXXXXX ;
+	pav:importedFrom	<https://www.indiainx.com/static/productsnapshot.aspx> ;
+	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"India INX Futures" .
+
+cata:MFOX-FFICSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-MFOX ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Euronext Lisbon Index Futures" .
+
+cata:XADE-FFICSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADE ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www.athexgroup.gr/web/guest/markets-derivatives> ;
+	pav:importedOn	"2022-06-28T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-28T06:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"ATHEX Index Futures" .
+
+cata:XADE-OXXICS
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADE ;
+	lcc-cr:isClassifiedBy	cfi:OXXICS ;
+	pav:importedFrom	<https://www.athexgroup.gr/web/guest/markets-derivatives> ;
+	pav:importedOn	"2022-06-28T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-28T06:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"ATHEX Index Options" .
+
+cata:XASX-OXXICS
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASX ;
+	lcc-cr:isClassifiedBy	cfi:OXXICS ;
+	pav:importedFrom	<https://www.asx.com.au/about/index-options.htm> ;
+	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"ASX Index Options" .
+
+cata:XCBT-FCAPXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBT ;
+	lcc-cr:isClassifiedBy	cfi:FCAPXX ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Agricultural Physical Futures" .
+
+cata:XCBT-FCAXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBT ;
+	lcc-cr:isClassifiedBy	cfi:FCAXXX ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Agricultural Futures" .
+
+cata:XCBT-ZR
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBT ;
+	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
+	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"CBOT Rough Rice Futures" .
+
+cata:XSFE-BB
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
+	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"NZ 90 Day Bank Bill Futures and Options" .
+
+cata:XSFE-FFICSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Index Derivatives" .
+
+cata:XSFE-IB
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
+	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"30 Day Interbank Cash Rate Futures and Options" .
+
+cata:XSFE-IR
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
+	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"90 Day Bank Bill Futures and Options" .
+
+cata:XSFE-XT
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
+	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"10 Year/20 Year Treasury Bond Futures and Options" ;
+	skos:note	"comprises XT and LT products" .
+
+cata:XSFE-YT
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
+	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"3 Year/5 Year Treasury Bond Futures and Options" ;
+	skos:note	"comprises YT and VT products" .
+
+cata:XSGO-FFCPSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
+	lcc-cr:isClassifiedBy	cfi:FFCPSX ;
+	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Bolsa de Santiago Currency Futures" .
+
+cata:XSGO-FFICSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Bolsa de Santiago Index Futures" .
+
+cata:XSGO-FFNCSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
+	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
+	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Bolsa de Santiago Rate Futures" .

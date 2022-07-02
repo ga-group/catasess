@@ -1,0 +1,40 @@
+@prefix cata: <http://data.ga-group.nl/catasess/Catalogues/> .
+@prefix cfi: <http://schema.ga-group.nl/meta/classification/CFI/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fibo-fd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
+@prefix fibo-fip: <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> .
+@prefix fibo-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> .
+@prefix fibo-mic: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/> .
+@prefix fibo-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> .
+@prefix fibo-rel: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.ga-group.nl/catasess/Catalogues/>
+	a	owl:Ontology ;
+	dct:abstract	"""This ontology includes individuals representing products and product catalogues traded on exchanges.
+A product group's only purpose is to segment a market (identified by it's Market Segment MIC or Operating MIC) further to allow for a unique assignment of trading sessions.
+
+This ontology draws heavily upon vocabulary from FIBO which is why there is no supporting ontology file defining classes or properties.
+
+The identifier for a product group is, if possible, the concatenation of the MIC (ISO 10383) and the CFI (ISO 10962) for the product group in question.
+For further distinction a plain a term in plain English might be appended.
+
+Supplementary information regarding a product group, e.g. the products it comprises, is out of scope, and is expected to be sourced from elsewhere."""@en ;
+	dct:issued	"2022-06-28T02:25:19Z"^^xsd:dateTime ;
+	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
+	dct:modified	"2022-06-28T06:51:08Z"^^xsd:dateTime ;
+	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/Catalogues/> ;
+	rdfs:label	"Catalogues" ;
+	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
+	sm:contributor	"GA Financial Solutions GmbH" ;
+	sm:copyright	"Copyright (c) 2022 GA Financial Solutions GmbH" ;
+	sm:fileAbbreviation	"cata" ;
+	sm:filename	"Catalogues.ttl" .
+
