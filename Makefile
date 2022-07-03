@@ -21,8 +21,8 @@ check.TradingSessions: ADDITIONAL = Catalogues.ttl TradingRegimes.ttl
 
 check.%: %.ttl shacl/%.shacl.ttl
 	truncate -s 0 /tmp/$@.ttl
-	$(stardog) data add --remove-all -g "http://data.ga-group.nl/iso10383/" iso $< $(ADDITIONAL)
-	$(stardog) icv report --output-format PRETTY_TURTLE -g "http://data.ga-group.nl/iso10383/" -r -l -1 iso shacl/$*.shacl.ttl \
+	$(stardog) data add --remove-all -g "http://data.ga-group.nl/catasess/" catasess $< $(ADDITIONAL)
+	$(stardog) icv report --output-format PRETTY_TURTLE -g "http://data.ga-group.nl/catasess/" -r -l -1 catasess shacl/$*.shacl.ttl \
         >> /tmp/$@.ttl || true
 	$(MAKE) $*.rpt
 
@@ -30,9 +30,9 @@ check.%: %.ttl shacl/%.shacl.sql
 	$(RM) tmp/shacl-*.qry
 	mawk 'BEGIN{f=0}/\f/{f++;next}{print>"tmp/shacl-"f".qry"}' $(filter %.sql, $^)
 	truncate -s 0 /tmp/$@.ttl
-	$(stardog) data add --remove-all -g "http://data.ga-group.nl/iso10383/" iso $< $(ADDITIONAL)
+	$(stardog) data add --remove-all -g "http://data.ga-group.nl/catasess/" catasess $< $(ADDITIONAL)
 	for i in tmp/shacl-*.qry; do \
-		$(stardog) query execute --format PRETTY_TURTLE -g "http://data.ga-group.nl/iso10383/" -r -l -1 iso $${i}; \
+		$(stardog) query execute --format PRETTY_TURTLE -g "http://data.ga-group.nl/catasess/" -r -l -1 catasess $${i}; \
 	done \
         >> /tmp/$@.ttl || true
 	$(MAKE) $*.rpt
@@ -63,11 +63,10 @@ Catalogues.ttl: Catalogues-aux.ttl
 	$(MAKE) .$@.canon
 
 setup-stardog:                                                                                                                                                                                          
-	$(stardog)-admin db create -o reasoning.sameas=OFF -n iso
-	$(stardog) namespace add --prefix fibo-fbc-fct-mkt --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/ iso
-	$(stardog) namespace add --prefix fibo-fbc-fct-mkti --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/ iso
-	$(stardog) namespace add --prefix fibo-fbc-fct-bc --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCenters/ iso
-	$(stardog) namespace add --prefix fibo-fbc-fct-bci --uri https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/ iso
+	$(stardog)-admin db create -o reasoning.sameas=OFF -n catasess
+	$(stardog) namespace add --prefix cata --uri http://data.ga-group.nl/catasess/Catalogues/ catasess
+	$(stardog) namespace add --prefix sess --uri http://data.ga-group.nl/catasess/TradingSessions/ catasess
+	$(stardog) namespace add --prefix treg --uri http://data.ga-group.nl/catasess/TradingRegimes/ catasess
 
 unsetup-stardog:
-	$(stardog)-admin db drop iso
+	$(stardog)-admin db drop catasess
