@@ -15,6 +15,7 @@
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix tempo: <http://purl.org/tempo/> .
 @prefix time: <http://www.w3.org/2006/time#> .
+@prefix treg: <http://data.ga-group.nl/catasess/TradingRegimes/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.ga-group.nl/catasess/TradingSessions/>
@@ -314,6 +315,7 @@ sess:XSFE-FFICSX-CT-Day
 	rdfs:label	"Index derivatives day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
+	sess:operatesIn	treg:XSFE-Open ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:XSFE-FFICSX-CT-Night-D
@@ -327,6 +329,7 @@ sess:XSFE-FFICSX-CT-Night-D
 	rdfs:label	"Index Derivatives night session daylight saving" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
+	sess:operatesIn	treg:XSFE-Open_Night ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:XSFE-FFICSX-CT-Night-S
@@ -340,6 +343,21 @@ sess:XSFE-FFICSX-CT-Night-S
 	rdfs:label	"Index Derivatives night session standard" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
+	sess:operatesIn	treg:XSFE-Open_Night ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-FFICSX-CT-Pre_Open
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"09:50:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"07:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-operating-rules/rules/asx_or_appendices.pdf> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Index derivatives preopen session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
+	sess:operatesIn	treg:XSFE-Pre_Open ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:XSFE-IB-CT-Day
@@ -353,6 +371,7 @@ sess:XSFE-IB-CT-Day
 	rdfs:label	"30 Day Interbank Cash Rate Futures and Options day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IB ;
+	sess:operatesIn	treg:XSFE-Open ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:XSFE-IB-CT-Night-D
