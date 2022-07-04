@@ -24,6 +24,6 @@ published datasets as well as separately maintained alignment and enrichment fil
 
 For ease of access the latest versions of the datasets can be downloaded here:
 
-- [Catalogues.ttl](/catasess/Catalogues.ttl)
-- [TradingSessions.ttl](/catasess/TradingSessions.ttl)
+- [Catalogues.ttl](Catalogues.ttl)
+- [TradingSessions.ttl](TradingSessions.ttl)
 
