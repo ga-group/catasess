@@ -143,7 +143,7 @@ cata:XSFE-FFAXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
 	lcc-cr:isClassifiedBy	cfi:FFAXXX ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures" .

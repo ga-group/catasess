@@ -311,10 +311,25 @@ sess:XSFE-FFAXXX-CT-Day
 	a	owl:NamedIndividual ;
 	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
 	fibo-fd:hasOpeningDateTime	"11:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures day session" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
+	sess:operatesIn	treg:XSFE-Open ;
+	tempo:validFrom	"2018-07-23"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-FFAXXX-CT-Final
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"12:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"11:00:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Grain futures final trading day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
 	sess:operatesIn	treg:XSFE-Open ;
@@ -326,7 +341,7 @@ sess:XSFE-FFAXXX-CT-Night
 	a	owl:NamedIndividual ;
 	fibo-fd:hasClosingDateTime	"19:00:00"^^xsd:time ;
 	fibo-fd:hasOpeningDateTime	"17:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures night session" ;
@@ -341,7 +356,7 @@ sess:XSFE-FFAXXX-Pre_Open
 	a	owl:NamedIndividual ;
 	fibo-fd:hasClosingDateTime	"11:00:00"^^xsd:time ;
 	fibo-fd:hasOpeningDateTime	"08:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures day session" ;
