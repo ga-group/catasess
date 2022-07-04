@@ -36,17 +36,17 @@ The identifier for a trading regime is the regime's MIC suffixed by the exchange
 	sm:fileAbbreviation	"treg" ;
 	sm:filename	"TradingRegimes.ttl" .
 
-treg:XFSE-Open
+treg:XSFE-Open
 	a	owl:Individual ;
 	a	treg:TradingRegime ;
 	rdfs:label	"Open" .
 
-treg:XFSE-Open_Night
+treg:XSFE-Open_Night
 	a	owl:Individual ;
 	a	treg:TradingRegime ;
 	rdfs:label	"Open_Night" .
 
-treg:XFSE-Pre_Open
+treg:XSFE-Pre_Open
 	a	owl:Individual ;
 	a	treg:TradingRegime ;
 	rdfs:label	"Pre_Open" .

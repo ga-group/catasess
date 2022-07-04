@@ -138,6 +138,16 @@ cata:XSFE-BB
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"NZ 90 Day Bank Bill Futures and Options" .
 
+cata:XSFE-FFAXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
+	lcc-cr:isClassifiedBy	cfi:FFAXXX ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Grain futures" .
+
 cata:XSFE-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -146,7 +156,7 @@ cata:XSFE-FFICSX
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
-	rdfs:label	"Index Derivatives" .
+	rdfs:label	"Index derivatives" .
 
 cata:XSFE-IB
 	a	fibo-fpas:FinancialProductCatalog ;
