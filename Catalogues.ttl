@@ -122,6 +122,8 @@ cata:XCBT-FCAXXX
 cata:XCBT-ZR
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cata:supporting-exch	"ECBOT" ;
+	cata:supporting-ticker	"ZR" ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBT ;
 	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
@@ -141,6 +143,8 @@ cata:XSFE-BB
 cata:XSFE-FFAXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cata:supporting-exch	"SNFE" ;
+	cata:supporting-ticker	"BA" , "WH" ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
 	lcc-cr:isClassifiedBy	cfi:FFAXXX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
@@ -151,6 +155,8 @@ cata:XSFE-FFAXXX
 cata:XSFE-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cata:supporting-exch	"SNFE" ;
+	cata:supporting-ticker	"SPI" ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
 	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
@@ -161,6 +167,8 @@ cata:XSFE-FFICSX
 cata:XSFE-IB
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cata:supporting-exch	"SNFE" ;
+	cata:supporting-ticker	"IB" ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
 	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
@@ -171,6 +179,8 @@ cata:XSFE-IB
 cata:XSFE-IR
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cata:supporting-exch	"SNFE" ;
+	cata:supporting-ticker	"IR" ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
 	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
@@ -181,6 +191,8 @@ cata:XSFE-IR
 cata:XSFE-XT
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cata:supporting-exch	"SNFE" ;
+	cata:supporting-ticker	"XT" ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
 	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
@@ -192,6 +204,8 @@ cata:XSFE-XT
 cata:XSFE-YT
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cata:supporting-exch	"SNFE" ;
+	cata:supporting-ticker	"YT" ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
 	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;

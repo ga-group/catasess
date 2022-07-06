@@ -505,7 +505,7 @@ sess:XSFE-IR-CT-Night-S
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
 	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"17:08:00"^^xsd:time ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
@@ -513,6 +513,21 @@ sess:XSFE-IR-CT-Night-S
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IR ;
 	sess:operatesIn	treg:XSFE-Open_Night ;
+	tempo:validFrom	"2018-07-23"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-IR-Last-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"12:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:28:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"90 Day Bank Bill Futures day session on expiry day" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-IR ;
+	sess:operatesIn	treg:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -561,6 +576,21 @@ sess:XSFE-XT-CT-Night-S
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
+sess:XSFE-XT-Last-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"12:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:32:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"10 Year Treasury Bond Futures day session on expiry day" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-XT ;
+	sess:operatesIn	treg:XSFE-Open ;
+	tempo:validFrom	"2018-07-23"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
 sess:XSFE-YT-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
@@ -603,6 +633,21 @@ sess:XSFE-YT-CT-Night-S
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-YT ;
 	sess:operatesIn	treg:XSFE-Open_Night ;
+	tempo:validFrom	"2018-07-23"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XSFE-YT-Last-Day
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	fibo-fd:hasClosingDateTime	"12:00:00"^^xsd:time ;
+	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
+	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"3 Year Treasury Bond Futures day session on expiry day" ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:XSFE-YT ;
+	sess:operatesIn	treg:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 

@@ -3,9 +3,11 @@ SHELL := /bin/zsh
 sparql := /home/freundt/usr/apache-jena/bin/sparql
 stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
 
-all: Catalogues.ttl TradingRegimes.ttl TradingSessions.ttl canon
-check: check.Catalogues check.TradingRegimes check.TradingSessions
-canon: .Catalogues.ttl.canon .TradingRegimes.ttl.canon .TradingSessions.ttl.canon
+FILES = Catalogues.ttl TradingRegimes.ttl TradingSessions.ttl
+
+all: $(FILES) canon tmp/sess.out
+check: $(FILES:%.ttl=check.%)
+canon: $(FILES:%=.%.canon)
 
 .%.ttl.canon: %.ttl
 	rapper -i turtle $< >/dev/null
@@ -39,6 +41,13 @@ check.%: %.ttl shacl/%.shacl.sql
 
 %.rpt: /tmp/check.%.ttl
 	$(sparql) --results text --data $< --query sql/valrpt.sql
+
+
+tmp/%.out: sql/%.sql $(FILES)
+	$(stardog) data add --remove-all -g "http://data.ga-group.nl/catasess/" catasess $(FILES)
+	$(stardog) query execute --format CSV -g "http://data.ga-group.nl/catasess/" -r -l -1 catasess $< \
+	| tr ',' '\t' \
+	> $@.t && mv $@.t $@
 
 
 TradingSessions.ttl: TradingSessions-aux.ttl
