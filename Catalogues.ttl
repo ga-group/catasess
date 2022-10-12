@@ -99,6 +99,18 @@ cata:XASX-OXXICS
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"ASX Index Options" .
 
+cata:XBRD-FFICSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cata:supporting-exch	"BELFOX" ;
+	cata:supporting-ticker	"BFX" ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRD ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Euronext Brussels Index Futures" .
+
 cata:XCBT-FCAPXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -129,6 +141,90 @@ cata:XCBT-ZR
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Rough Rice Futures" .
+
+cata:XEUR-DAX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cata:supporting-exch	"DTB" ;
+	cata:supporting-ticker	"DAX" ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Eurex German Equity Index Futures" .
+
+cata:XEUR-ESX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cata:supporting-exch	"DTB" ;
+	cata:supporting-ticker	"ESTX50" ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Eurex European Equity Index Futures" .
+
+cata:XEUR-FBT
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cata:supporting-exch	"DTB" ;
+	cata:supporting-ticker	"BTM" , "BTP" , "BTS" , "OAM" ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
+	lcc-cr:isClassifiedBy	cfi:FFDPSX ;
+	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Eurex Italian/French Government Bonds Futures" .
+
+cata:XEUR-FGB
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cata:supporting-exch	"DTB" ;
+	cata:supporting-ticker	"GBL" , "GBM" , "GBS" , "GBX" , "OAT" ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
+	lcc-cr:isClassifiedBy	cfi:FFDPSX ;
+	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Eurex German/French Government Bonds Futures" .
+
+cata:XFTA-FMX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cata:supporting-exch	"FTA" ;
+	cata:supporting-ticker	"FMX" ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFTA ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Euronext Amsterdam Index Futures" .
+
+cata:XFTA-FTI
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cata:supporting-exch	"FTA" ;
+	cata:supporting-ticker	"EOE" ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFTA ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Euronext Amsterdam Index Futures" .
+
+cata:XMON-FFICSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cata:supporting-exch	"MONEP" ;
+	cata:supporting-ticker	"CAC40" ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMON ;
+	lcc-cr:isClassifiedBy	cfi:FFICSX ;
+	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Euronext Paris Index Futures" .
 
 cata:XSFE-BB
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -243,3 +339,15 @@ cata:XSGO-FFNCSX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago Rate Futures" .
+
+cata:XSWX-FFDPSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cata:supporting-exch	"SOFFEX" ;
+	cata:supporting-ticker	"CONF" ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSWX ;
+	lcc-cr:isClassifiedBy	cfi:FFDPSX ;
+	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	rdfs:label	"Eurex Zurich Rate Futures" .

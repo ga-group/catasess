@@ -36,6 +36,46 @@ The identifier for a trading regime is the regime's MIC suffixed by the exchange
 	sm:fileAbbreviation	"treg" ;
 	sm:filename	"TradingRegimes.ttl" .
 
+treg:MFOX-COB
+	a	owl:Individual ;
+	a	treg:TradingRegime ;
+	rdfs:label	"Central order book" .
+
+treg:MFOX-LiS
+	a	owl:Individual ;
+	a	treg:TradingRegime ;
+	rdfs:label	"Large-in-Scale facility" .
+
+treg:XBRD-COB
+	a	owl:Individual ;
+	a	treg:TradingRegime ;
+	rdfs:label	"Central order book" .
+
+treg:XBRD-LiS
+	a	owl:Individual ;
+	a	treg:TradingRegime ;
+	rdfs:label	"Large-in-Scale facility" .
+
+treg:XFTA-COB
+	a	owl:Individual ;
+	a	treg:TradingRegime ;
+	rdfs:label	"Central order book" .
+
+treg:XFTA-LiS
+	a	owl:Individual ;
+	a	treg:TradingRegime ;
+	rdfs:label	"Large-in-Scale facility" .
+
+treg:XMON-COB
+	a	owl:Individual ;
+	a	treg:TradingRegime ;
+	rdfs:label	"Central order book" .
+
+treg:XMON-LiS
+	a	owl:Individual ;
+	a	treg:TradingRegime ;
+	rdfs:label	"Large-in-Scale facility" .
+
 treg:XSFE-Open
 	a	owl:Individual ;
 	a	treg:TradingRegime ;
