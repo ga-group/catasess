@@ -1,4 +1,4 @@
-@prefix cata: <http://data.ga-group.nl/catasess/Catalogues/> .
+@prefix cata: <http://data.ga-group.nl/catasess/catalogues/> .
 @prefix cfi: <http://schema.ga-group.nl/meta/classification/CFI/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix fibo-fd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
@@ -7,17 +7,18 @@
 @prefix fibo-mic: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/> .
 @prefix fibo-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> .
 @prefix fibo-rel: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
-@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix cmns-cls: <https://www.omg.org/spec/Commons/Classifiers/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.ga-group.nl/catasess/Catalogues/>
+<http://data.ga-group.nl/catasess/catalogues/>
 	a	owl:Ontology ;
 	dct:abstract	"""This ontology includes individuals representing products and product catalogues traded on exchanges.
 A product group's only purpose is to segment a market (identified by it's Market Segment MIC or Operating MIC) further to allow for a unique assignment of trading sessions.
@@ -31,19 +32,22 @@ Supplementary information regarding a product group, e.g. the products it compri
 	dct:issued	"2022-06-28T02:25:19Z"^^xsd:dateTime ;
 	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
 	dct:modified	"2022-06-28T06:51:08Z"^^xsd:dateTime ;
-	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/Catalogues/> ;
+	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/catalogues/> ;
 	rdfs:label	"Catalogues" ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
 	sm:contributor	"GA Financial Solutions GmbH" ;
 	sm:copyright	"Copyright (c) 2022 GA Financial Solutions GmbH" ;
 	sm:fileAbbreviation	"cata" ;
-	sm:filename	"Catalogues.ttl" .
+	sm:filename	"catalogues.ttl" .
+
+
+
 
 cata:AMXO-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:OXXICS ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-AMXO ;
-	lcc-cr:isClassifiedBy	cfi:OXXICS ;
 	pav:importedFrom	<https://www.nyse.com/markets/american-options/market-info> ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:45:24Z"^^xsd:dateTime ;
@@ -52,8 +56,8 @@ cata:AMXO-OXXICS
 cata:IINX-FXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IINX ;
-	lcc-cr:isClassifiedBy	cfi:FXXXXX ;
 	pav:importedFrom	<https://www.indiainx.com/static/productsnapshot.aspx> ;
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
@@ -62,8 +66,8 @@ cata:IINX-FXXXXX
 cata:MFOX-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MFOX ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -72,8 +76,8 @@ cata:MFOX-FFICSX
 cata:XADE-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADE ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www.athexgroup.gr/web/guest/markets-derivatives> ;
 	pav:importedOn	"2022-06-28T07:39:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-28T06:44:24.674Z"^^xsd:dateTime ;
@@ -82,8 +86,8 @@ cata:XADE-FFICSX
 cata:XADE-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:OXXICS ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADE ;
-	lcc-cr:isClassifiedBy	cfi:OXXICS ;
 	pav:importedFrom	<https://www.athexgroup.gr/web/guest/markets-derivatives> ;
 	pav:importedOn	"2022-06-28T07:39:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-28T06:44:24.674Z"^^xsd:dateTime ;
@@ -92,8 +96,8 @@ cata:XADE-OXXICS
 cata:XASX-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:OXXICS ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASX ;
-	lcc-cr:isClassifiedBy	cfi:OXXICS ;
 	pav:importedFrom	<https://www.asx.com.au/about/index-options.htm> ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -104,8 +108,8 @@ cata:XBRD-FFICSX
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"BELFOX" ;
 	cata:supporting-ticker	"BFX" ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRD ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -114,8 +118,8 @@ cata:XBRD-FFICSX
 cata:XCBT-FCAPXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FCAPXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBT ;
-	lcc-cr:isClassifiedBy	cfi:FCAPXX ;
 	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
@@ -124,8 +128,8 @@ cata:XCBT-FCAPXX
 cata:XCBT-FCAXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FCAXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBT ;
-	lcc-cr:isClassifiedBy	cfi:FCAXXX ;
 	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
@@ -147,8 +151,8 @@ cata:XEUR-DAX
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"DTB" ;
 	cata:supporting-ticker	"DAX" ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -159,8 +163,8 @@ cata:XEUR-ESX
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"DTB" ;
 	cata:supporting-ticker	"ESTX50" ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -171,8 +175,8 @@ cata:XEUR-FBT
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"DTB" ;
 	cata:supporting-ticker	"BTM" , "BTP" , "BTS" , "OAM" ;
+	cmns-cls:isClassifiedBy	cfi:FFDPSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
-	lcc-cr:isClassifiedBy	cfi:FFDPSX ;
 	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -183,8 +187,8 @@ cata:XEUR-FGB
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"DTB" ;
 	cata:supporting-ticker	"GBL" , "GBM" , "GBS" , "GBX" , "OAT" ;
+	cmns-cls:isClassifiedBy	cfi:FFDPSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
-	lcc-cr:isClassifiedBy	cfi:FFDPSX ;
 	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -195,8 +199,8 @@ cata:XFTA-FMX
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"FTA" ;
 	cata:supporting-ticker	"FMX" ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFTA ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -207,8 +211,8 @@ cata:XFTA-FTI
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"FTA" ;
 	cata:supporting-ticker	"EOE" ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFTA ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -219,8 +223,8 @@ cata:XMON-FFICSX
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"MONEP" ;
 	cata:supporting-ticker	"CAC40" ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMON ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -229,8 +233,8 @@ cata:XMON-FFICSX
 cata:XSFE-BB
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -241,8 +245,8 @@ cata:XSFE-FFAXXX
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"BA" , "WH" ;
+	cmns-cls:isClassifiedBy	cfi:FFAXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	lcc-cr:isClassifiedBy	cfi:FFAXXX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -253,8 +257,8 @@ cata:XSFE-FFICSX
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"SPI" ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -265,8 +269,8 @@ cata:XSFE-IB
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"IB" ;
+	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -277,8 +281,8 @@ cata:XSFE-IR
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"IR" ;
+	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -289,8 +293,8 @@ cata:XSFE-XT
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"XT" ;
+	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -302,8 +306,8 @@ cata:XSFE-YT
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"YT" ;
+	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -313,8 +317,8 @@ cata:XSFE-YT
 cata:XSGO-FFCPSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFCPSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
-	lcc-cr:isClassifiedBy	cfi:FFCPSX ;
 	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -323,8 +327,8 @@ cata:XSGO-FFCPSX
 cata:XSGO-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
-	lcc-cr:isClassifiedBy	cfi:FFICSX ;
 	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -333,8 +337,8 @@ cata:XSGO-FFICSX
 cata:XSGO-FFNCSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
-	lcc-cr:isClassifiedBy	cfi:FFNCSX ;
 	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
@@ -345,8 +349,8 @@ cata:XSWX-FFDPSX
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"SOFFEX" ;
 	cata:supporting-ticker	"CONF" ;
+	cmns-cls:isClassifiedBy	cfi:FFDPSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSWX ;
-	lcc-cr:isClassifiedBy	cfi:FFDPSX ;
 	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;

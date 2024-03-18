@@ -1,13 +1,11 @@
 SHELL := /bin/zsh
 
-sparql := /home/freundt/usr/apache-jena/bin/sparql
-stardog := STARDOG_JAVA_ARGS='-Dstardog.default.cli.server=http://plutos:5820' /home/freundt/usr/stardog/bin/stardog
+include .make.env
 
-FILES = Catalogues.ttl TradingRegimes.ttl TradingSessions.ttl
+FILES = catalogues.ttl regimes.ttl sessions.ttl
 
-all: $(FILES) canon tmp/sess.out
+all: $(FILES:%.ttl=.imported.%)
 check: $(FILES:%.ttl=check.%)
-canon: $(FILES:%=.%.canon)
 
 .%.ttl.canon: %.ttl
 	rapper -i turtle $< >/dev/null
@@ -19,7 +17,7 @@ canon: $(FILES:%=.%.canon)
 	> $@ && mv $@ $< \
 	&& touch $@
 
-check.TradingSessions: ADDITIONAL = Catalogues.ttl TradingRegimes.ttl
+check.sessions: ADDITIONAL = catalogues.ttl regimes.ttl
 
 check.%: %.ttl shacl/%.shacl.ttl
 	truncate -s 0 /tmp/$@.ttl
@@ -43,39 +41,49 @@ check.%: %.ttl shacl/%.shacl.sql
 	$(sparql) --results text --data $< --query sql/valrpt.sql
 
 
-tmp/%.out: sql/%.sql $(FILES)
-	$(stardog) data add --remove-all -g "http://data.ga-group.nl/catasess/" catasess $(FILES)
-	$(stardog) query execute --format CSV -g "http://data.ga-group.nl/catasess/" -r -l -1 catasess $< \
-	| tr ',' '\t' \
+tmp/%.out:: sql/%.sql
+	$(csvsql) $< \
+	| unqpc --only-printable \
 	> $@.t && mv $@.t $@
 
 
-TradingSessions.ttl: TradingSessions-aux.ttl
-	ttl2ttl --sortable $(filter %.ttl, $^) \
-	> $@.t
-	-cat $@ >> $@.t
-	mv $@.t $@
-	$(MAKE) .$@.canon
+.imported.%:: %.ttl.repl sql/repl-%.sql
+	rapper -c -i turtle $<
+	$(csvsql) < sql/repl-$*.sql \
+	&& touch $@ && $(RM) -- $<
 
-TradingRegimes.ttl: TradingRegimes-aux.ttl
-	ttl2ttl --sortable $(filter %.ttl, $^) \
-	> $@.t
-	-cat $@ >> $@.t
-	mv $@.t $@
-	$(MAKE) .$@.canon
+.imported.%:: %.ttl.add sql/ladd-%.sql
+	rapper -c -i turtle $<
+	$(csvsql) < sql/ladd-$*.sql \
+	&& touch $@ && $(RM) -- $<
 
-Catalogues.ttl: Catalogues-aux.ttl
-	ttl2ttl --sortable $(filter %.ttl, $^) \
-	> $@.t
-	-cat $@ >> $@.t
-	mv $@.t $@
-	$(MAKE) .$@.canon
+.imported.%:: %.ttl sql/load-%.sql
+	$(riot) --validate --syntax=TURTLE $<
+	$(csvsql) < sql/load-$*.sql \
+	&& touch $@
 
-setup-stardog:                                                                                                                                                                                          
-	$(stardog)-admin db create -o reasoning.sameas=OFF -n catasess
-	$(stardog) namespace add --prefix cata --uri http://data.ga-group.nl/catasess/Catalogues/ catasess
-	$(stardog) namespace add --prefix sess --uri http://data.ga-group.nl/catasess/TradingSessions/ catasess
-	$(stardog) namespace add --prefix treg --uri http://data.ga-group.nl/catasess/TradingRegimes/ catasess
+
+/var/scratch/lakshmi/freundt/%.ttl: sql/dump-%.sql .imported.%
+	m4 $< \
+	| $(csvsql)
+
+export.%: /var/scratch/lakshmi/freundt/%.ttl
+	-mawk '(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' $*.ttl > $@
+	sed 's/rdf:type/a/' /var/scratch/lakshmi/freundt/$*.ttl \
+	| ttl2ttl --sortable --expand-generic \
+	| sort -u \
+	| ttl2ttl -BQU \
+	| sed '/^@/d;s@rdf:predicate\ta@rdf:predicate\trdf:type@' \
+	>> $@
+	touch .imported.$*
+	mv $@ $*.ttl
+
+
+setup-stardog:
+	$(stardog_admin) db create -o reasoning.sameas=OFF -n catasess
+	$(stardog) namespace add --prefix cata --uri http://data.ga-group.nl/catasess/catalogues/ catasess
+	$(stardog) namespace add --prefix sess --uri http://data.ga-group.nl/catasess/sessions/ catasess
+	$(stardog) namespace add --prefix regm --uri http://data.ga-group.nl/catasess/regimes/ catasess
 
 unsetup-stardog:
 	$(stardog)-admin db drop catasess

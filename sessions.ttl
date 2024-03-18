@@ -1,4 +1,4 @@
-@prefix cata: <http://data.ga-group.nl/catasess/Catalogues/> .
+@prefix cata: <http://data.ga-group.nl/catasess/catalogues/> .
 @prefix cfi: <http://schema.ga-group.nl/meta/classification/CFI/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix fibo-fd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
@@ -6,19 +6,21 @@
 @prefix fibo-mic: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/> .
 @prefix fibo-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/> .
 @prefix fibo-rel: <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> .
+@prefix gas: <http://schema.ga-group.nl/symbology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sess: <http://data.ga-group.nl/catasess/TradingSessions/> .
+@prefix regm: <http://data.ga-group.nl/catasess/regimes/> .
+@prefix sess: <http://data.ga-group.nl/catasess/sessions/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix tempo: <http://purl.org/tempo/> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix treg: <http://data.ga-group.nl/catasess/TradingRegimes/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.ga-group.nl/catasess/TradingSessions/>
+<http://data.ga-group.nl/catasess/sessions/>
 	a	owl:Ontology ;
 	dct:abstract	"""This ontology includes individuals representing trading sessions as defined by exchange rulebooks.
 
@@ -29,13 +31,34 @@ The identifier for a session is the product group's identifier suffixed by a ses
 	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
 	dct:modified	"2022-05-31T06:51:08Z"^^xsd:dateTime ;
 	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> ;
-	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/TradingSessions/> ;
+	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/sessions/> ;
 	rdfs:label	"Trading Sessions" ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
 	sm:contributor	"GA Financial Solutions GmbH" ;
 	sm:copyright	"Copyright (c) 2022 GA Financial Solutions GmbH" ;
 	sm:fileAbbreviation	"sess" ;
-	sm:filename	"TradingSessions.ttl" .
+	sm:filename	"sessions.ttl" .
+
+sess:efficaciousOn
+	a	owl:AnnotationProperty ;
+	rdfs:domain	fibo-fip:TradingSession ;
+	rdfs:label	"efficacious on"@en ;
+	skos:definition	"sets the efficacy of a session to a trading day or an abstract trading day specifier, such as the last trading day"@en .
+
+sess:inefficaciousOn
+	a	owl:AnnotationProperty ;
+	rdfs:domain	fibo-fip:TradingSession ;
+	rdfs:label	"inefficacious on"@en ;
+	skos:definition	"unsets the efficacy of a session on a particular day or day specifier, such as a public holiday"@en .
+
+sess:isTradingSessionFor
+	a	owl:ObjectProperty ;
+	rdfs:domain	fibo-fip:TradingSession ;
+	rdfs:label	"session for"@en ;
+	skos:definition	"relates the session to a product or product catalogue"@en .
+
+
+
 
 sess:AMXO-OXXICS-CT
 	a	fibo-fip:TradingSession ;
@@ -87,7 +110,7 @@ sess:MFOX-FFICSX-BT
 	rdfs:label	"Euronext Index Futures Large-in-Scale facility" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:MFOX-FFICSX ;
-	sess:operatesIn	treg:MFOX-LiS ;
+	sess:operatesIn	regm:MFOX-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -102,7 +125,7 @@ sess:MFOX-FFICSX-CT
 	rdfs:label	"Euronext Index Futures central order book" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:MFOX-FFICSX ;
-	sess:operatesIn	treg:MFOX-COB ;
+	sess:operatesIn	regm:MFOX-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -187,7 +210,7 @@ sess:XBRD-FFICSX-BT
 	rdfs:label	"Euronext Brussels Large-in-Scale index futures" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XBRD-FFICSX ;
-	sess:operatesIn	treg:XBRD-LiS ;
+	sess:operatesIn	regm:XBRD-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
 
@@ -202,7 +225,7 @@ sess:XBRD-FFICSX-BT-Last
 	rdfs:label	"Euronext Brussels Large-in-Scale index futures on expiry" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XBRD-FFICSX ;
-	sess:operatesIn	treg:XBRD-LiS ;
+	sess:operatesIn	regm:XBRD-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
 
@@ -217,7 +240,7 @@ sess:XBRD-FFICSX-CT
 	rdfs:label	"Euronext Brussels index futures" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XBRD-FFICSX ;
-	sess:operatesIn	treg:XBRD-COB ;
+	sess:operatesIn	regm:XBRD-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
 
@@ -232,7 +255,7 @@ sess:XBRD-FFICSX-CT-Last
 	rdfs:label	"Euronext Brussels index futures on expiry" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XBRD-FFICSX ;
-	sess:operatesIn	treg:XBRD-COB ;
+	sess:operatesIn	regm:XBRD-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
 
@@ -819,7 +842,7 @@ sess:XFTA-FMX-BT
 	rdfs:label	"Euronext Amsterdam Index Futures Large-in-Scale facility" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FMX ;
-	sess:operatesIn	treg:XFTA-LiS ;
+	sess:operatesIn	regm:XFTA-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -834,7 +857,7 @@ sess:XFTA-FMX-BT-Last
 	rdfs:label	"Euronext Amsterdam Index Futures Large-in-Scale facility on expiry" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FMX ;
-	sess:operatesIn	treg:XFTA-LiS ;
+	sess:operatesIn	regm:XFTA-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -849,7 +872,7 @@ sess:XFTA-FMX-CT
 	rdfs:label	"Euronext Amsterdam Index Futures central order book" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FMX ;
-	sess:operatesIn	treg:XFTA-COB ;
+	sess:operatesIn	regm:XFTA-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -864,7 +887,7 @@ sess:XFTA-FMX-CT-Last
 	rdfs:label	"Euronext Amsterdam Index Futures central order book on expiry" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FMX ;
-	sess:operatesIn	treg:XFTA-COB ;
+	sess:operatesIn	regm:XFTA-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -879,7 +902,7 @@ sess:XFTA-FTI-BT
 	rdfs:label	"Euronext Amsterdam Large-in-Scale index futures" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FTI ;
-	sess:operatesIn	treg:XFTA-LiS ;
+	sess:operatesIn	regm:XFTA-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -894,7 +917,7 @@ sess:XFTA-FTI-BT-Last
 	rdfs:label	"Euronext Amsterdam Large-in-Scale index futures on expiry" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FTI ;
-	sess:operatesIn	treg:XFTA-LiS ;
+	sess:operatesIn	regm:XFTA-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -909,7 +932,7 @@ sess:XFTA-FTI-CT
 	rdfs:label	"Euronext Amsterdam index futures" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FTI ;
-	sess:operatesIn	treg:XFTA-COB ;
+	sess:operatesIn	regm:XFTA-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -924,7 +947,7 @@ sess:XFTA-FTI-CT-Last
 	rdfs:label	"Euronext Amsterdam index futures on expiry" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FTI ;
-	sess:operatesIn	treg:XFTA-COB ;
+	sess:operatesIn	regm:XFTA-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -939,7 +962,7 @@ sess:XMON-FFICSX-BT
 	rdfs:label	"Euronext Paris Large-in-Scale index futures" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XMON-FFICSX ;
-	sess:operatesIn	treg:XMON-LiS ;
+	sess:operatesIn	regm:XMON-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -954,7 +977,7 @@ sess:XMON-FFICSX-BT-Last
 	rdfs:label	"Euronext Paris Large-in-Scale index futures on expiry" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XMON-FFICSX ;
-	sess:operatesIn	treg:XMON-LiS ;
+	sess:operatesIn	regm:XMON-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -969,7 +992,7 @@ sess:XMON-FFICSX-CT
 	rdfs:label	"Euronext Paris index futures" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XMON-FFICSX ;
-	sess:operatesIn	treg:XMON-COB ;
+	sess:operatesIn	regm:XMON-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -984,7 +1007,7 @@ sess:XMON-FFICSX-CT-Last
 	rdfs:label	"Euronext Paris index futures on expiry" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XMON-FFICSX ;
-	sess:operatesIn	treg:XMON-COB ;
+	sess:operatesIn	regm:XMON-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -1027,7 +1050,7 @@ sess:XSFE-FFAXXX-CT-Day
 	rdfs:label	"Grain futures day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1042,7 +1065,7 @@ sess:XSFE-FFAXXX-CT-Final
 	rdfs:label	"Grain futures final trading day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1057,7 +1080,7 @@ sess:XSFE-FFAXXX-CT-Night
 	rdfs:label	"Grain futures night session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1072,7 +1095,7 @@ sess:XSFE-FFAXXX-Pre_Open
 	rdfs:label	"Grain futures day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
-	sess:operatesIn	treg:XSFE-Pre_Open ;
+	sess:operatesIn	regm:XSFE-Pre_Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1087,7 +1110,7 @@ sess:XSFE-FFICSX-CT-Day
 	rdfs:label	"Index derivatives day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1102,7 +1125,7 @@ sess:XSFE-FFICSX-CT-Night-D
 	rdfs:label	"Index Derivatives night session daylight saving" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1117,7 +1140,7 @@ sess:XSFE-FFICSX-CT-Night-S
 	rdfs:label	"Index Derivatives night session standard" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1132,7 +1155,7 @@ sess:XSFE-FFICSX-Pre_Open
 	rdfs:label	"Index derivatives preopen session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
-	sess:operatesIn	treg:XSFE-Pre_Open ;
+	sess:operatesIn	regm:XSFE-Pre_Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1147,7 +1170,7 @@ sess:XSFE-IB-CT-Day
 	rdfs:label	"30 Day Interbank Cash Rate Futures and Options day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IB ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1162,7 +1185,7 @@ sess:XSFE-IB-CT-Night-D
 	rdfs:label	"30 Day Interbank Cash Rate Futures and Options night session daylight saving" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IB ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1177,7 +1200,7 @@ sess:XSFE-IB-CT-Night-S
 	rdfs:label	"30 Day Interbank Cash Rate Futures and Options night session standard" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IB ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1192,7 +1215,7 @@ sess:XSFE-IR-CT-Day
 	rdfs:label	"90 Day Bank Bill Futures and Options day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IR ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1207,7 +1230,7 @@ sess:XSFE-IR-CT-Night-D
 	rdfs:label	"90 Day Bank Bill Futures and Options night session daylight saving" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IR ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1222,7 +1245,7 @@ sess:XSFE-IR-CT-Night-S
 	rdfs:label	"90 Day Bank Bill Futures and Options night session standard" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IR ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1237,7 +1260,7 @@ sess:XSFE-IR-Last-Day
 	rdfs:label	"90 Day Bank Bill Futures day session on expiry day" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IR ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1252,7 +1275,7 @@ sess:XSFE-XT-CT-Day
 	rdfs:label	"10 Year Treasury Bond Futures and Options day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-XT ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1267,7 +1290,7 @@ sess:XSFE-XT-CT-Night-D
 	rdfs:label	"10 Year Treasury Bond Futures and Options night session daylight saving" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-XT ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1282,7 +1305,7 @@ sess:XSFE-XT-CT-Night-S
 	rdfs:label	"10 Year Treasury Bond Futures and Options night session standard" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-XT ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1297,7 +1320,7 @@ sess:XSFE-XT-Last-Day
 	rdfs:label	"10 Year Treasury Bond Futures day session on expiry day" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-XT ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1312,7 +1335,7 @@ sess:XSFE-YT-CT-Day
 	rdfs:label	"3 Year Treasury Bond Futures and Options day session" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-YT ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1327,7 +1350,7 @@ sess:XSFE-YT-CT-Night-D
 	rdfs:label	"3 Year Treasury Bond Futures and Options night session daylight saving" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-YT ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1342,7 +1365,7 @@ sess:XSFE-YT-CT-Night-S
 	rdfs:label	"3 Year Treasury Bond Futures and Options night session standard" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-YT ;
-	sess:operatesIn	treg:XSFE-Open_Night ;
+	sess:operatesIn	regm:XSFE-Open_Night ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1357,7 +1380,7 @@ sess:XSFE-YT-Last-Day
 	rdfs:label	"3 Year Treasury Bond Futures day session on expiry day" ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-YT ;
-	sess:operatesIn	treg:XSFE-Open ;
+	sess:operatesIn	regm:XSFE-Open ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1508,21 +1531,3 @@ sess:XSWX-FFDPSX-Pre
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSWX-FFDPSX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
-
-sess:efficaciousOn
-	a	owl:AnnotationProperty ;
-	rdfs:domain	fibo-fip:TradingSession ;
-	rdfs:label	"efficacious on"@en ;
-	skos:definition	"sets the efficacy of a session to a trading day or an abstract trading day specifier, such as the last trading day"@en .
-
-sess:inefficaciousOn
-	a	owl:AnnotationProperty ;
-	rdfs:domain	fibo-fip:TradingSession ;
-	rdfs:label	"inefficacious on"@en ;
-	skos:definition	"unsets the efficacy of a session on a particular day or day specifier, such as a public holiday"@en .
-
-sess:isTradingSessionFor
-	a	owl:ObjectProperty ;
-	rdfs:domain	fibo-fip:TradingSession ;
-	rdfs:label	"session for"@en ;
-	skos:definition	"relates the session to a product or product catalogue"@en .

@@ -1,4 +1,4 @@
-@prefix cata: <http://data.ga-group.nl/catasess/Catalogues/> .
+@prefix cata: <http://data.ga-group.nl/catasess/catalogues/> .
 @prefix cfi: <http://schema.ga-group.nl/meta/classification/CFI/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix fibo-fd: <https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/> .
@@ -10,14 +10,15 @@
 @prefix pav: <http://purl.org/pav/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix regm: <http://data.ga-group.nl/catasess/regimes/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix tempo: <http://purl.org/tempo/> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix treg: <http://data.ga-group.nl/catasess/TradingRegimes/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.ga-group.nl/catasess/TradingRegimes/>
+<http://data.ga-group.nl/catasess/regimes/>
 	a	owl:Ontology ;
 	dct:abstract	"""This ontology includes individuals representing trading regimes as defined by exchange rulebooks.
 Regime is synonymous with session state, session parameters, or operating mode.
@@ -28,65 +29,68 @@ The identifier for a trading regime is the regime's MIC suffixed by the exchange
 	dct:issued	"2022-05-31T02:25:19Z"^^xsd:dateTime ;
 	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
 	dct:modified	"2022-05-31T06:51:08Z"^^xsd:dateTime ;
-	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/TradingRegimes/> ;
+	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/regimes/> ;
 	rdfs:label	"Trading Regimes" ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
 	sm:contributor	"GA Financial Solutions GmbH" ;
 	sm:copyright	"Copyright (c) 2022 GA Financial Solutions GmbH" ;
-	sm:fileAbbreviation	"treg" ;
-	sm:filename	"TradingRegimes.ttl" .
+	sm:fileAbbreviation	"regm" ;
+	sm:filename	"regimes.ttl" .
 
-treg:MFOX-COB
+
+
+
+regm:MFOX-COB
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Central order book" .
 
-treg:MFOX-LiS
+regm:MFOX-LiS
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Large-in-Scale facility" .
 
-treg:XBRD-COB
+regm:XBRD-COB
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Central order book" .
 
-treg:XBRD-LiS
+regm:XBRD-LiS
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Large-in-Scale facility" .
 
-treg:XFTA-COB
+regm:XFTA-COB
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Central order book" .
 
-treg:XFTA-LiS
+regm:XFTA-LiS
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Large-in-Scale facility" .
 
-treg:XMON-COB
+regm:XMON-COB
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Central order book" .
 
-treg:XMON-LiS
+regm:XMON-LiS
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Large-in-Scale facility" .
 
-treg:XSFE-Open
+regm:XSFE-Open
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Open" .
 
-treg:XSFE-Open_Night
+regm:XSFE-Open_Night
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Open_Night" .
 
-treg:XSFE-Pre_Open
+regm:XSFE-Pre_Open
 	a	owl:Individual ;
-	a	treg:TradingRegime ;
+	a	regm:TradingRegime ;
 	rdfs:label	"Pre_Open" .
