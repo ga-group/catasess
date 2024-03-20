@@ -19,6 +19,8 @@ check: $(FILES:%.ttl=check.%)
 
 check.sessions: ADDITIONAL = catalogues.ttl regimes.ttl
 
+tmp/import-from-bps.out: /data/data-source/bbstk/.imported.bps
+
 check.%: %.ttl shacl/%.shacl.ttl
 	truncate -s 0 /tmp/$@.ttl
 	$(stardog) data add --remove-all -g "http://data.ga-group.nl/catasess/" catasess $< $(ADDITIONAL)

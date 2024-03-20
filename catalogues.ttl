@@ -47,28 +47,274 @@ cata:AMXO-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:OXXICS ;
+	dct:source	"https://www.nyse.com/markets/american-options/market-info"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-AMXO ;
-	pav:importedFrom	<https://www.nyse.com/markets/american-options/market-info> ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:45:24Z"^^xsd:dateTime ;
 	rdfs:label	"NYSE American Index Options" .
+
+cata:BATE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BATE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:04:41.943Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:45:35Z"^^xsd:dateTime .
+
+cata:BATS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BATS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:04:45.340Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime .
+
+cata:BATY-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BATY ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:36:45.241Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:22:57Z"^^xsd:dateTime .
+
+cata:BEUE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BEUE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-12-20T07:32:03.079Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime .
+
+cata:CEDX-FFICSX-CH
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:CEDX-FFICSX-DE
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:CEDX-FFICSX-ES
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:CEDX-FFICSX-EU
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:CEDX-FFICSX-FR
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:CEDX-FFICSX-IT
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:CEDX-FFICSX-NL
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:CEDX-FFICSX-NO
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.cboe.com/europe/derivatives/overview/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:40:16.031Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime ;
+	rdfs:label	"CEDX Norwegian Index Futures" .
+
+cata:CEDX-FFICSX-SE
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.cboe.com/europe/derivatives/overview/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:40:16.031Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime ;
+	rdfs:label	"CEDX Swedish Index Futures" .
+
+cata:CEDX-FFICSX-UK
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:CEUX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEUX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:40:16.031Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime .
+
+cata:CHIA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.cboe.com/about/hours/au-equities/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2025-03-19T02:44:24.674Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T12:00:25Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Australian Equities" .
+
+cata:CHIJ-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIJ ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:15:02.618Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:31:20Z"^^xsd:dateTime .
+
+cata:CHIS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:15:02.618Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:31:20Z"^^xsd:dateTime .
+
+cata:CHIX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:01:51.583Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:46:00Z"^^xsd:dateTime .
+
+cata:EDGA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-EDGA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:15:54.857Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:48Z"^^xsd:dateTime .
+
+cata:EDGX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-EDGX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:15:58.281Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:24:04Z"^^xsd:dateTime .
 
 cata:IINX-FXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	dct:source	"https://www.indiainx.com/static/productsnapshot.aspx"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IINX ;
-	pav:importedFrom	<https://www.indiainx.com/static/productsnapshot.aspx> ;
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"India INX Futures" .
+
+cata:MATN-CSE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.cboe.com/ca/equities/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-MATN ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:39:13.433Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:21:57Z"^^xsd:dateTime .
+
+cata:MATN-TSX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.cboe.com/ca/equities/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-MATN ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:15:48.534Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:22:10Z"^^xsd:dateTime .
+
+cata:MATN-V-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.cboe.com/ca/equities/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-MATN ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:38:40.811Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:22:25Z"^^xsd:dateTime .
 
 cata:MFOX-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MFOX ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Lisbon Index Futures" .
@@ -77,8 +323,8 @@ cata:XADE-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.athexgroup.gr/web/guest/markets-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADE ;
-	pav:importedFrom	<https://www.athexgroup.gr/web/guest/markets-derivatives> ;
 	pav:importedOn	"2022-06-28T07:39:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-28T06:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"ATHEX Index Futures" .
@@ -87,8 +333,8 @@ cata:XADE-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:OXXICS ;
+	dct:source	"https://www.athexgroup.gr/web/guest/markets-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADE ;
-	pav:importedFrom	<https://www.athexgroup.gr/web/guest/markets-derivatives> ;
 	pav:importedOn	"2022-06-28T07:39:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-28T06:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"ATHEX Index Options" .
@@ -97,8 +343,8 @@ cata:XASX-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:OXXICS ;
+	dct:source	"https://www.asx.com.au/about/index-options.htm"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASX ;
-	pav:importedFrom	<https://www.asx.com.au/about/index-options.htm> ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"ASX Index Options" .
@@ -109,8 +355,8 @@ cata:XBRD-FFICSX
 	cata:supporting-exch	"BELFOX" ;
 	cata:supporting-ticker	"BFX" ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRD ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Brussels Index Futures" .
@@ -119,8 +365,8 @@ cata:XCBT-FCAPXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FCAPXX ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBT ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Agricultural Physical Futures" .
@@ -129,8 +375,8 @@ cata:XCBT-FCAXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FCAXXX ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBT ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Agricultural Futures" .
@@ -140,8 +386,8 @@ cata:XCBT-ZR
 	a	owl:NamedIndividual ;
 	cata:supporting-exch	"ECBOT" ;
 	cata:supporting-ticker	"ZR" ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBT ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Rough Rice Futures" .
@@ -152,8 +398,8 @@ cata:XEUR-DAX
 	cata:supporting-exch	"DTB" ;
 	cata:supporting-ticker	"DAX" ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index Futures" .
@@ -164,8 +410,8 @@ cata:XEUR-ESX
 	cata:supporting-exch	"DTB" ;
 	cata:supporting-ticker	"ESTX50" ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index Futures" .
@@ -176,8 +422,8 @@ cata:XEUR-FBT
 	cata:supporting-exch	"DTB" ;
 	cata:supporting-ticker	"BTM" , "BTP" , "BTS" , "OAM" ;
 	cmns-cls:isClassifiedBy	cfi:FFDPSX ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Italian/French Government Bonds Futures" .
@@ -188,8 +434,8 @@ cata:XEUR-FGB
 	cata:supporting-exch	"DTB" ;
 	cata:supporting-ticker	"GBL" , "GBM" , "GBS" , "GBX" , "OAT" ;
 	cmns-cls:isClassifiedBy	cfi:FFDPSX ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German/French Government Bonds Futures" .
@@ -200,8 +446,8 @@ cata:XFTA-FMX
 	cata:supporting-exch	"FTA" ;
 	cata:supporting-ticker	"FMX" ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFTA ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Index Futures" .
@@ -212,11 +458,23 @@ cata:XFTA-FTI
 	cata:supporting-exch	"FTA" ;
 	cata:supporting-ticker	"EOE" ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFTA ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Index Futures" .
+
+cata:XLON-EQS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.londonstockexchange.com/equities-trading/asset-classes/shares-trading/european-quoting-service"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLON ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:37:10.301Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:47:07Z"^^xsd:dateTime ;
+	rdfs:label	"European Quoting System" .
 
 cata:XMON-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -224,8 +482,8 @@ cata:XMON-FFICSX
 	cata:supporting-exch	"MONEP" ;
 	cata:supporting-ticker	"CAC40" ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMON ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Paris Index Futures" .
@@ -234,8 +492,8 @@ cata:XSFE-BB
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"NZ 90 Day Bank Bill Futures and Options" .
@@ -246,8 +504,8 @@ cata:XSFE-FFAXXX
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"BA" , "WH" ;
 	cmns-cls:isClassifiedBy	cfi:FFAXXX ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures" .
@@ -258,8 +516,8 @@ cata:XSFE-FFICSX
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"SPI" ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Index derivatives" .
@@ -270,8 +528,8 @@ cata:XSFE-IB
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"IB" ;
 	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"30 Day Interbank Cash Rate Futures and Options" .
@@ -282,8 +540,8 @@ cata:XSFE-IR
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"IR" ;
 	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"90 Day Bank Bill Futures and Options" .
@@ -294,8 +552,8 @@ cata:XSFE-XT
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"XT" ;
 	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"10 Year/20 Year Treasury Bond Futures and Options" ;
@@ -307,8 +565,8 @@ cata:XSFE-YT
 	cata:supporting-exch	"SNFE" ;
 	cata:supporting-ticker	"YT" ;
 	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSFE ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"3 Year/5 Year Treasury Bond Futures and Options" ;
@@ -318,8 +576,8 @@ cata:XSGO-FFCPSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FFCPSX ;
+	dct:source	"https://www.bolsadesantiago.com/futuros"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
-	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago Currency Futures" .
@@ -328,8 +586,8 @@ cata:XSGO-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	dct:source	"https://www.bolsadesantiago.com/futuros"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
-	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago Index Futures" .
@@ -338,8 +596,8 @@ cata:XSGO-FFNCSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FFNCSX ;
+	dct:source	"https://www.bolsadesantiago.com/futuros"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
-	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago Rate Futures" .
@@ -350,8 +608,8 @@ cata:XSWX-FFDPSX
 	cata:supporting-exch	"SOFFEX" ;
 	cata:supporting-ticker	"CONF" ;
 	cmns-cls:isClassifiedBy	cfi:FFDPSX ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSWX ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Zurich Rate Futures" .

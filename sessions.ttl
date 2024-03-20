@@ -57,31 +57,977 @@ sess:isTradingSessionFor
 	rdfs:label	"session for"@en ;
 	skos:definition	"relates the session to a product or product catalogue"@en .
 
+sess:activeFrom
+	a	owl:DatatypeProperty ;
+	rdfs:domain	fibo-fip:TradingSession ;
+	rdfs:label	"active from"@en ;
+	skos:definition	"beginning of the session"@en .
+
+sess:activeTill
+	a	owl:DatatypeProperty ;
+	rdfs:domain	fibo-fip:TradingSession ;
+	rdfs:label	"active till"@en ;
+	skos:definition	"end of the session"@en .
+
 
 
 
 sess:AMXO-OXXICS-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.nyse.com/markets/american-options/market-info> ;
+	dct:source	"https://www.nyse.com/markets/american-options/market-info"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:45:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"NYSE American Index Options Continuous Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:AMXO-OXXICS ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATE-EXXXXX-After
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATE-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:45:59.485Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:45:35Z"^^xsd:dateTime ;
+	rdfs:label	"After Market" ;
+	sess:activeFrom	"16:55:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:BATE-EXXXXX-ClosingCross
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATE-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:45:59.485Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:45:35Z"^^xsd:dateTime ;
+	rdfs:label	"Closing Cross" ;
+	sess:activeFrom	"16:30:00"^^xsd:time ;
+	sess:activeTill	"16:55:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:BATE-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATE-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:45:59.485Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:45:35Z"^^xsd:dateTime ;
+	rdfs:label	"Pre Market" ;
+	sess:activeFrom	"07:50:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:BATE-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATE-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:45:59.485Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:45:35Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Market" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:BATS-EXXXXX-Early
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATS-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Early Trading" ;
+	sess:activeFrom	"07:00:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATS-EXXXXX-EarlyOA
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATS-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Early Order Acceptance" ;
+	sess:activeFrom	"06:00:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATS-EXXXXX-Post
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATS-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Post-Market Trading" ;
+	sess:activeFrom	"16:00:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATS-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATS-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-Market" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"09:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATS-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	fibo-fip:isTradingSessionOf	cata:BATS-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATY-EXXXXX-Early
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATY-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Early Trading" ;
+	sess:activeFrom	"07:00:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATY-EXXXXX-EarlyOA
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATY-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Early Order Acceptance" ;
+	sess:activeFrom	"06:00:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATY-EXXXXX-Post
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATY-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:52:49.346Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:22:57Z"^^xsd:dateTime ;
+	rdfs:label	"Post-Market Trading" ;
+	sess:activeFrom	"16:00:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATY-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATY-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-Market" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"09:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BATY-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BATY-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:52:49.346Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:22:57Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:BEUE-EXXXXX-After
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BEUE-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-12-20T07:32:06.379Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	rdfs:label	"After Market" ;
+	sess:activeFrom	"17:30:00"^^xsd:time ;
+	sess:activeTill	"19:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
+
+sess:BEUE-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BEUE-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-12-20T07:32:06.379Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	rdfs:label	"Pre Market" ;
+	sess:activeFrom	"08:50:00"^^xsd:time ;
+	sess:activeTill	"09:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
+
+sess:BEUE-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BEUE-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-12-20T07:32:06.379Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Market" ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
+	sess:activeTill	"17:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
+
+sess:CEDX-FFICSX-CH-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-CH ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Swiss futures Queuing" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-CH-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-CH ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Swiss futures Regular Trading" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-CH-Reg-Exp
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-CH ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Swiss futures Regular Trading on Expiry Days" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"08:10:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-DE-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-DE ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe German futures Queuing" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-DE-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-DE ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe German futures Regular Trading" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-DE-Reg-Exp
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-DE ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe German futures Regular Trading on Expiry Days" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"12:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-ES-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-ES ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Spanish futures Queuing" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-ES-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-ES ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Spanish futures Regular Trading" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-ES-Reg-Exp
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-ES ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Spanish futures Regular Trading on Expiry Days" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"15:55:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-EU-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-EU ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Eurozone futures Queuing" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-EU-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-EU ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Eurozone futures Regular Trading" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-EU-Reg-Exp
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-EU ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Eurozone futures Regular Trading on Expiry Days" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"10:50:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-FR-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-FR ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe French futures Queuing" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-FR-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-FR ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe French futures Regular Trading" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-FR-Reg-Exp
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-FR ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe French futures Regular Trading on Expiry Days" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"14:40:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-IT-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-IT ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Italian futures Queuing" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-IT-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-IT ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Italian futures Regular Trading" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-IT-Reg-Exp
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-IT ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Italian futures Regular Trading on Expiry Days" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"08:10:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-NL-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-NL ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Netherlands futures Queuing" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-NL-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-NL ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Netherlands futures Regular Trading" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-NL-Reg-Exp
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-NL ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Netherlands futures Regular Trading on Expiry Days" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"14:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-NO-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-NO ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Norwegian futures Queuing" ;
+	sess:activeFrom	"07:45:00"^^xsd:time ;
+	sess:activeTill	"08:01:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-NO-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-NO ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Norwegian futures Regular Trading" ;
+	sess:activeFrom	"08:01:00"^^xsd:time ;
+	sess:activeTill	"15:20:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-SE-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-SE ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Swedish futures Queuing" ;
+	sess:activeFrom	"07:45:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-SE-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-SE ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe Swedish futures Regular Trading" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"16:25:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-UK-Q
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-UK ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe UK futures Queuing" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-UK-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-UK ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe UK futures Regular Trading" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEDX-FFICSX-UK-Reg-Exp
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-derivatives/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEDX-FFICSX-UK ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:46:01.338Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime ;
+	rdfs:label	"Cboe UK futures Regular Trading on Expiry Days" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"10:10:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CEUX-EXXXXX-After
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEUX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:55:08.590Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime ;
+	rdfs:label	"After Market" ;
+	sess:activeFrom	"17:30:00"^^xsd:time ;
+	sess:activeTill	"19:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+sess:CEUX-EXXXXX-ClosingCross
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEUX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:55:08.590Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime ;
+	rdfs:label	"Closing Cross" ;
+	sess:activeFrom	"17:30:00"^^xsd:time ;
+	sess:activeTill	"17:35:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+sess:CEUX-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEUX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:55:08.590Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime ;
+	rdfs:label	"Pre Market" ;
+	sess:activeFrom	"08:50:00"^^xsd:time ;
+	sess:activeTill	"09:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+sess:CEUX-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CEUX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:55:08.590Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Market" ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
+	sess:activeTill	"17:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+sess:CHIA-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	dct:description	"""- Participants may enter limit and price improvement orders for eligible securities into the Cboe Market;
+- Cboe Trading System will allow order entry and match orders;
+- Participants may enter hidden Market on Close (MOC) Orders for eligible securities into the Cboe Market;
+- Trade Reports may be lodged in accordance with the Cboe Operating Rules and the Market Integrity Rules."""@en ;
+	dct:source	"https://www.cboe.com/about/hours/au-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CHIA-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:52:29.562Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T12:00:25Z"^^xsd:dateTime ;
+	rdfs:label	"Australian Equities Continuous Trading" ;
+	sess:activeFrom	"10:00:00"^^xsd:time ;
+	sess:activeTill	"16:12:00"^^xsd:time , "16:13:00"^^xsd:time ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:CHIA-EXXXXX ;
+	skos:note	"including hidden market on close"@en ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:CHIA-EXXXXX-Last
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	dct:description	"Participants may enter hidden MOC Orders for eligible securities into the Cboe Market."@en ;
+	dct:source	"https://www.cboe.com/about/hours/au-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CHIA-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:52:29.562Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T12:00:25Z"^^xsd:dateTime ;
+	rdfs:label	"Australian Equities Last Trading Phase" ;
+	sess:activeFrom	"16:12:00"^^xsd:time ;
+	sess:activeTill	"16:20:00"^^xsd:time ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:CHIA-EXXXXX ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:CHIA-EXXXXX-Post
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	dct:description	"""- Participants cannot enter or amend orders for Non-MOC orders from 16:13;
+- Orders are not matched in this period;
+- Trade Reports may be lodged in accordance with the Cboe Operating Rules and the Market Integrity Rules;
+- All orders remaining in the Cboe market at the end of this period will be automatically cancelled."""@en ;
+	dct:source	"https://www.cboe.com/about/hours/au-equities/"^^xsd:anyURI ;
+	pav:importedOn	"2024-03-19T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Australian Equities Post-Trading Administration" ;
+	sess:activeFrom	"16:13:00"^^xsd:time ;
+	sess:activeTill	"18:55:00"^^xsd:time ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:CHIA-EXXXXX ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:CHIA-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	dct:description	"""- Participants may check connectivity and details concerning securities available for trading but will not be able to enter orders into the Cboe market;
+- The Cboe Trading System will not match orders;
+- Trade Reports may be lodged in accordance with the Cboe Operating Rules and the Market Integrity Rules."""@en ;
+	dct:source	"https://www.cboe.com/about/hours/au-equities/"^^xsd:anyURI ;
+	pav:importedOn	"2024-03-19T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Australian Equities Pre-market" ;
+	sess:activeFrom	"06:35:00"^^xsd:time ;
+	sess:activeTill	"10:00:00"^^xsd:time ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:CHIA-EXXXXX ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:CHIA-EXXXXX-T
+	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
+	dct:description	"""At the beginning:
+- Commencement of technical connectivity;
+- No order entry, modification or cancellation is permitted.
+
+At the end:
+- All participant connections to Cboe are closed;
+- Intraday trade cancellations are no longer possible."""@en ;
+	dct:source	"https://www.cboe.com/about/hours/au-equities/"^^xsd:anyURI ;
+	pav:importedOn	"2024-03-19T02:45:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T04:07:24Z"^^xsd:dateTime ;
+	rdfs:label	"Australian Equities Technical Connectivity" ;
+	sess:activeFrom	"05:30:00"^^xsd:time ;
+	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:isTradingSessionFor	cata:CHIA-EXXXXX ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:CHIJ-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/jp-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CHIJ-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:29.229Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:31:20Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"08:20:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+sess:CHIS-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/jp-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CHIS-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:29.229Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:31:20Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"08:20:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+sess:CHIX-EXXXXX-After
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CHIX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:44:54.777Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:46:00Z"^^xsd:dateTime ;
+	rdfs:label	"After Market" ;
+	sess:activeFrom	"16:35:00"^^xsd:time ;
+	sess:activeTill	"17:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CHIX-EXXXXX-ClosingCross
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CHIX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:44:54.777Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:46:00Z"^^xsd:dateTime ;
+	rdfs:label	"Closing Cross" ;
+	sess:activeFrom	"16:30:00"^^xsd:time ;
+	sess:activeTill	"16:35:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CHIX-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CHIX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:44:54.777Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:46:00Z"^^xsd:dateTime ;
+	rdfs:label	"Pre Market" ;
+	sess:activeFrom	"07:50:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:CHIX-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:CHIX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:44:54.777Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:46:00Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Market" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:EDGA-EXXXXX-Early
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGA-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:58.496Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:48Z"^^xsd:dateTime ;
+	rdfs:label	"Early Trading" ;
+	sess:activeFrom	"07:00:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:EDGA-EXXXXX-EarlyOA
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGA-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:58.496Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:48Z"^^xsd:dateTime ;
+	rdfs:label	"Early Order Acceptance" ;
+	sess:activeFrom	"06:00:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:EDGA-EXXXXX-Post
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGA-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:58.496Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:48Z"^^xsd:dateTime ;
+	rdfs:label	"Post-Market Trading" ;
+	sess:activeFrom	"16:00:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:EDGA-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGA-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:58.496Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:48Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-Market" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"09:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:EDGA-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGA-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:58.496Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:23:48Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:EDGX-EXXXXX-Early
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:52:00.361Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:24:04Z"^^xsd:dateTime ;
+	rdfs:label	"Early Trading" ;
+	sess:activeFrom	"04:00:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:EDGX-EXXXXX-EarlyOA
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:52:00.361Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:24:04Z"^^xsd:dateTime ;
+	rdfs:label	"Early Order Acceptance" ;
+	sess:activeFrom	"02:30:00"^^xsd:time ;
+	sess:activeTill	"04:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:EDGX-EXXXXX-Post
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:52:00.361Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:24:04Z"^^xsd:dateTime ;
+	rdfs:label	"Post-Market" ;
+	sess:activeFrom	"16:00:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:EDGX-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:52:00.361Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:24:04Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-Market Trading" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"09:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:EDGX-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:EDGX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:52:00.361Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:24:04Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:IINX-FXXXXX-CT-1
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"04:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.indiainx.com/markets/market_timings.aspx> ;
+	dct:source	"https://www.indiainx.com/markets/market_timings.aspx"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"India INX Futures Session 1" ;
+	sess:activeFrom	"04:30:00"^^xsd:time ;
+	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:IINX-FXXXXX ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
@@ -89,25 +1035,103 @@ sess:IINX-FXXXXX-CT-1
 sess:IINX-FXXXXX-CT-2
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"02:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:00:01"^^xsd:time ;
-	pav:importedFrom	<https://www.indiainx.com/markets/market_timings.aspx> ;
+	dct:source	"https://www.indiainx.com/markets/market_timings.aspx"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"India INX Futures Session 2" ;
+	sess:activeFrom	"17:00:01"^^xsd:time ;
+	sess:activeTill	"02:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:IINX-FXXXXX ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
 
+sess:MATN-CSE-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/canadian-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:MATN-CSE-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:54:26.950Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:21:57Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-Market" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"09:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:MATN-CSE-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/canadian-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:MATN-CSE-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:54:26.950Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:21:57Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:MATN-TSX-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/canadian-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:MATN-TSX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:54.773Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:22:10Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-Market" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"09:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:MATN-TSX-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/canadian-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:MATN-TSX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:54.773Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:22:10Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:MATN-V-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/canadian-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:MATN-V-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:54:05.301Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:22:25Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-Market" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"09:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:MATN-V-EXXXXX-Reg
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.cboe.com/about/hours/canadian-equities/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:MATN-V-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:54:05.301Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:22:25Z"^^xsd:dateTime ;
+	rdfs:label	"Regular Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
 sess:MFOX-FFICSX-BT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"18:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Index Futures Large-in-Scale facility" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"18:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:MFOX-FFICSX ;
 	sess:operatesIn	regm:MFOX-LiS ;
@@ -117,12 +1141,12 @@ sess:MFOX-FFICSX-BT
 sess:MFOX-FFICSX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:40:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:01:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Index Futures central order book" ;
+	sess:activeFrom	"09:01:00"^^xsd:time ;
+	sess:activeTill	"17:40:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:MFOX-FFICSX ;
 	sess:operatesIn	regm:MFOX-COB ;
@@ -132,12 +1156,12 @@ sess:MFOX-FFICSX-CT
 sess:XADE-FFICSX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:20:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"10:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.athexgroup.gr/web/guest/derivatives-market-schedule> ;
+	dct:source	"https://www.athexgroup.gr/web/guest/derivatives-market-schedule"^^xsd:anyURI ;
 	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-10T06:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"XADE Index Futures & Options CAMM Session Market ID 1" ;
+	sess:activeFrom	"10:10:00"^^xsd:time ;
+	sess:activeTill	"17:20:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XADE-FFICSX , cata:XADE-OXXICS ;
 	tempo:validFrom	"2019-10"^^xsd:gYearMonth ;
@@ -146,12 +1170,12 @@ sess:XADE-FFICSX-CT
 sess:XADE-FFICSX-CT-2
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"15:20:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"10:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.athexgroup.gr/web/guest/derivatives-market-schedule> ;
+	dct:source	"https://www.athexgroup.gr/web/guest/derivatives-market-schedule"^^xsd:anyURI ;
 	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-10T06:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"XADE Index Futures & Options CAMM Session Market ID 1, half trading" ;
+	sess:activeFrom	"10:10:00"^^xsd:time ;
+	sess:activeTill	"15:20:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XADE-FFICSX , cata:XADE-OXXICS ;
 	tempo:validFrom	"2021-12-31"^^xsd:date ;
@@ -160,12 +1184,12 @@ sess:XADE-FFICSX-CT-2
 sess:XASX-OXXICS-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:50:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"ASX Index Options Day Session" ;
+	sess:activeFrom	"09:50:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XASX-OXXICS ;
 	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
@@ -174,12 +1198,12 @@ sess:XASX-OXXICS-CT-Day
 sess:XASX-OXXICS-CT-Night-EDT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"ASX Index Options Night Session during New York Daylight Saving" ;
+	sess:activeFrom	"17:10:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XASX-OXXICS ;
 	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
@@ -188,12 +1212,12 @@ sess:XASX-OXXICS-CT-Night-EDT
 sess:XASX-OXXICS-CT-Night-EST
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"08:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"ASX Index Options Night Session during New York Standard" ;
+	sess:activeFrom	"17:10:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XASX-OXXICS ;
 	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
@@ -202,12 +1226,12 @@ sess:XASX-OXXICS-CT-Night-EST
 sess:XBRD-FFICSX-BT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"18:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Brussels Large-in-Scale index futures" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"18:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XBRD-FFICSX ;
 	sess:operatesIn	regm:XBRD-LiS ;
@@ -217,12 +1241,12 @@ sess:XBRD-FFICSX-BT
 sess:XBRD-FFICSX-BT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Brussels Large-in-Scale index futures on expiry" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XBRD-FFICSX ;
 	sess:operatesIn	regm:XBRD-LiS ;
@@ -232,12 +1256,12 @@ sess:XBRD-FFICSX-BT-Last
 sess:XBRD-FFICSX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:40:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:01:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Brussels index futures" ;
+	sess:activeFrom	"09:01:00"^^xsd:time ;
+	sess:activeTill	"17:40:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XBRD-FFICSX ;
 	sess:operatesIn	regm:XBRD-COB ;
@@ -247,12 +1271,12 @@ sess:XBRD-FFICSX-CT
 sess:XBRD-FFICSX-CT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:01:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Brussels index futures on expiry" ;
+	sess:activeFrom	"09:01:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XBRD-FFICSX ;
 	sess:operatesIn	regm:XBRD-COB ;
@@ -262,12 +1286,12 @@ sess:XBRD-FFICSX-CT-Last
 sess:XCBT-FCAPXX-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"13:20:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Agricultural Physical Futures Day" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"13:20:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XCBT-FCAPXX ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -275,12 +1299,12 @@ sess:XCBT-FCAPXX-CT-Day
 sess:XCBT-FCAPXX-CT-Night
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:45:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"19:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Agricultural Physical Futures Day" ;
+	sess:activeFrom	"19:00:00"^^xsd:time ;
+	sess:activeTill	"07:45:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XCBT-FCAPXX ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -288,12 +1312,12 @@ sess:XCBT-FCAPXX-CT-Night
 sess:XCBT-FCAXXX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Agricultural Futures Continuous Trading" ;
+	sess:activeFrom	"17:00:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XCBT-FCAXXX ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -301,12 +1325,12 @@ sess:XCBT-FCAXXX-CT
 sess:XCBT-FFXXXX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/> ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Agricultural Futures Continuous Trading" ;
+	sess:activeFrom	"17:00:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XCBT-FCAXXX ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -314,12 +1338,12 @@ sess:XCBT-FFXXXX-CT
 sess:XCBT-ZR-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"13:20:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Rough Rice day continuous trading" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"13:20:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XCBT-ZR ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -327,12 +1351,12 @@ sess:XCBT-ZR-CT-Day
 sess:XCBT-ZR-CT-Late
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"21:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"19:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Rough Rice late trading" ;
+	sess:activeFrom	"19:00:00"^^xsd:time ;
+	sess:activeTill	"21:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XCBT-ZR ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -340,12 +1364,12 @@ sess:XCBT-ZR-CT-Late
 sess:XCBT-ZR-PO-Mon
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"19:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"16:45:00"^^xsd:time ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Rough Rice Monday pre-open" ;
+	sess:activeFrom	"16:45:00"^^xsd:time ;
+	sess:activeTill	"19:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday ;
 	sess:isTradingSessionFor	cata:XCBT-ZR ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -353,12 +1377,12 @@ sess:XCBT-ZR-PO-Mon
 sess:XCBT-ZR-PO-Sun
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"19:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"16:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html> ;
+	dct:source	"https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Rough Rice Sunday pre-open" ;
+	sess:activeFrom	"16:00:00"^^xsd:time ;
+	sess:activeTill	"19:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Sunday ;
 	sess:isTradingSessionFor	cata:XCBT-ZR ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
@@ -366,12 +1390,12 @@ sess:XCBT-ZR-PO-Sun
 sess:XEUR-DAX-BT-Summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures TES block trading, summer schedule" ;
+	sess:activeFrom	"02:15:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -379,12 +1403,12 @@ sess:XEUR-DAX-BT-Summer
 sess:XEUR-DAX-BT-Winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures TES block trading, winter schedule" ;
+	sess:activeFrom	"01:15:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -392,12 +1416,12 @@ sess:XEUR-DAX-BT-Winter
 sess:XEUR-DAX-CT-Summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures continuous trading, summer schedule" ;
+	sess:activeFrom	"02:10:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -405,12 +1429,12 @@ sess:XEUR-DAX-CT-Summer
 sess:XEUR-DAX-CT-Summer-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"13:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures continuous trading on expiry, summer schedule" ;
+	sess:activeFrom	"02:10:00"^^xsd:time ;
+	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -418,12 +1442,12 @@ sess:XEUR-DAX-CT-Summer-Last
 sess:XEUR-DAX-CT-Winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures continuous trading, winter schedule" ;
+	sess:activeFrom	"01:10:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -431,12 +1455,12 @@ sess:XEUR-DAX-CT-Winter
 sess:XEUR-DAX-CT-Winter-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"13:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures continuous trading on expiry, winter schedule" ;
+	sess:activeFrom	"01:10:00"^^xsd:time ;
+	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -444,12 +1468,12 @@ sess:XEUR-DAX-CT-Winter-Last
 sess:XEUR-DAX-Post
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"22:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures post-trading full session" ;
+	sess:activeFrom	"22:00:00"^^xsd:time ;
+	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -457,12 +1481,12 @@ sess:XEUR-DAX-Post
 sess:XEUR-DAX-Post-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"20:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"13:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures post-trading full session on expiry" ;
+	sess:activeFrom	"13:00:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -470,12 +1494,12 @@ sess:XEUR-DAX-Post-Last
 sess:XEUR-DAX-Pre-Summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"02:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures pre-trading, summer schedule" ;
+	sess:activeFrom	"02:00:00"^^xsd:time ;
+	sess:activeTill	"02:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -483,12 +1507,12 @@ sess:XEUR-DAX-Pre-Summer
 sess:XEUR-DAX-Pre-Winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"01:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index futures pre-trading, winter schedule" ;
+	sess:activeFrom	"01:00:00"^^xsd:time ;
+	sess:activeTill	"01:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-DAX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -496,12 +1520,12 @@ sess:XEUR-DAX-Pre-Winter
 sess:XEUR-ESX-BT-Summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures TES block trading, summer schedule" ;
+	sess:activeFrom	"02:15:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -509,12 +1533,12 @@ sess:XEUR-ESX-BT-Summer
 sess:XEUR-ESX-BT-Winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures TES block trading, winter schedule" ;
+	sess:activeFrom	"01:15:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -522,12 +1546,12 @@ sess:XEUR-ESX-BT-Winter
 sess:XEUR-ESX-CT-Summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures continuous trading, summer schedule" ;
+	sess:activeFrom	"02:10:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -535,12 +1559,12 @@ sess:XEUR-ESX-CT-Summer
 sess:XEUR-ESX-CT-Summer-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"13:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures continuous trading on expiry, summer schedule" ;
+	sess:activeFrom	"02:10:00"^^xsd:time ;
+	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -548,12 +1572,12 @@ sess:XEUR-ESX-CT-Summer-Last
 sess:XEUR-ESX-CT-Winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures continuous trading, winter schedule" ;
+	sess:activeFrom	"01:10:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -561,12 +1585,12 @@ sess:XEUR-ESX-CT-Winter
 sess:XEUR-ESX-CT-Winter-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"13:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures continuous trading on expiry, winter schedule" ;
+	sess:activeFrom	"01:10:00"^^xsd:time ;
+	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -574,12 +1598,12 @@ sess:XEUR-ESX-CT-Winter-Last
 sess:XEUR-ESX-Post
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"22:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures post-trading full session" ;
+	sess:activeFrom	"22:00:00"^^xsd:time ;
+	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -587,12 +1611,12 @@ sess:XEUR-ESX-Post
 sess:XEUR-ESX-Post-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"20:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"13:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures post-trading full session on expiry" ;
+	sess:activeFrom	"13:00:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -600,12 +1624,12 @@ sess:XEUR-ESX-Post-Last
 sess:XEUR-ESX-Pre-Summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"02:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures pre-trading, summer schedule" ;
+	sess:activeFrom	"02:00:00"^^xsd:time ;
+	sess:activeTill	"02:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -613,12 +1637,12 @@ sess:XEUR-ESX-Pre-Summer
 sess:XEUR-ESX-Pre-Winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"01:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index futures pre-trading, winter schedule" ;
+	sess:activeFrom	"01:00:00"^^xsd:time ;
+	sess:activeTill	"01:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-ESX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -626,12 +1650,12 @@ sess:XEUR-ESX-Pre-Winter
 sess:XEUR-FBT-BT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"19:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Italian/French Government Bonds futures TES block trading, winter schedule" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"19:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FBT ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -639,12 +1663,12 @@ sess:XEUR-FBT-BT
 sess:XEUR-FBT-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"19:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Italian/French Government Bonds futures continuous trading, winter schedule" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"19:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FBT ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -652,12 +1676,12 @@ sess:XEUR-FBT-CT
 sess:XEUR-FBT-CT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"12:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Italian/French Government Bonds futures continuous trading on expiry, winter schedule" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"12:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FBT ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -665,12 +1689,12 @@ sess:XEUR-FBT-CT-Last
 sess:XEUR-FBT-Post
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"19:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Italian/French Government Bonds futures post-trading full session" ;
+	sess:activeFrom	"19:00:00"^^xsd:time ;
+	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FBT ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -678,12 +1702,12 @@ sess:XEUR-FBT-Post
 sess:XEUR-FBT-Post-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"20:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"12:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Italian/French Government Bonds futures post-trading full session on expiry" ;
+	sess:activeFrom	"12:30:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FBT ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -691,12 +1715,12 @@ sess:XEUR-FBT-Post-Last
 sess:XEUR-FBT-Pre
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"08:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Italian/French Government Bonds futures pre-trading, summer schedule" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FBT ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -704,12 +1728,12 @@ sess:XEUR-FBT-Pre
 sess:XEUR-FGB-BT-Summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures TES block trading, summer schedule" ;
+	sess:activeFrom	"02:15:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -717,12 +1741,12 @@ sess:XEUR-FGB-BT-Summer
 sess:XEUR-FGB-BT-Winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures TES block trading, winter schedule" ;
+	sess:activeFrom	"01:15:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -730,12 +1754,12 @@ sess:XEUR-FGB-BT-Winter
 sess:XEUR-FGB-CT-Summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures continuous trading, summer schedule" ;
+	sess:activeFrom	"02:10:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -743,12 +1767,12 @@ sess:XEUR-FGB-CT-Summer
 sess:XEUR-FGB-CT-Summer-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"12:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures continuous trading on expiry, summer schedule" ;
+	sess:activeFrom	"02:10:00"^^xsd:time ;
+	sess:activeTill	"12:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -756,12 +1780,12 @@ sess:XEUR-FGB-CT-Summer-Last
 sess:XEUR-FGB-CT-Winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures continuous trading, winter schedule" ;
+	sess:activeFrom	"01:10:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -769,12 +1793,12 @@ sess:XEUR-FGB-CT-Winter
 sess:XEUR-FGB-CT-Winter-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"12:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures continuous trading on expiry, winter schedule" ;
+	sess:activeFrom	"01:10:00"^^xsd:time ;
+	sess:activeTill	"12:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -782,12 +1806,12 @@ sess:XEUR-FGB-CT-Winter-Last
 sess:XEUR-FGB-Post
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"22:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures post-trading full session" ;
+	sess:activeFrom	"22:00:00"^^xsd:time ;
+	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -795,12 +1819,12 @@ sess:XEUR-FGB-Post
 sess:XEUR-FGB-Post-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"20:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"12:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures post-trading full session on expiry" ;
+	sess:activeFrom	"12:30:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -808,12 +1832,12 @@ sess:XEUR-FGB-Post-Last
 sess:XEUR-FGB-Pre-Summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"02:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"02:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures pre-trading, summer schedule" ;
+	sess:activeFrom	"02:00:00"^^xsd:time ;
+	sess:activeTill	"02:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -821,12 +1845,12 @@ sess:XEUR-FGB-Pre-Summer
 sess:XEUR-FGB-Pre-Winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"01:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"01:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Government Bonds futures pre-trading, winter schedule" ;
+	sess:activeFrom	"01:00:00"^^xsd:time ;
+	sess:activeTill	"01:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XEUR-FGB ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
@@ -834,12 +1858,12 @@ sess:XEUR-FGB-Pre-Winter
 sess:XFTA-FMX-BT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"18:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Index Futures Large-in-Scale facility" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"18:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FMX ;
 	sess:operatesIn	regm:XFTA-LiS ;
@@ -849,12 +1873,12 @@ sess:XFTA-FMX-BT
 sess:XFTA-FMX-BT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Index Futures Large-in-Scale facility on expiry" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FMX ;
 	sess:operatesIn	regm:XFTA-LiS ;
@@ -864,12 +1888,12 @@ sess:XFTA-FMX-BT-Last
 sess:XFTA-FMX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:40:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:01:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Index Futures central order book" ;
+	sess:activeFrom	"09:01:00"^^xsd:time ;
+	sess:activeTill	"17:40:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FMX ;
 	sess:operatesIn	regm:XFTA-COB ;
@@ -879,12 +1903,12 @@ sess:XFTA-FMX-CT
 sess:XFTA-FMX-CT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:01:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Index Futures central order book on expiry" ;
+	sess:activeFrom	"09:01:00"^^xsd:time ;
+	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FMX ;
 	sess:operatesIn	regm:XFTA-COB ;
@@ -894,12 +1918,12 @@ sess:XFTA-FMX-CT-Last
 sess:XFTA-FTI-BT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Large-in-Scale index futures" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FTI ;
 	sess:operatesIn	regm:XFTA-LiS ;
@@ -909,12 +1933,12 @@ sess:XFTA-FTI-BT
 sess:XFTA-FTI-BT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Large-in-Scale index futures on expiry" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FTI ;
 	sess:operatesIn	regm:XFTA-LiS ;
@@ -924,12 +1948,12 @@ sess:XFTA-FTI-BT-Last
 sess:XFTA-FTI-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam index futures" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FTI ;
 	sess:operatesIn	regm:XFTA-COB ;
@@ -939,12 +1963,12 @@ sess:XFTA-FTI-CT
 sess:XFTA-FTI-CT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam index futures on expiry" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XFTA-FTI ;
 	sess:operatesIn	regm:XFTA-COB ;
@@ -954,12 +1978,12 @@ sess:XFTA-FTI-CT-Last
 sess:XMON-FFICSX-BT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Paris Large-in-Scale index futures" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XMON-FFICSX ;
 	sess:operatesIn	regm:XMON-LiS ;
@@ -969,12 +1993,12 @@ sess:XMON-FFICSX-BT
 sess:XMON-FFICSX-BT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:15:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Paris Large-in-Scale index futures on expiry" ;
+	sess:activeFrom	"07:15:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XMON-FFICSX ;
 	sess:operatesIn	regm:XMON-LiS ;
@@ -984,12 +2008,12 @@ sess:XMON-FFICSX-BT-Last
 sess:XMON-FFICSX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:40:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Paris index futures" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"17:40:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XMON-FFICSX ;
 	sess:operatesIn	regm:XMON-COB ;
@@ -999,12 +2023,12 @@ sess:XMON-FFICSX-CT
 sess:XMON-FFICSX-CT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.euronext.com/en/trade/trading-hours-holidays> ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Paris index futures on expiry" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XMON-FFICSX ;
 	sess:operatesIn	regm:XMON-COB ;
@@ -1014,12 +2038,12 @@ sess:XMON-FFICSX-CT-Last
 sess:XSFE-BB-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"NZ 90 Day Bank Bill Futures and Options day session" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-BB ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
@@ -1028,12 +2052,12 @@ sess:XSFE-BB-CT-Day
 sess:XSFE-BB-CT-Night
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:40:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"NZ 90 Day Bank Bill Futures and Options night session" ;
+	sess:activeFrom	"17:40:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-BB ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
@@ -1042,12 +2066,12 @@ sess:XSFE-BB-CT-Night
 sess:XSFE-FFAXXX-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"11:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures day session" ;
+	sess:activeFrom	"11:00:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1057,12 +2081,12 @@ sess:XSFE-FFAXXX-CT-Day
 sess:XSFE-FFAXXX-CT-Final
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"12:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"11:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures final trading day session" ;
+	sess:activeFrom	"11:00:00"^^xsd:time ;
+	sess:activeTill	"12:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1072,12 +2096,12 @@ sess:XSFE-FFAXXX-CT-Final
 sess:XSFE-FFAXXX-CT-Night
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"19:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures night session" ;
+	sess:activeFrom	"17:00:00"^^xsd:time ;
+	sess:activeTill	"19:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1087,12 +2111,12 @@ sess:XSFE-FFAXXX-CT-Night
 sess:XSFE-FFAXXX-Pre_Open
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"11:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/agricultural-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures day session" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"11:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFAXXX ;
 	sess:operatesIn	regm:XSFE-Pre_Open ;
@@ -1102,12 +2126,12 @@ sess:XSFE-FFAXXX-Pre_Open
 sess:XSFE-FFICSX-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:50:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/index-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Index derivatives day session" ;
+	sess:activeFrom	"09:50:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1117,12 +2141,12 @@ sess:XSFE-FFICSX-CT-Day
 sess:XSFE-FFICSX-CT-Night-D
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"08:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Index Derivatives night session daylight saving" ;
+	sess:activeFrom	"17:10:00"^^xsd:time ;
+	sess:activeTill	"08:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1132,12 +2156,12 @@ sess:XSFE-FFICSX-CT-Night-D
 sess:XSFE-FFICSX-CT-Night-S
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Index Derivatives night session standard" ;
+	sess:activeFrom	"17:10:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1147,12 +2171,12 @@ sess:XSFE-FFICSX-CT-Night-S
 sess:XSFE-FFICSX-Pre_Open
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"09:50:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-operating-rules/rules/asx_or_appendices.pdf> ;
+	dct:source	"https://www2.asx.com.au/content/dam/asx/rules-guidance-notes-waivers/asx-operating-rules/rules/asx_or_appendices.pdf"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Index derivatives preopen session" ;
+	sess:activeFrom	"07:00:00"^^xsd:time ;
+	sess:activeTill	"09:50:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-FFICSX ;
 	sess:operatesIn	regm:XSFE-Pre_Open ;
@@ -1162,12 +2186,12 @@ sess:XSFE-FFICSX-Pre_Open
 sess:XSFE-IB-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:34:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"30 Day Interbank Cash Rate Futures and Options day session" ;
+	sess:activeFrom	"08:34:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IB ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1177,12 +2201,12 @@ sess:XSFE-IB-CT-Day
 sess:XSFE-IB-CT-Night-D
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:14:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"30 Day Interbank Cash Rate Futures and Options night session daylight saving" ;
+	sess:activeFrom	"17:14:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IB ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1192,12 +2216,12 @@ sess:XSFE-IB-CT-Night-D
 sess:XSFE-IB-CT-Night-S
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:14:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"30 Day Interbank Cash Rate Futures and Options night session standard" ;
+	sess:activeFrom	"17:14:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IB ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1207,12 +2231,12 @@ sess:XSFE-IB-CT-Night-S
 sess:XSFE-IR-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:28:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"90 Day Bank Bill Futures and Options day session" ;
+	sess:activeFrom	"08:28:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IR ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1222,12 +2246,12 @@ sess:XSFE-IR-CT-Day
 sess:XSFE-IR-CT-Night-D
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:08:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"90 Day Bank Bill Futures and Options night session daylight saving" ;
+	sess:activeFrom	"17:08:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IR ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1237,12 +2261,12 @@ sess:XSFE-IR-CT-Night-D
 sess:XSFE-IR-CT-Night-S
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:08:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"90 Day Bank Bill Futures and Options night session standard" ;
+	sess:activeFrom	"17:08:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IR ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1252,12 +2276,12 @@ sess:XSFE-IR-CT-Night-S
 sess:XSFE-IR-Last-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"12:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:28:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"90 Day Bank Bill Futures day session on expiry day" ;
+	sess:activeFrom	"08:28:00"^^xsd:time ;
+	sess:activeTill	"12:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-IR ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1267,12 +2291,12 @@ sess:XSFE-IR-Last-Day
 sess:XSFE-XT-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:32:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"10 Year Treasury Bond Futures and Options day session" ;
+	sess:activeFrom	"08:32:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-XT ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1282,12 +2306,12 @@ sess:XSFE-XT-CT-Day
 sess:XSFE-XT-CT-Night-D
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:12:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"10 Year Treasury Bond Futures and Options night session daylight saving" ;
+	sess:activeFrom	"17:12:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-XT ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1297,12 +2321,12 @@ sess:XSFE-XT-CT-Night-D
 sess:XSFE-XT-CT-Night-S
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:12:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"10 Year Treasury Bond Futures and Options night session standard" ;
+	sess:activeFrom	"17:12:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-XT ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1312,12 +2336,12 @@ sess:XSFE-XT-CT-Night-S
 sess:XSFE-XT-Last-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"12:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:32:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"10 Year Treasury Bond Futures day session on expiry day" ;
+	sess:activeFrom	"08:32:00"^^xsd:time ;
+	sess:activeTill	"12:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-XT ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1327,12 +2351,12 @@ sess:XSFE-XT-Last-Day
 sess:XSFE-YT-CT-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"3 Year Treasury Bond Futures and Options day session" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-YT ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1342,12 +2366,12 @@ sess:XSFE-YT-CT-Day
 sess:XSFE-YT-CT-Night-D
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"3 Year Treasury Bond Futures and Options night session daylight saving" ;
+	sess:activeFrom	"17:10:00"^^xsd:time ;
+	sess:activeTill	"07:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-YT ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1357,12 +2381,12 @@ sess:XSFE-YT-CT-Night-D
 sess:XSFE-YT-CT-Night-S
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"07:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:10:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"3 Year Treasury Bond Futures and Options night session standard" ;
+	sess:activeFrom	"17:10:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-YT ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
@@ -1372,12 +2396,12 @@ sess:XSFE-YT-CT-Night-S
 sess:XSFE-YT-Last-Day
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"12:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives> ;
+	dct:source	"https://www2.asx.com.au/markets/market-resources/trading-hours-calendar/interest-rate-derivatives"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-30T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"3 Year Treasury Bond Futures day session on expiry day" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"12:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSFE-YT ;
 	sess:operatesIn	regm:XSFE-Open ;
@@ -1387,12 +2411,12 @@ sess:XSFE-YT-Last-Day
 sess:XSGO-FFCPSX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"14:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	dct:source	"https://www.bolsadesantiago.com/futuros"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago currency futures" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"14:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSGO-FFCPSX ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
@@ -1401,12 +2425,12 @@ sess:XSGO-FFCPSX-CT
 sess:XSGO-FFICSX-CT-summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	dct:source	"https://www.bolsadesantiago.com/futuros"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago index futures, summer schedule" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSGO-FFICSX ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
@@ -1415,12 +2439,12 @@ sess:XSGO-FFICSX-CT-summer
 sess:XSGO-FFICSX-CT-winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	dct:source	"https://www.bolsadesantiago.com/futuros"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago index futures, winter schedule" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSGO-FFICSX ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
@@ -1429,12 +2453,12 @@ sess:XSGO-FFICSX-CT-winter
 sess:XSGO-FFNCSX-CT-summer
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	dct:source	"https://www.bolsadesantiago.com/futuros"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago rate futures, winter schedule" ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
+	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSGO-FFNCSX ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
@@ -1443,12 +2467,12 @@ sess:XSGO-FFNCSX-CT-summer
 sess:XSGO-FFNCSX-CT-winter
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"16:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"09:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.bolsadesantiago.com/futuros> ;
+	dct:source	"https://www.bolsadesantiago.com/futuros"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago rate futures, winter schedule" ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSGO-FFNCSX ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
@@ -1457,12 +2481,12 @@ sess:XSGO-FFNCSX-CT-winter
 sess:XSWX-FFDPSX-BT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Zurich Rate futures TES block trading" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSWX-FFDPSX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -1470,12 +2494,12 @@ sess:XSWX-FFDPSX-BT
 sess:XSWX-FFDPSX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"17:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Zurich Rate futures continuous trading" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSWX-FFDPSX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -1483,12 +2507,12 @@ sess:XSWX-FFDPSX-CT
 sess:XSWX-FFDPSX-CT-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"12:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"08:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Zurich Rate futures continuous trading on expiry" ;
+	sess:activeFrom	"08:30:00"^^xsd:time ;
+	sess:activeTill	"12:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSWX-FFDPSX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -1496,12 +2520,12 @@ sess:XSWX-FFDPSX-CT-Last
 sess:XSWX-FFDPSX-Post
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"22:10:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"17:00:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Zurich Rate futures post-trading full session" ;
+	sess:activeFrom	"17:00:00"^^xsd:time ;
+	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSWX-FFDPSX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -1509,12 +2533,12 @@ sess:XSWX-FFDPSX-Post
 sess:XSWX-FFDPSX-Post-Last
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"20:00:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"12:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Zurich Rate futures post-trading full session on expiry" ;
+	sess:activeFrom	"12:30:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSWX-FFDPSX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
@@ -1522,12 +2546,12 @@ sess:XSWX-FFDPSX-Post-Last
 sess:XSWX-FFDPSX-Pre
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
-	fibo-fd:hasClosingDateTime	"08:30:00"^^xsd:time ;
-	fibo-fd:hasOpeningDateTime	"07:30:00"^^xsd:time ;
-	pav:importedFrom	<https://www.eurex.com/ex-en/trade/trading-hours> ;
+	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Zurich Rate futures pre-trading" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"08:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:isTradingSessionFor	cata:XSWX-FFDPSX ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .

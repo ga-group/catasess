@@ -5,7 +5,7 @@ DB.DBA.XML_SET_NS_DECL('figi-ps', 'http://www.omg.org/spec/FIGI/PricingSources/'
 DB.DBA.XML_SET_NS_DECL('fibo-loc', 'https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/', 3);
 DB.DBA.XML_SET_NS_DECL('fibo-fip', 'https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/', 3);
 DB.DBA.XML_SET_NS_DECL('fibo-fd', 'https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/', 3);
-DB.DBA.XML_SET_NS_DECL('fibo-mic', 'https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/', 3);
+DB.DBA.XML_SET_NS_DECL('fibo-mic', 'https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/', 1);
 DB.DBA.XML_SET_NS_DECL('fibo-fpas', 'https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/', 3);
 DB.DBA.XML_SET_NS_DECL('cmns-cls', 'https://www.omg.org/spec/Commons/Classifiers/', 3);
 DB.DBA.XML_SET_NS_DECL('tempo', 'http://purl.org/tempo/', 3);
