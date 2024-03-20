@@ -19,11 +19,13 @@ How?
 Where?
 ------
 
-The [official github repository](https://github.com/ga-group/catasess/) contains the
-published datasets as well as separately maintained alignment and enrichment files.
+The [github repository](https://github.com/ga-group/catasess/)
+contains the published datasets as well as separately maintained
+alignment and enrichment files.
 
-For ease of access the latest versions of the datasets can be downloaded here:
+For ease of access the latest versions of the datasets can be
+downloaded here:
 
-- [Catalogues.ttl](Catalogues.ttl)
-- [TradingSessions.ttl](TradingSessions.ttl)
+- [catalogues.ttl](catalogues.ttl)
+- [sessions.ttl](sessions.ttl)
 
