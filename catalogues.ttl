@@ -43,6 +43,25 @@ Supplementary information regarding a product group, e.g. the products it compri
 
 
 
+cata:A2XX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-A2XX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:21:12.226Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:47:53Z"^^xsd:dateTime .
+
+cata:AIXK-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-AIXK ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:21:26.615Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:02:14Z"^^xsd:dateTime .
+
 cata:AMXO-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -53,6 +72,71 @@ cata:AMXO-OXXICS
 	pav:lastRefreshedOn	"2022-06-29T02:45:24Z"^^xsd:dateTime ;
 	rdfs:label	"NYSE American Index Options" .
 
+cata:APEX-FXXXXX-1010
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-APEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:APEX-FXXXXX-1020
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-APEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:APEX-FXXXXX-20
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-APEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:APEX-FXXXXX-501010
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-APEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:APEX-FXXXXX-501020
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-APEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime .
+
+cata:AQEU-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-AQEU ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:21:59.136Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:31:55Z"^^xsd:dateTime .
+
+cata:ARCX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-ARCX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:56.823Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:01:04Z"^^xsd:dateTime .
+
 cata:BATE-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -60,9 +144,9 @@ cata:BATE-EXXXXX
 	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BATE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:04:41.943Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:15.179Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:45:35Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T10:21:48Z"^^xsd:dateTime .
 
 cata:BATS-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -70,9 +154,9 @@ cata:BATS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BATS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:04:45.340Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:18.429Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:23:08Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T09:56:36Z"^^xsd:dateTime .
 
 cata:BATY-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -80,9 +164,9 @@ cata:BATY-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BATY ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:36:45.241Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:16.878Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:22:57Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T09:56:27Z"^^xsd:dateTime .
 
 cata:BEUE-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -95,9 +179,59 @@ cata:BEUE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime .
 
+cata:BJSE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BJSE ;
+	pav:importedOn	"2024-03-08T14:38:34.637Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:23:08.846Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2024-03-07T07:33:18Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:02:27Z"^^xsd:dateTime .
+
+cata:BLOX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BLOX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:18:30.714Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:21:23Z"^^xsd:dateTime .
+
+cata:BMTF-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BMTF ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:20:53.276Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:21:40Z"^^xsd:dateTime .
+
+cata:BVCA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BVCA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:34.173Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:52:00Z"^^xsd:dateTime .
+
+cata:BVMF-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BVMF ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:53.919Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:51:05Z"^^xsd:dateTime .
+
 cata:CEDX-FFICSX-CH
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
@@ -107,6 +241,7 @@ cata:CEDX-FFICSX-CH
 cata:CEDX-FFICSX-DE
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
@@ -116,6 +251,7 @@ cata:CEDX-FFICSX-DE
 cata:CEDX-FFICSX-ES
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
@@ -125,6 +261,7 @@ cata:CEDX-FFICSX-ES
 cata:CEDX-FFICSX-EU
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
@@ -134,6 +271,7 @@ cata:CEDX-FFICSX-EU
 cata:CEDX-FFICSX-FR
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
@@ -143,6 +281,7 @@ cata:CEDX-FFICSX-FR
 cata:CEDX-FFICSX-IT
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
@@ -152,6 +291,7 @@ cata:CEDX-FFICSX-IT
 cata:CEDX-FFICSX-NL
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
@@ -185,6 +325,7 @@ cata:CEDX-FFICSX-SE
 cata:CEDX-FFICSX-UK
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEDX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-05-03T06:47:02.665Z"^^xsd:dateTime ;
@@ -198,9 +339,9 @@ cata:CEUX-EXXXXX
 	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEUX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:40:16.031Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:22:03.716Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T10:35:32Z"^^xsd:dateTime .
 
 cata:CHIA-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -211,8 +352,18 @@ cata:CHIA-EXXXXX
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2025-03-19T02:44:24.674Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T12:00:25Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:20Z"^^xsd:dateTime ;
 	rdfs:label	"Cboe Australian Equities" .
+
+cata:CHIC-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIC ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:51.004Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:53:43Z"^^xsd:dateTime .
 
 cata:CHIJ-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -220,9 +371,9 @@ cata:CHIJ-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIJ ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:15:02.618Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:42.386Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:31:20Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T10:04:45Z"^^xsd:dateTime .
 
 cata:CHIS-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -230,9 +381,9 @@ cata:CHIS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:15:02.618Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:42.386Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:31:20Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T10:04:45Z"^^xsd:dateTime .
 
 cata:CHIX-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -241,9 +392,49 @@ cata:CHIX-EXXXXX
 	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:01:51.583Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:38:17.563Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:46:00Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T10:22:02Z"^^xsd:dateTime .
+
+cata:DIFX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-DIFX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:00.628Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:15:18Z"^^xsd:dateTime .
+
+cata:DIFX-FFICSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFICSX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-DIFX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:00.628Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:15:18Z"^^xsd:dateTime .
+
+cata:DKED-OXXICS
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:OXXICS ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-DKED ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:49.816Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:17:40Z"^^xsd:dateTime .
+
+cata:DSMD-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-DSMD ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:41.975Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:14:05Z"^^xsd:dateTime .
 
 cata:EDGA-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -251,9 +442,9 @@ cata:EDGA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-EDGA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:15:54.857Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:35.837Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:23:48Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T09:57:25Z"^^xsd:dateTime .
 
 cata:EDGX-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -262,9 +453,128 @@ cata:EDGX-EXXXXX
 	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-EDGX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:15:58.281Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:39.336Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:24:04Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T09:57:35Z"^^xsd:dateTime .
+
+cata:ENAX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.athexgroup.gr/web/guest/trading-alternative-market"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-ENAX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:06.413Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:26:35Z"^^xsd:dateTime .
+
+cata:EPRL-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-EPRL ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:20:10.980Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:59:14Z"^^xsd:dateTime .
+
+cata:EUWX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-EUWX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:57.539Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:33:33Z"^^xsd:dateTime .
+
+cata:FNDK-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-FNDK ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:52:22.207Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:17:29Z"^^xsd:dateTime .
+
+cata:FNFI-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-FNFI ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:52:15.935Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:18:09Z"^^xsd:dateTime .
+
+cata:FNIS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-FNIS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:52:18.927Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:18:15Z"^^xsd:dateTime .
+
+cata:FNSE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-FNSE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:52:12.818Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:19:52Z"^^xsd:dateTime .
+
+cata:HSTC-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-HSTC ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:29.008Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:09Z"^^xsd:dateTime .
+
+cata:IEXG-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-IEXG ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:18:21.610Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:58:13Z"^^xsd:dateTime .
+
+cata:IFCA-FCXPSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FCXPSX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFCA ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:25.459Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:57:58Z"^^xsd:dateTime .
+
+cata:IFSG-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFSG ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:18:49.142Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:09:18Z"^^xsd:dateTime .
+
+cata:IFUS-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFUS ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:25.459Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:57:58Z"^^xsd:dateTime .
 
 cata:IINX-FXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -272,9 +582,51 @@ cata:IINX-FXXXXX
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	dct:source	"https://www.indiainx.com/static/productsnapshot.aspx"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IINX ;
-	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:21:21.961Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:47Z"^^xsd:dateTime ;
 	rdfs:label	"India INX Futures" .
+
+cata:LICA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-LICA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:07.882Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:53:10Z"^^xsd:dateTime .
+
+cata:LTSE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-LTSE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:22:36.156Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:58:51Z"^^xsd:dateTime .
+
+cata:LYNX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-LYNX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:18:18.523Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:53:11Z"^^xsd:dateTime .
+
+cata:MALX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-MALX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:16:52.832Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:12:02Z"^^xsd:dateTime .
 
 cata:MATN-CSE-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -283,9 +635,9 @@ cata:MATN-CSE-EXXXXX
 	dct:source	"https://www.cboe.com/ca/equities/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MATN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:39:13.433Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:20:15.815Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:21:57Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T09:55:38Z"^^xsd:dateTime .
 
 cata:MATN-TSX-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -294,9 +646,9 @@ cata:MATN-TSX-EXXXXX
 	dct:source	"https://www.cboe.com/ca/equities/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MATN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:15:48.534Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:29.820Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:22:10Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T09:55:46Z"^^xsd:dateTime .
 
 cata:MATN-V-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -305,9 +657,19 @@ cata:MATN-V-EXXXXX
 	dct:source	"https://www.cboe.com/ca/equities/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MATN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:38:40.811Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:19:25.858Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:22:25Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T09:55:58Z"^^xsd:dateTime .
+
+cata:MEMX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-MEMX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:22:40.930Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:59:25Z"^^xsd:dateTime .
 
 cata:MFOX-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -315,9 +677,189 @@ cata:MFOX-FFICSX
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MFOX ;
-	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:46.114Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:29:25Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Lisbon Index Futures" .
+
+cata:N2EX-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-N2EX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:26.496Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:24:27Z"^^xsd:dateTime .
+
+cata:NDEX-FCXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FCXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-NDEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:19:04.056Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:35:58Z"^^xsd:dateTime .
+
+cata:NEOE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-NEOE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:19:01.017Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:54:49Z"^^xsd:dateTime .
+
+cata:NEXX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-NEXX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:26.197Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:21:00Z"^^xsd:dateTime .
+
+cata:NILX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-NILX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:13:56.323Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T12:13:10Z"^^xsd:dateTime .
+
+cata:ODXE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-ODXE ;
+	pav:importedOn	"2022-11-08T08:16:09.971Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:23:22.896Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-11-08T08:16:09.971Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:05:55Z"^^xsd:dateTime .
+
+cata:OMGA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-OMGA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:00.267Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:54:57Z"^^xsd:dateTime .
+
+cata:OTXB-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-OTXB ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:35.607Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:36:56Z"^^xsd:dateTime .
+
+cata:PLPX-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-PLPX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:52:06.855Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:16:11Z"^^xsd:dateTime .
+
+cata:RSEX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-RSEX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:51.741Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:46:32Z"^^xsd:dateTime .
+
+cata:RTSX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-RTSX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:26.741Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:17:00Z"^^xsd:dateTime .
+
+cata:SBIU-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-SBIU ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:42.749Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:05:25Z"^^xsd:dateTime .
+
+cata:STUA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-STUA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:17.390Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:34:37Z"^^xsd:dateTime .
+
+cata:STUB-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-STUB ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:17.390Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:34:37Z"^^xsd:dateTime .
+
+cata:TFEX-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-TFEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:26.305Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:09:46Z"^^xsd:dateTime .
+
+cata:UKPX-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-UKPX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:57.105Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:20:45Z"^^xsd:dateTime .
+
+cata:WBAH-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-WBAH ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:55.749Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:31:06Z"^^xsd:dateTime .
+
+cata:WDER-FFXCSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFXCSX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-WDER ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:52.025Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:16:14Z"^^xsd:dateTime .
 
 cata:XADE-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -325,8 +867,10 @@ cata:XADE-FFICSX
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	dct:source	"https://www.athexgroup.gr/web/guest/markets-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADE ;
-	pav:importedOn	"2022-06-28T07:39:43.910Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2022-06-28T06:44:24.674Z"^^xsd:dateTime ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:03.438Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:26:21Z"^^xsd:dateTime ;
 	rdfs:label	"ATHEX Index Futures" .
 
 cata:XADE-OXXICS
@@ -339,15 +883,207 @@ cata:XADE-OXXICS
 	pav:lastRefreshedOn	"2022-06-28T06:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"ATHEX Index Options" .
 
+cata:XADS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:37.570Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:14:32Z"^^xsd:dateTime .
+
+cata:XAMM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XAMM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:54.066Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:13:34Z"^^xsd:dateTime .
+
+cata:XARM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XARM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:00.228Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:12:53Z"^^xsd:dateTime .
+
+cata:XASE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:50.934Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime .
+
+cata:XASE-OXXICS
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:OXXICS ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:50.934Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime .
+
+cata:XASX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.asx.com.au/markets/trade-our-cash-market/overview/shares"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:38:37.630Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime .
+
 cata:XASX-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:OXXICS ;
 	dct:source	"https://www.asx.com.au/about/index-options.htm"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASX ;
-	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:38:37.630Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime ;
 	rdfs:label	"ASX Index Options" .
+
+cata:XATS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XATS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:32.841Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:52:22Z"^^xsd:dateTime .
+
+cata:XBAA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBAA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:09.329Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:48:38Z"^^xsd:dateTime .
+
+cata:XBAB-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBAB ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:12.202Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:48:39Z"^^xsd:dateTime .
+
+cata:XBDA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBDA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:28.101Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:52:12Z"^^xsd:dateTime .
+
+cata:XBEL-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBEL ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:24.954Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:29:35Z"^^xsd:dateTime .
+
+cata:XBEY-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBEY ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:21.830Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:13:51Z"^^xsd:dateTime .
+
+cata:XBLB-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	dct:source	"https://www.blberza.com/Pages/docview.aspx?page=sp6"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBLB ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:04.845Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:25:46Z"^^xsd:dateTime .
+
+cata:XBNV-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBNV ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:53.260Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:49:34Z"^^xsd:dateTime .
+
+cata:XBOG-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOG ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:37.476Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:51:27Z"^^xsd:dateTime .
+
+cata:XBOM-OXXICS
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:OXXICS ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOM ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:37.343Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime .
+
+cata:XBOS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:46:56.004Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:59:42Z"^^xsd:dateTime .
+
+cata:XBOT-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOT ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:47.545Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:47:39Z"^^xsd:dateTime .
+
+cata:XBRA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:17.157Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:17:15Z"^^xsd:dateTime .
 
 cata:XBRD-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -357,9 +1093,69 @@ cata:XBRD-FFICSX
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRD ;
-	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:41.681Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:31:14Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Brussels Index Futures" .
+
+cata:XBRN-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRN ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:18:36.765Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:36:51Z"^^xsd:dateTime .
+
+cata:XBRU-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRU ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:41.681Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:31:14Z"^^xsd:dateTime .
+
+cata:XBRV-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRV ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:50.741Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:48:34Z"^^xsd:dateTime .
+
+cata:XCAS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCAS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:13:49.249Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T12:13:15Z"^^xsd:dateTime .
+
+cata:XCAY-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCAY ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:16.002Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:48:52Z"^^xsd:dateTime .
+
+cata:XCBF-FFXCSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFXCSX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBF ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:19.065Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:56:47Z"^^xsd:dateTime .
 
 cata:XCBT-FCAPXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -391,6 +1187,194 @@ cata:XCBT-ZR
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Rough Rice Futures" .
+
+cata:XCEC-FCXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FCXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCEC ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:43.591Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:56:18Z"^^xsd:dateTime .
+
+cata:XCHI-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCHI ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:28.168Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:01:19Z"^^xsd:dateTime .
+
+cata:XCIS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCIS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:21.663Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:01:28Z"^^xsd:dateTime .
+
+cata:XCSE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCSE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:49.816Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:17:40Z"^^xsd:dateTime .
+
+cata:XCSX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCSX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:16:49.776Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:08:28Z"^^xsd:dateTime .
+
+cata:XCYS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCYS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:56.349Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:13:05Z"^^xsd:dateTime .
+
+cata:XDAR-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XDAR ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:02.497Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:46:56Z"^^xsd:dateTime .
+
+cata:XDHA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XDHA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:05.596Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:34Z"^^xsd:dateTime .
+
+cata:XDSX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XDSX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:08.769Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:47:31Z"^^xsd:dateTime .
+
+cata:XECM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XECM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:56.349Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:13:05Z"^^xsd:dateTime .
+
+cata:XEEE-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEEE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:54.542Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:33:24Z"^^xsd:dateTime .
+
+cata:XEMD-FXXXXX-5010
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEMD ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:56.269Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:49:48Z"^^xsd:dateTime .
+
+cata:XEMD-FXXXXX-5020
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEMD ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:56.269Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:49:48Z"^^xsd:dateTime .
+
+cata:XEMD-FXXXXX-5030
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEMD ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:56.269Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:49:48Z"^^xsd:dateTime .
+
+cata:XEQT-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEQT ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:31.174Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:33:10Z"^^xsd:dateTime .
+
+cata:XEQY-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEQY ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:38:13.232Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:14:25Z"^^xsd:dateTime .
+
+cata:XETA-EXXXXX-DAX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XETA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:59.059Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:34:53Z"^^xsd:dateTime ;
+	rdfs:label	"Xetra regulated market, shares in DAX, TecDAX, MDAX, and SDAX" .
+
+cata:XETA-EXXXXX-DE
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XETA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:14:18.973Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:57:26Z"^^xsd:dateTime ;
+	rdfs:label	"Xetra regulated market, German shares not in DAX, TecDAX, MDAX, and SDAX" .
+
+cata:XETC-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XETA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:14:18.973Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:57:26Z"^^xsd:dateTime ;
+	rdfs:label	"Xetra international shares" .
 
 cata:XEUR-DAX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -440,6 +1424,26 @@ cata:XEUR-FGB
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German/French Government Bonds Futures" .
 
+cata:XEUR-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:20.456Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:33:18Z"^^xsd:dateTime .
+
+cata:XFKA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFKA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:03.560Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:05:00Z"^^xsd:dateTime .
+
 cata:XFTA-FMX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -464,6 +1468,233 @@ cata:XFTA-FTI
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Index Futures" .
 
+cata:XGAT-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XGAT ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:20.128Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:33:01Z"^^xsd:dateTime .
+
+cata:XGRM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XGRM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:20.128Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:33:01Z"^^xsd:dateTime .
+
+cata:XHEL-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHEL ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:57.197Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:18:10Z"^^xsd:dateTime .
+
+cata:XHNX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHNX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:29.008Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:09Z"^^xsd:dateTime .
+
+cata:XICE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XICE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:30.137Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:18:29Z"^^xsd:dateTime .
+
+cata:XIMC-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XIMC ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:07.558Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:11:04Z"^^xsd:dateTime .
+
+cata:XINE-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XINE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:20:01.660Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:03:26Z"^^xsd:dateTime .
+
+cata:XIQS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XIQS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:10.753Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:13:17Z"^^xsd:dateTime .
+
+cata:XISX-OXXICS
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:OXXICS ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XISX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:36.586Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:58:47Z"^^xsd:dateTime .
+
+cata:XJAM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XJAM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:39.734Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:49:08Z"^^xsd:dateTime .
+
+cata:XKAC-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKAC ;
+	pav:importedOn	"2024-03-08T14:25:21.191Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:45.924Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2024-03-07T07:56:50Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:06:01Z"^^xsd:dateTime .
+
+cata:XKAR-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKAR ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:49.054Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:12:22Z"^^xsd:dateTime .
+
+cata:XKAZ-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKAZ ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:52.185Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:02:23Z"^^xsd:dateTime .
+
+cata:XKFB-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKFB ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:48.891Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:07:08Z"^^xsd:dateTime .
+
+cata:XKFE-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKFE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:55.282Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:07:48Z"^^xsd:dateTime .
+
+cata:XKON-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKON ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:57.107Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:07:10Z"^^xsd:dateTime .
+
+cata:XKOS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKOS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:58.397Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:07:20Z"^^xsd:dateTime .
+
+cata:XKRX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKRX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:45.623Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:07:36Z"^^xsd:dateTime .
+
+cata:XKUW-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKUW ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:01.496Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:13:42Z"^^xsd:dateTime .
+
+cata:XLAO-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLAO ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:22.848Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:08:51Z"^^xsd:dateTime .
+
+cata:XLDN-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLDN ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2022-12-20T07:32:03.079Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime .
+
+cata:XLIM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLIM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:04.643Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:51:42Z"^^xsd:dateTime .
+
+cata:XLIT-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLIT ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:11.074Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:18:55Z"^^xsd:dateTime .
+
+cata:XLJU-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLJU ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:07.651Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:29:48Z"^^xsd:dateTime .
+
 cata:XLON-EQS-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -471,10 +1702,76 @@ cata:XLON-EQS-EXXXXX
 	dct:source	"https://www.londonstockexchange.com/equities-trading/asset-classes/shares-trading/european-quoting-service"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLON ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-19T12:37:10.301Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:44.711Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-19T11:47:07Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:23:52Z"^^xsd:dateTime ;
 	rdfs:label	"European Quoting System" .
+
+cata:XLON-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLON ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:38:23.827Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:23:59Z"^^xsd:dateTime .
+
+cata:XLUS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLUS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:17.044Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:47:10Z"^^xsd:dateTime .
+
+cata:XLUX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLUX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:16.444Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:35:31Z"^^xsd:dateTime .
+
+cata:XMAB-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMAB ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:52.925Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:50:39Z"^^xsd:dateTime .
+
+cata:XMAD-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMAD ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:46.716Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:30:23Z"^^xsd:dateTime .
+
+cata:XMEV-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMEV ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:03.601Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:50:19Z"^^xsd:dateTime .
+
+cata:XMOL-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMOL ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:04.445Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:16:26Z"^^xsd:dateTime .
 
 cata:XMON-FFICSX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -487,6 +1784,296 @@ cata:XMON-FFICSX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Paris Index Futures" .
+
+cata:XMTB-FXXXXX-10
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:48.988Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime .
+
+cata:XMTB-FXXXXX-20
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:48.988Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime .
+
+cata:XMTB-FXXXXX-5010
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:48.988Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime .
+
+cata:XMTB-FXXXXX-5020
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:48.988Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime .
+
+cata:XMTB-FXXXXX-5030
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:44:48.988Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime .
+
+cata:XNAI-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNAI ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:46:45.224Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:45:42Z"^^xsd:dateTime .
+
+cata:XNCM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNCM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:57.823Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:03Z"^^xsd:dateTime .
+
+cata:XNEC-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNEC ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:19.668Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:35Z"^^xsd:dateTime .
+
+cata:XNGO-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	dct:source	"https://www.nse.or.jp/e/meigara/"^^xsd:anyURI ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNGO ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:46:41.525Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:05:51Z"^^xsd:dateTime .
+
+cata:XNGS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNGS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:51:48.658Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:33Z"^^xsd:dateTime .
+
+cata:XNIM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNIM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:52:00.813Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:43Z"^^xsd:dateTime .
+
+cata:XNMS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNMS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:23.547Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:18Z"^^xsd:dateTime .
+
+cata:XNSE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNSE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:24.936Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:11:48Z"^^xsd:dateTime .
+
+cata:XNYL-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNYL ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:31.597Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:01:40Z"^^xsd:dateTime .
+
+cata:XNYS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNYS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:34.716Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:01:49Z"^^xsd:dateTime .
+
+cata:XNZE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNZE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:39.151Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:44Z"^^xsd:dateTime .
+
+cata:XPAE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPAE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:09.649Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:14:19Z"^^xsd:dateTime .
+
+cata:XPAR-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPAR ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:42:50.304Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:32:11Z"^^xsd:dateTime .
+
+cata:XPHS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPHS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:18.863Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:09:05Z"^^xsd:dateTime .
+
+cata:XPOS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPOS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:18:54.979Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:22:58Z"^^xsd:dateTime .
+
+cata:XPOW-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPOW ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:32.292Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:32:23Z"^^xsd:dateTime .
+
+cata:XPSX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPSX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:39.069Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:46Z"^^xsd:dateTime .
+
+cata:XPTY-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPTY ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:12.642Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:50:06Z"^^xsd:dateTime .
+
+cata:XQUI-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XQUI ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:45.042Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:51:40Z"^^xsd:dateTime .
+
+cata:XRIS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XRIS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:47:07.673Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:18:49Z"^^xsd:dateTime .
+
+cata:XSAP-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSAP ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:51.516Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:06:16Z"^^xsd:dateTime .
+
+cata:XSAT-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSAT ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:43.582Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:20:28Z"^^xsd:dateTime .
+
+cata:XSAU-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSAU ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:57.868Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:14:11Z"^^xsd:dateTime .
+
+cata:XSBI-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSBI ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:32.667Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:05:44Z"^^xsd:dateTime .
+
+cata:XSEC-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSEC ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:19:19.684Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:02:54Z"^^xsd:dateTime .
 
 cata:XSFE-BB
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -572,6 +2159,16 @@ cata:XSFE-YT
 	rdfs:label	"3 Year/5 Year Treasury Bond Futures and Options" ;
 	skos:note	"comprises YT and VT products" .
 
+cata:XSGO-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:48.361Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:51:26Z"^^xsd:dateTime .
+
 cata:XSGO-FFCPSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -602,6 +2199,86 @@ cata:XSGO-FFNCSX
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago Rate Futures" .
 
+cata:XSGO-FFXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:48.361Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:51:26Z"^^xsd:dateTime .
+
+cata:XSHE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSHE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:10.307Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:03:44Z"^^xsd:dateTime .
+
+cata:XSOM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSOM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:17:38.759Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:51:10Z"^^xsd:dateTime .
+
+cata:XSSC-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSSC ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:18:42.772Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:02:43Z"^^xsd:dateTime .
+
+cata:XSSE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSSE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:48:54.645Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:26:02Z"^^xsd:dateTime .
+
+cata:XSTC-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSTC ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:15.972Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:19Z"^^xsd:dateTime .
+
+cata:XSTO-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSTO ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:52.488Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:20:17Z"^^xsd:dateTime .
+
+cata:XSTO-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSTO ;
+	pav:importedOn	"2022-10-20T12:28:08.463Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:52.488Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-10-20T12:28:08.463Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:20:17Z"^^xsd:dateTime .
+
 cata:XSWX-FFDPSX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -613,3 +2290,152 @@ cata:XSWX-FFDPSX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Zurich Rate Futures" .
+
+cata:XTAE-EXXXXX-Tamar
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTAE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:22.990Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:13:22Z"^^xsd:dateTime .
+
+cata:XTAE-EXXXXX-nonTamar
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTAE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:13:42.869Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:37:44Z"^^xsd:dateTime .
+
+cata:XTAL-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTAL ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:46:51.925Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:17:53Z"^^xsd:dateTime .
+
+cata:XTFF-FFXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTFF ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:29.589Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:06:30Z"^^xsd:dateTime .
+
+cata:XTKS-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTKS ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:35.943Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:06:45Z"^^xsd:dateTime .
+
+cata:XTRN-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTRN ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:39.371Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:49:26Z"^^xsd:dateTime .
+
+cata:XTSE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTSE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:06.760Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:55:26Z"^^xsd:dateTime .
+
+cata:XTSX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTSX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:38:20.686Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:55:37Z"^^xsd:dateTime .
+
+cata:XTUN-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTUN ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:42.454Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:45:34Z"^^xsd:dateTime .
+
+cata:XUGA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XUGA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:48.767Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:46:47Z"^^xsd:dateTime .
+
+cata:XVIE-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XVIE ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:49:55.749Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:31:06Z"^^xsd:dateTime .
+
+cata:XZAM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XZAM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:03.450Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:26:10Z"^^xsd:dateTime .
+
+cata:XZCE-FCXPSX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FCXPSX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XZCE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:06.560Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:03:53Z"^^xsd:dateTime .
+
+cata:XZIM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XZIM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:09.741Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:47:23Z"^^xsd:dateTime .
+
+cata:ZBUL-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-ZBUL ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:06.737Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:15:33Z"^^xsd:dateTime .
