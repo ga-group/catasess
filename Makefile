@@ -2,7 +2,7 @@ SHELL := /bin/zsh
 
 include .make.env
 
-FILES = catalogues.ttl regimes.ttl sessions.ttl
+FILES = catalogues.ttl regimes.ttl sessions.ttl days.ttl
 
 all: $(FILES:%.ttl=.imported.%)
 check: $(FILES:%.ttl=check.%)
@@ -20,6 +20,7 @@ check: $(FILES:%.ttl=check.%)
 check.sessions: ADDITIONAL = catalogues.ttl regimes.ttl
 
 tmp/import-from-bps.out: /data/data-source/bbstk/.imported.bps
+tmp/import-from-cal.out: /data/data-source/bbstk/.imported.bps /data/data-source/bbstk/.imported.cal
 
 check.%: %.ttl shacl/%.shacl.ttl
 	truncate -s 0 /tmp/$@.ttl

@@ -39,6 +39,11 @@ The identifier for a session is the product group's identifier suffixed by a ses
 	sm:fileAbbreviation	"sess" ;
 	sm:filename	"sessions.ttl" .
 
+sess:None
+	a	fibo-fip:TradingSession ;
+	rdfs:label	"No Session" ;
+	skos:note	"placeholder session to indicate that there is no session"@en .
+
 sess:efficaciousOn
 	a	owl:AnnotationProperty ;
 	rdfs:domain	fibo-fip:TradingSession ;
@@ -1557,6 +1562,11 @@ sess:MFOX-FFICSX-CT
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
+sess:None
+	a	fibo-fip:TradingSession ;
+	rdfs:label	"No Session" ;
+	skos:note	"placeholder session to indicate that there is no session"@en .
+
 sess:ODXE-EXXXXX-CT
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://www.odx.co.jp/equity/en/library/trading_rules/market_guide/"^^xsd:anyURI ;
@@ -1971,6 +1981,19 @@ sess:XASX-EXXXXX-CA
 	sess:activeTill	"16:12:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
+sess:XASX-EXXXXX-CA-Half
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XASX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:08.595Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime ;
+	rdfs:label	"Closing Match" ;
+	sess:activeFrom	"14:10:00"^^xsd:time ;
+	sess:activeTill	"14:12:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
 sess:XASX-EXXXXX-CAC
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours"^^xsd:anyURI ;
@@ -1984,6 +2007,19 @@ sess:XASX-EXXXXX-CAC
 	sess:activeTill	"16:10:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
+sess:XASX-EXXXXX-CAC-Half
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XASX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:08.595Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime ;
+	rdfs:label	"Closing Auction Call" ;
+	sess:activeFrom	"14:00:00"^^xsd:time ;
+	sess:activeTill	"14:10:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
 sess:XASX-EXXXXX-CT
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours"^^xsd:anyURI ;
@@ -1995,6 +2031,19 @@ sess:XASX-EXXXXX-CT
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"10:00:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XASX-EXXXXX-CT-Half
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XASX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:08.595Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"10:00:00"^^xsd:time ;
+	sess:activeTill	"14:00:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:XASX-EXXXXX-Pre

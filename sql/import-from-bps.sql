@@ -46,6 +46,58 @@ SPARQL
 DEFINE sql:log-enable 3
 PREFIX cata: <http://data.ga-group.nl/catasess/catalogues/>
 PREFIX sess: <http://data.ga-group.nl/catasess/sessions/>
+PREFIX day: <http://data.ga-group.nl/catasess/days/>
+
+##SELECT *
+##FROM <http://data.ga-group.nl/bps/>
+WITH <http://data.ga-group.nl/catasess/days/>
+INSERT {
+	?xcd a fibo-fip:TradingDay ;
+		day:activeSession ?xs ;
+		fibo-fip:isTradingDayOf ?xc ;
+		pav:importedOn ?impon ;
+		pav:lastRefreshedOn ?refon ;
+		pav:sourceAccessedOn ?sacon ;
+		pav:sourceLastAccessedOn ?slaon .
+}
+USING <http://data.ga-group.nl/bps/>
+WHERE {
+	?c a figi-gii:PricingSource ;
+		cata:assigned-catalogue ?xc .
+	OPTIONAL {
+	?c pav:importedOn ?impon
+	}
+	OPTIONAL {
+	?c pav:lastRefreshedOn ?refon
+	}
+	OPTIONAL {
+	?c pav:sourceAccessedOn ?sacon
+	}
+	OPTIONAL {
+	?c pav:sourceLastAccessedOn ?slaon
+	}
+
+	OPTIONAL {
+	[] a fibo-fip:TradingSession ;
+		fibo-fip:isTradingSessionOf ?c ;
+		skos:exactMatch|skos:closeMatch ?xs
+	}
+
+	BIND(IRI(CONCAT(STR(day:),STRAFTER(STR(?xc),STR(cata:)),'-Full')) AS ?xcd)
+}
+;
+ECHO $ROWCNT "\n";
+CHECKPOINT;
+
+SET u{GRAPH} http://data.ga-group.nl/catasess/days/;
+LOAD '/data/data-source/bbstk/sql/prov-massage.sql';
+CHECKPOINT;
+
+
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX cata: <http://data.ga-group.nl/catasess/catalogues/>
+PREFIX sess: <http://data.ga-group.nl/catasess/sessions/>
 
 ##SELECT *
 ##FROM <http://data.ga-group.nl/bps/>

@@ -15,6 +15,7 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -941,7 +942,8 @@ cata:XASX-EXXXXX
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2024-03-27T10:38:37.630Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime .
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime ;
+	tempo:validFrom	"1987-04-01"^^xsd:date .
 
 cata:XASX-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
