@@ -15,15 +15,15 @@
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix tempo: <http://purl.org/tempo/> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix treg: <http://data.ga-group.nl/catasess/TradingRegimes/> .
+@prefix regm: <http://data.ga-group.nl/catasess/regimes/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 
 <> sh:entailment <http://www.w3.org/ns/entailment/RDFS> .
 
 ## shapes
-treg:TradingRegime-shape a sh:NodeShape ;
-	sh:targetClass treg:TradingRegime ;
+regm:TradingRegime-shape a sh:NodeShape ;
+	sh:targetClass regm:TradingRegime ;
 	## tests
 	sh:property rdfs:label-property ;
 	.

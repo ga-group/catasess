@@ -36,12 +36,13 @@ include(/data/data-source/bbstk/sql/dump-generic.sql)
 CREATE DUMP_PROCEDURE(dump_sessions,
 SPARQL
 DEFINE input:storage ""
-PREFIX fibo-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/>
-PREFIX delta: <http://www.w3.org/2004/delta#>
+PREFIX fibo-fip: <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/>
+PREFIX sess: <http://data.ga-group.nl/catasess/sessions/>
 SELECT ?s ?p ?o
 FROM <http://data.ga-group.nl/catasess/sessions/>
 WHERE {
 	?s a fibo-fip:TradingSession ; ?p ?o
+	FILTER(?s != sess:None)
 }
 );
 

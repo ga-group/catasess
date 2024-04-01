@@ -18,6 +18,7 @@ check: $(FILES:%.ttl=check.%)
 	&& touch $@
 
 check.sessions: ADDITIONAL = catalogues.ttl regimes.ttl
+check.days: ADDITIONAL = catalogues.ttl sessions.ttl
 
 tmp/import-from-bps.out: /data/data-source/bbstk/.imported.bps
 tmp/import-from-cal.out: /data/data-source/bbstk/.imported.bps /data/data-source/bbstk/.imported.cal
@@ -42,6 +43,10 @@ check.%: %.ttl shacl/%.shacl.sql
 
 %.rpt: /tmp/check.%.ttl
 	$(sparql) --results text --data $< --query sql/valrpt.sql
+%.anno: /tmp/check.%.ttl
+	mawk '!/violated-shape/||/\.$$/&&$$0="."' $*.ttl > $@
+	$(sparql) --data $< --query sql/rptanno.sql \
+	>> $@ && mv $@ $*.ttl
 
 
 tmp/%.out:: sql/%.sql
