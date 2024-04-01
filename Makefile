@@ -49,6 +49,11 @@ tmp/%.out:: sql/%.sql
 	| unqpc --only-printable \
 	> $@.t && mv $@.t $@
 
+tmp/%.out:: tmp/%.sql
+	$(csvsql) $< \
+	| unqpc --only-printable \
+	| tee $@.t && mv $@.t $@
+
 
 .imported.%:: %.ttl.repl sql/repl-%.sql
 	rapper -c -i turtle $<
