@@ -40,7 +40,7 @@ The identifier for a session is the product group's identifier suffixed by a ses
 	sm:filename	"sessions.ttl" .
 
 sess:None
-	a	fibo-fip:TradingSession ;
+	a	owl:NamedIndividual ;
 	rdfs:label	"No Session" ;
 	skos:note	"placeholder session to indicate that there is no session"@en .
 
@@ -160,6 +160,7 @@ sess:AMXO-OXXICS-CT
 	sess:activeFrom	"09:30:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:APEX-FXXXXX-1010-AMCT
@@ -175,7 +176,7 @@ sess:APEX-FXXXXX-1010-AMCT
 	sess:activeTill	"12:30:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Singapore> .
 
-sess:APEX-FXXXXX-1010-AMOA
+sess:APEX-FXXXXX-1010-OA
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://www.asiapacificex.com/products/fuel-oil-futures"^^xsd:anyURI ;
 	fibo-fip:isTradingSessionOf	cata:APEX-FXXXXX-1010 ;
@@ -199,6 +200,19 @@ sess:APEX-FXXXXX-1010-PMCT
 	rdfs:label	"PM Continuous Trading" ;
 	sess:activeFrom	"13:30:00"^^xsd:time ;
 	sess:activeTill	"18:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Singapore> .
+
+sess:APEX-FXXXXX-1010-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.asiapacificex.com/products/fuel-oil-futures"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:APEX-FXXXXX-1010 ;
+	pav:importedOn	"2022-05-25T07:56:56.483Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:05.449Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-25T07:56:56.483Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
+	rdfs:label	"Opening Match" ;
+	sess:activeFrom	"08:55:00"^^xsd:time ;
+	sess:activeTill	"08:59:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Singapore> .
 
 sess:APEX-FXXXXX-1020-T1CT
@@ -277,6 +291,7 @@ sess:APEX-FXXXXX-20-AMOA
 	rdfs:label	"Opening Match" ;
 	sess:activeFrom	"08:59:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Singapore> .
 
 sess:APEX-FXXXXX-20-PMCT
@@ -426,6 +441,7 @@ sess:ARCX-EXXXXX-OA
 	rdfs:label	"Opening Auction" ;
 	sess:activeFrom	"09:29:55"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:ARCX-EXXXXX-Pre
@@ -439,6 +455,7 @@ sess:ARCX-EXXXXX-Pre
 	rdfs:label	"Pre-Opening" ;
 	sess:activeFrom	"02:30:00"^^xsd:time ;
 	sess:activeTill	"03:59:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:BATE-EXXXXX-After
@@ -504,6 +521,7 @@ sess:BATS-EXXXXX-Early
 	rdfs:label	"Early Trading" ;
 	sess:activeFrom	"07:00:00"^^xsd:time ;
 	sess:activeTill	"08:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:BATS-EXXXXX-EarlyOA
@@ -517,6 +535,7 @@ sess:BATS-EXXXXX-EarlyOA
 	rdfs:label	"Early Order Acceptance" ;
 	sess:activeFrom	"06:00:00"^^xsd:time ;
 	sess:activeTill	"07:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:BATS-EXXXXX-Post
@@ -543,6 +562,7 @@ sess:BATS-EXXXXX-Pre
 	rdfs:label	"Pre-Market" ;
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:BATS-EXXXXX-Reg
@@ -568,6 +588,7 @@ sess:BATY-EXXXXX-Early
 	rdfs:label	"Early Trading" ;
 	sess:activeFrom	"07:00:00"^^xsd:time ;
 	sess:activeTill	"08:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:BATY-EXXXXX-EarlyOA
@@ -581,6 +602,7 @@ sess:BATY-EXXXXX-EarlyOA
 	rdfs:label	"Early Order Acceptance" ;
 	sess:activeFrom	"06:00:00"^^xsd:time ;
 	sess:activeTill	"07:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:BATY-EXXXXX-Post
@@ -607,6 +629,7 @@ sess:BATY-EXXXXX-Pre
 	rdfs:label	"Pre-Market" ;
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:BATY-EXXXXX-Reg
@@ -646,6 +669,7 @@ sess:BEUE-EXXXXX-Pre
 	rdfs:label	"Pre Market" ;
 	sess:activeFrom	"08:50:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
 sess:BEUE-EXXXXX-Reg
@@ -1196,8 +1220,7 @@ sess:CHIA-EXXXXX-CT
 	pav:sourceLastAccessedOn	"2024-03-27T10:37:20Z"^^xsd:dateTime ;
 	rdfs:label	"Australian Equities Continuous Trading" ;
 	sess:activeFrom	"10:00:00"^^xsd:time ;
-	sess:activeTill	"16:12:00"^^xsd:time , "16:13:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:activeTill	"16:13:00"^^xsd:time ;
 	skos:note	"including hidden market on close"@en ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -1214,7 +1237,6 @@ sess:CHIA-EXXXXX-Last
 	rdfs:label	"Australian Equities Last Trading Phase" ;
 	sess:activeFrom	"16:12:00"^^xsd:time ;
 	sess:activeTill	"16:20:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:CHIA-EXXXXX-Post
@@ -1231,7 +1253,6 @@ sess:CHIA-EXXXXX-Post
 	rdfs:label	"Australian Equities Post-Trading Administration" ;
 	sess:activeFrom	"16:13:00"^^xsd:time ;
 	sess:activeTill	"18:55:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:CHIA-EXXXXX-Pre
@@ -1247,7 +1268,6 @@ sess:CHIA-EXXXXX-Pre
 	rdfs:label	"Australian Equities Pre-market" ;
 	sess:activeFrom	"06:35:00"^^xsd:time ;
 	sess:activeTill	"10:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:CHIA-EXXXXX-T
@@ -1266,7 +1286,7 @@ At the end:
 	pav:lastRefreshedOn	"2024-03-19T04:07:24Z"^^xsd:dateTime ;
 	rdfs:label	"Australian Equities Technical Connectivity" ;
 	sess:activeFrom	"05:30:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sess:activeTill	"19:00:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:CHIJ-EXXXXX-CT
@@ -1358,6 +1378,7 @@ sess:EDGA-EXXXXX-Early
 	rdfs:label	"Early Trading" ;
 	sess:activeFrom	"07:00:00"^^xsd:time ;
 	sess:activeTill	"08:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:EDGA-EXXXXX-EarlyOA
@@ -1371,6 +1392,7 @@ sess:EDGA-EXXXXX-EarlyOA
 	rdfs:label	"Early Order Acceptance" ;
 	sess:activeFrom	"06:00:00"^^xsd:time ;
 	sess:activeTill	"07:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:EDGA-EXXXXX-Post
@@ -1397,6 +1419,7 @@ sess:EDGA-EXXXXX-Pre
 	rdfs:label	"Pre-Market" ;
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:EDGA-EXXXXX-Reg
@@ -1423,6 +1446,7 @@ sess:EDGX-EXXXXX-Early
 	rdfs:label	"Early Trading" ;
 	sess:activeFrom	"04:00:00"^^xsd:time ;
 	sess:activeTill	"08:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:EDGX-EXXXXX-EarlyOA
@@ -1436,6 +1460,7 @@ sess:EDGX-EXXXXX-EarlyOA
 	rdfs:label	"Early Order Acceptance" ;
 	sess:activeFrom	"02:30:00"^^xsd:time ;
 	sess:activeTill	"04:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:EDGX-EXXXXX-Post
@@ -1462,6 +1487,7 @@ sess:EDGX-EXXXXX-Pre
 	rdfs:label	"Pre-Market Trading" ;
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:EDGX-EXXXXX-Reg
@@ -1511,6 +1537,7 @@ sess:ENAX-EXXXXX-ClosingCAM
 	rdfs:label	"Closing Call Auction Method" , "Μέθοδος Συγκέντρωσης Εντολών και Δημοπρασίας"@el ;
 	sess:activeFrom	"17:00:00"^^xsd:time ;
 	sess:activeTill	"17:10:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Athens> .
 
 sess:ENAX-EXXXXX-OpeningCAM
@@ -1549,6 +1576,7 @@ sess:FNIS-EXXXXX-CT
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"09:30:00"^^xsd:time ;
 	sess:activeTill	"15:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Atlantic/Reykjavik> .
 
 sess:FNSE-EXXXXX-CT
@@ -1653,6 +1681,7 @@ sess:IEXG-EXXXXX-Pre
 	rdfs:label	"Pre-Market" ;
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:IINX-FXXXXX-CT-1
@@ -1665,7 +1694,6 @@ sess:IINX-FXXXXX-CT-1
 	rdfs:label	"India INX Futures Session 1" ;
 	sess:activeFrom	"04:30:00"^^xsd:time ;
 	sess:activeTill	"17:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
 
 sess:IINX-FXXXXX-CT-2
@@ -1678,7 +1706,6 @@ sess:IINX-FXXXXX-CT-2
 	rdfs:label	"India INX Futures Session 2" ;
 	sess:activeFrom	"17:00:01"^^xsd:time ;
 	sess:activeTill	"02:30:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
 
 sess:MALX-EXXXXX-CA
@@ -1873,7 +1900,6 @@ sess:MFOX-FFICSX-BT
 	rdfs:label	"Euronext Index Futures Large-in-Scale facility" ;
 	sess:activeFrom	"07:15:00"^^xsd:time ;
 	sess:activeTill	"18:30:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:MFOX-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
@@ -1888,15 +1914,9 @@ sess:MFOX-FFICSX-CT
 	rdfs:label	"Euronext Index Futures central order book" ;
 	sess:activeFrom	"09:01:00"^^xsd:time ;
 	sess:activeTill	"17:40:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:MFOX-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
-
-sess:None
-	a	fibo-fip:TradingSession ;
-	rdfs:label	"No Session" ;
-	skos:note	"placeholder session to indicate that there is no session"@en .
 
 sess:ODXE-EXXXXX-CT
 	a	fibo-fip:TradingSession ;
@@ -1922,6 +1942,7 @@ sess:ODXE-EXXXXX-PTSAM
 	rdfs:label	"AM PTS Margin Trading" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"11:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
 
 sess:ODXE-EXXXXX-PTSPM
@@ -1935,6 +1956,7 @@ sess:ODXE-EXXXXX-PTSPM
 	rdfs:label	"PM PTS Margin Trading" ;
 	sess:activeFrom	"12:30:00"^^xsd:time ;
 	sess:activeTill	"15:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
 
 sess:ROCO-EXXXXX-BT
@@ -1947,7 +1969,8 @@ sess:ROCO-EXXXXX-BT
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:09Z"^^xsd:dateTime ;
 	rdfs:label	"Block Trading" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
-	sess:activeTill	"17:00:00"^^xsd:time .
+	sess:activeTill	"17:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Taipei> .
 
 sess:ROCO-EXXXXX-BTPre
 	a	fibo-fip:TradingSession ;
@@ -1959,7 +1982,9 @@ sess:ROCO-EXXXXX-BTPre
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:09Z"^^xsd:dateTime ;
 	rdfs:label	"Early Block Trading" ;
 	sess:activeFrom	"08:00:00"^^xsd:time ;
-	sess:activeTill	"08:30:00"^^xsd:time .
+	sess:activeTill	"08:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Taipei> .
 
 sess:ROCO-EXXXXX-CA
 	a	fibo-fip:TradingSession ;
@@ -1971,7 +1996,8 @@ sess:ROCO-EXXXXX-CA
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:09Z"^^xsd:dateTime ;
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"13:25:00"^^xsd:time ;
-	sess:activeTill	"13:30:00"^^xsd:time .
+	sess:activeTill	"13:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Taipei> .
 
 sess:ROCO-EXXXXX-CT
 	a	fibo-fip:TradingSession ;
@@ -1983,7 +2009,8 @@ sess:ROCO-EXXXXX-CT
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:09Z"^^xsd:dateTime ;
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
-	sess:activeTill	"13:30:00"^^xsd:time .
+	sess:activeTill	"13:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Taipei> .
 
 sess:ROCO-EXXXXX-Odd
 	a	fibo-fip:TradingSession ;
@@ -1995,7 +2022,8 @@ sess:ROCO-EXXXXX-Odd
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:09Z"^^xsd:dateTime ;
 	rdfs:label	"Odd Lot Trading" ;
 	sess:activeFrom	"13:40:00"^^xsd:time ;
-	sess:activeTill	"14:30:00"^^xsd:time .
+	sess:activeTill	"14:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Taipei> .
 
 sess:ROCO-EXXXXX-Pre
 	a	fibo-fip:TradingSession ;
@@ -2007,7 +2035,8 @@ sess:ROCO-EXXXXX-Pre
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:09Z"^^xsd:dateTime ;
 	rdfs:label	"Opening" ;
 	sess:activeFrom	"08:30:00"^^xsd:time ;
-	sess:activeTill	"09:00:00"^^xsd:time .
+	sess:activeTill	"09:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Taipei> .
 
 sess:SBIU-EXXXXX-Day
 	a	fibo-fip:TradingSession ;
@@ -2046,6 +2075,7 @@ sess:SPDK-EXXXXX-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"16:55:00"^^xsd:time ;
 	sess:activeTill	"17:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPDK-EXXXXX-CT
@@ -2059,6 +2089,7 @@ sess:SPDK-EXXXXX-CT
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"16:55:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPDK-EXXXXX-OA
@@ -2072,6 +2103,7 @@ sess:SPDK-EXXXXX-OA
 	rdfs:label	"Pre Open" ;
 	sess:activeFrom	"08:45:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPDK-EXXXXX-Post
@@ -2085,6 +2117,7 @@ sess:SPDK-EXXXXX-Post
 	rdfs:label	"Post Open" ;
 	sess:activeFrom	"17:00:00"^^xsd:time ;
 	sess:activeTill	"18:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPDK-EXXXXX-Pre
@@ -2098,6 +2131,7 @@ sess:SPDK-EXXXXX-Pre
 	rdfs:label	"Pre Open" ;
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"08:45:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-CA
@@ -2111,6 +2145,7 @@ sess:SPNO-EXXXXX-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"16:20:00"^^xsd:time ;
 	sess:activeTill	"16:25:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-CA-half
@@ -2125,6 +2160,7 @@ sess:SPNO-EXXXXX-CA-half
 	sess:activeFrom	"13:00:00"^^xsd:time ;
 	sess:activeTill	"13:05:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-CT
@@ -2138,6 +2174,7 @@ sess:SPNO-EXXXXX-CT
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"16:20:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-CT-half
@@ -2152,6 +2189,7 @@ sess:SPNO-EXXXXX-CT-half
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-OA
@@ -2165,6 +2203,7 @@ sess:SPNO-EXXXXX-OA
 	rdfs:label	"Pre Open" ;
 	sess:activeFrom	"08:45:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-OA-half
@@ -2179,6 +2218,7 @@ sess:SPNO-EXXXXX-OA-half
 	sess:activeFrom	"08:45:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-Post
@@ -2192,6 +2232,7 @@ sess:SPNO-EXXXXX-Post
 	rdfs:label	"Post Open" ;
 	sess:activeFrom	"16:25:00"^^xsd:time ;
 	sess:activeTill	"17:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-Post-half
@@ -2206,6 +2247,7 @@ sess:SPNO-EXXXXX-Post-half
 	sess:activeFrom	"13:05:00"^^xsd:time ;
 	sess:activeTill	"13:55:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-Pre
@@ -2219,6 +2261,7 @@ sess:SPNO-EXXXXX-Pre
 	rdfs:label	"Pre Open" ;
 	sess:activeFrom	"08:15:00"^^xsd:time ;
 	sess:activeTill	"08:45:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:SPNO-EXXXXX-Pre-half
@@ -2233,6 +2276,7 @@ sess:SPNO-EXXXXX-Pre-half
 	sess:activeFrom	"08:15:00"^^xsd:time ;
 	sess:activeTill	"08:45:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XADE-FFICSX-CT
@@ -2245,7 +2289,6 @@ sess:XADE-FFICSX-CT
 	rdfs:label	"XADE Index Futures & Options CAMM Session Market ID 1" ;
 	sess:activeFrom	"10:10:00"^^xsd:time ;
 	sess:activeTill	"17:20:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	tempo:validFrom	"2019-10"^^xsd:gYearMonth ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Athens> .
 
@@ -2259,7 +2302,6 @@ sess:XADE-FFICSX-CT-2
 	rdfs:label	"XADE Index Futures & Options CAMM Session Market ID 1, half trading" ;
 	sess:activeFrom	"10:10:00"^^xsd:time ;
 	sess:activeTill	"15:20:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	tempo:validFrom	"2021-12-31"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Athens> .
 
@@ -2285,6 +2327,7 @@ sess:XAMM-EXXXXX-CT-delayed
 	rdfs:label	"Continuous Trading delayed" ;
 	sess:activeFrom	"11:30:00"^^xsd:time ;
 	sess:activeTill	"13:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Amman> .
 
 sess:XAMM-EXXXXX-CT-partial
@@ -2297,6 +2340,7 @@ sess:XAMM-EXXXXX-CT-partial
 	rdfs:label	"Continuous Trading partial" ;
 	sess:activeFrom	"10:00:00"^^xsd:time ;
 	sess:activeTill	"11:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Amman> .
 
 sess:XAMM-EXXXXX-Ext
@@ -2321,6 +2365,7 @@ sess:XAMM-EXXXXX-Ext-delayed
 	rdfs:label	"Block Trade delayed" ;
 	sess:activeFrom	"13:30:00"^^xsd:time ;
 	sess:activeTill	"13:45:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Amman> .
 
 sess:XAMM-EXXXXX-Ext-partial
@@ -2333,6 +2378,7 @@ sess:XAMM-EXXXXX-Ext-partial
 	rdfs:label	"Block Trade partial" ;
 	sess:activeFrom	"11:30:00"^^xsd:time ;
 	sess:activeTill	"11:35:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Amman> .
 
 sess:XAMM-EXXXXX-Pre
@@ -2345,6 +2391,7 @@ sess:XAMM-EXXXXX-Pre
 	rdfs:label	"Beginning of day enquiries" ;
 	sess:activeFrom	"09:30:00"^^xsd:time ;
 	sess:activeTill	"11:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Amman> .
 
 sess:XAMM-EXXXXX-Pre-delayed
@@ -2357,6 +2404,7 @@ sess:XAMM-EXXXXX-Pre-delayed
 	rdfs:label	"Beginning of day enquiries delayed" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"11:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Amman> .
 
 sess:XAMM-EXXXXX-Pre-partial
@@ -2369,6 +2417,7 @@ sess:XAMM-EXXXXX-Pre-partial
 	rdfs:label	"Beginning of day enquiries partial" ;
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Amman> .
 
 sess:XAMS-EXXXXX-CA
@@ -2437,6 +2486,7 @@ sess:XASE-EXXXXX-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"15:50:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:XASE-EXXXXX-CT
@@ -2469,6 +2519,7 @@ sess:XASE-EXXXXX-EarlyOA
 	rdfs:label	"Early Open Auction" ;
 	sess:activeFrom	"06:59:00"^^xsd:time ;
 	sess:activeTill	"07:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:XASE-EXXXXX-OA
@@ -2485,6 +2536,7 @@ sess:XASE-EXXXXX-OA
 	rdfs:label	"Core Open Auction" ;
 	sess:activeFrom	"09:29:55"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:XASE-EXXXXX-OAC
@@ -2559,6 +2611,7 @@ sess:XASX-EXXXXX-CA-Half
 	rdfs:label	"Closing Match" ;
 	sess:activeFrom	"14:10:00"^^xsd:time ;
 	sess:activeTill	"14:12:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:XASX-EXXXXX-CAC
@@ -2585,6 +2638,7 @@ sess:XASX-EXXXXX-CAC-Half
 	rdfs:label	"Closing Auction Call" ;
 	sess:activeFrom	"14:00:00"^^xsd:time ;
 	sess:activeTill	"14:10:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:XASX-EXXXXX-CT
@@ -2611,6 +2665,7 @@ sess:XASX-EXXXXX-CT-Half
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"10:00:00"^^xsd:time ;
 	sess:activeTill	"14:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:XASX-EXXXXX-Pre
@@ -2634,7 +2689,7 @@ sess:XASX-EXXXXX-Staggered
 	pav:lastRefreshedOn	"2024-03-27T12:24:08.595Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime ;
-	rdfs:label	"Opening Match Auction" ;
+	rdfs:label	"Opening Auction" ;
 	sess:activeFrom	"10:00:00"^^xsd:time ;
 	sess:activeTill	"10:10:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
@@ -2649,7 +2704,6 @@ sess:XASX-OXXICS-CT-Day
 	rdfs:label	"ASX Index Options Day Session" ;
 	sess:activeFrom	"09:50:00"^^xsd:time ;
 	sess:activeTill	"16:30:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -2663,7 +2717,6 @@ sess:XASX-OXXICS-CT-Night-EDT
 	rdfs:label	"ASX Index Options Night Session during New York Daylight Saving" ;
 	sess:activeFrom	"17:10:00"^^xsd:time ;
 	sess:activeTill	"07:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -2677,7 +2730,6 @@ sess:XASX-OXXICS-CT-Night-EST
 	rdfs:label	"ASX Index Options Night Session during New York Standard" ;
 	sess:activeFrom	"17:10:00"^^xsd:time ;
 	sess:activeTill	"08:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -2756,7 +2808,6 @@ sess:XBRD-FFICSX-BT
 	rdfs:label	"Euronext Brussels Large-in-Scale index futures" ;
 	sess:activeFrom	"07:15:00"^^xsd:time ;
 	sess:activeTill	"18:30:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XBRD-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
@@ -2771,7 +2822,6 @@ sess:XBRD-FFICSX-BT-Last
 	rdfs:label	"Euronext Brussels Large-in-Scale index futures on expiry" ;
 	sess:activeFrom	"07:15:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XBRD-LiS ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
@@ -2786,7 +2836,6 @@ sess:XBRD-FFICSX-CT
 	rdfs:label	"Euronext Brussels index futures" ;
 	sess:activeFrom	"09:01:00"^^xsd:time ;
 	sess:activeTill	"17:40:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XBRD-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
@@ -2801,7 +2850,6 @@ sess:XBRD-FFICSX-CT-Last
 	rdfs:label	"Euronext Brussels index futures on expiry" ;
 	sess:activeFrom	"09:01:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XBRD-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
@@ -2882,6 +2930,7 @@ sess:XCAS-EXXXXX-TAC
 	rdfs:label	"Closing Price Cross" ;
 	sess:activeFrom	"15:31:00"^^xsd:time ;
 	sess:activeTill	"15:40:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Casablanca> .
 
 sess:XCAY-EXXXXX-CT
@@ -2909,6 +2958,7 @@ sess:XCBT-FCAPXX-CT-Day
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"13:20:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
 
 sess:XCBT-FCAPXX-CT-Night
@@ -2922,6 +2972,7 @@ sess:XCBT-FCAPXX-CT-Night
 	sess:activeFrom	"19:00:00"^^xsd:time ;
 	sess:activeTill	"07:45:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
 
 sess:XCBT-FCAXXX-CT
@@ -2935,6 +2986,7 @@ sess:XCBT-FCAXXX-CT
 	sess:activeFrom	"17:00:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
 
 sess:XCBT-FFXXXX-CT
@@ -2948,6 +3000,7 @@ sess:XCBT-FFXXXX-CT
 	sess:activeFrom	"17:00:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
 
 sess:XCBT-ZR-CT-Day
@@ -2961,6 +3014,7 @@ sess:XCBT-ZR-CT-Day
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"13:20:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
 
 sess:XCBT-ZR-CT-Late
@@ -2974,9 +3028,10 @@ sess:XCBT-ZR-CT-Late
 	sess:activeFrom	"19:00:00"^^xsd:time ;
 	sess:activeTill	"21:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
 
-sess:XCBT-ZR-PO-Mon
+sess:XCBT-ZR-PO
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
 	dct:source	"https://www.cmegroup.com/markets/agriculture/grains/rough-rice.contractSpecs.html"^^xsd:anyURI ;
@@ -2986,7 +3041,8 @@ sess:XCBT-ZR-PO-Mon
 	rdfs:label	"CBOT Rough Rice Monday pre-open" ;
 	sess:activeFrom	"16:45:00"^^xsd:time ;
 	sess:activeTill	"19:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday ;
+	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
 
 sess:XCBT-ZR-PO-Sun
@@ -3000,6 +3056,7 @@ sess:XCBT-ZR-PO-Sun
 	sess:activeFrom	"16:00:00"^^xsd:time ;
 	sess:activeTill	"19:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Sunday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
 
 sess:XCHI-EXXXXX-CT
@@ -3055,6 +3112,7 @@ sess:XCHI-EXXXXX-Pre
 	rdfs:label	"Pre-Opening" ;
 	sess:activeFrom	"05:30:00"^^xsd:time ;
 	sess:activeTill	"06:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Chicago> .
 
 sess:XCIS-EXXXXX-CT
@@ -3110,6 +3168,7 @@ sess:XCIS-EXXXXX-Pre
 	rdfs:label	"Pre-Opening" ;
 	sess:activeFrom	"06:30:00"^^xsd:time ;
 	sess:activeTill	"07:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:XCSE-EXXXXX-CA
@@ -3201,6 +3260,7 @@ sess:XECM-EXXXXX-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"17:06:00"^^xsd:time ;
 	sess:activeTill	"17:08:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Nicosia> .
 
 sess:XECM-EXXXXX-CAC
@@ -3271,7 +3331,7 @@ sess:XECM-EXXXXX-TAC
 sess:XEMD-FXXXXX-5010-CT
 	a	fibo-fip:TradingSession ;
 	dct:source	"http://www.mexder.com.mx/wb3/wb/MEX/contratos_futuro"^^xsd:anyURI ;
-	fibo-fip:isTradingSessionOf	cata:XEMD-FXXXXX ;
+	fibo-fip:isTradingSessionOf	cata:XEMD-FXXXXX-5010 ;
 	pav:importedOn	"2022-05-25T07:56:56.483Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2024-03-19T12:48:37.117Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-25T07:56:56.483Z"^^xsd:dateTime ;
@@ -3284,7 +3344,7 @@ sess:XEMD-FXXXXX-5010-CT
 sess:XEMD-FXXXXX-5020-CT
 	a	fibo-fip:TradingSession ;
 	dct:source	"http://www.mexder.com.mx/wb3/wb/MEX/contratos_futuro"^^xsd:anyURI ;
-	fibo-fip:isTradingSessionOf	cata:XEMD-FXXXXX ;
+	fibo-fip:isTradingSessionOf	cata:XEMD-FXXXXX-5020 ;
 	pav:importedOn	"2022-05-25T07:56:56.483Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2024-03-19T12:48:37.117Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-25T07:56:56.483Z"^^xsd:dateTime ;
@@ -3297,7 +3357,7 @@ sess:XEMD-FXXXXX-5020-CT
 sess:XEMD-FXXXXX-5030-CT
 	a	fibo-fip:TradingSession ;
 	dct:source	"http://www.mexder.com.mx/wb3/wb/MEX/contratos_futuro"^^xsd:anyURI ;
-	fibo-fip:isTradingSessionOf	cata:XEMD-FXXXXX ;
+	fibo-fip:isTradingSessionOf	cata:XEMD-FXXXXX-5030 ;
 	pav:importedOn	"2022-05-25T07:56:56.483Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2024-03-19T12:48:37.117Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-25T07:56:56.483Z"^^xsd:dateTime ;
@@ -3422,6 +3482,7 @@ sess:XETA-EXXXXX-DAX-MA
 	rdfs:label	"Mid-day Auction" ;
 	sess:activeFrom	"13:00:00"^^xsd:time ;
 	sess:activeTill	"13:02:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DAX-OA
@@ -3435,6 +3496,7 @@ sess:XETA-EXXXXX-DAX-OA
 	rdfs:label	"Opening auction" ;
 	sess:activeFrom	"08:50:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DAX-Post
@@ -3448,6 +3510,7 @@ sess:XETA-EXXXXX-DAX-Post
 	rdfs:label	"Post-trading" ;
 	sess:activeFrom	"17:45:00"^^xsd:time ;
 	sess:activeTill	"20:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DAX-Pre
@@ -3474,6 +3537,7 @@ sess:XETA-EXXXXX-DAX-TAC
 	rdfs:label	"Trade At Close" ;
 	sess:activeFrom	"17:35:00"^^xsd:time ;
 	sess:activeTill	"17:45:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DE-CA
@@ -3487,6 +3551,7 @@ sess:XETA-EXXXXX-DE-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"17:30:00"^^xsd:time ;
 	sess:activeTill	"17:35:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DE-CT
@@ -3500,6 +3565,7 @@ sess:XETA-EXXXXX-DE-CT
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"09:02:00"^^xsd:time ;
 	sess:activeTill	"17:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DE-MA
@@ -3513,6 +3579,7 @@ sess:XETA-EXXXXX-DE-MA
 	rdfs:label	"Mid-day Auction" ;
 	sess:activeFrom	"13:15:00"^^xsd:time ;
 	sess:activeTill	"13:17:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DE-OA
@@ -3526,6 +3593,7 @@ sess:XETA-EXXXXX-DE-OA
 	rdfs:label	"Opening auction" ;
 	sess:activeFrom	"08:51:00"^^xsd:time ;
 	sess:activeTill	"09:02:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DE-Post
@@ -3539,6 +3607,7 @@ sess:XETA-EXXXXX-DE-Post
 	rdfs:label	"Post-trading" ;
 	sess:activeFrom	"17:45:00"^^xsd:time ;
 	sess:activeTill	"20:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DE-Pre
@@ -3552,6 +3621,7 @@ sess:XETA-EXXXXX-DE-Pre
 	rdfs:label	"Pre-trading" ;
 	sess:activeFrom	"07:30:00"^^xsd:time ;
 	sess:activeTill	"08:51:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETA-EXXXXX-DE-TAC
@@ -3565,6 +3635,7 @@ sess:XETA-EXXXXX-DE-TAC
 	rdfs:label	"Trade At Close" ;
 	sess:activeFrom	"17:35:00"^^xsd:time ;
 	sess:activeTill	"17:45:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETC-EXXXXX-CA
@@ -3578,6 +3649,7 @@ sess:XETC-EXXXXX-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"17:30:00"^^xsd:time ;
 	sess:activeTill	"17:35:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETC-EXXXXX-CT
@@ -3591,6 +3663,7 @@ sess:XETC-EXXXXX-CT
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"09:04:00"^^xsd:time ;
 	sess:activeTill	"17:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETC-EXXXXX-MA
@@ -3604,6 +3677,7 @@ sess:XETC-EXXXXX-MA
 	rdfs:label	"Mid-day Auction" ;
 	sess:activeFrom	"13:15:00"^^xsd:time ;
 	sess:activeTill	"13:17:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETC-EXXXXX-OA
@@ -3617,6 +3691,7 @@ sess:XETC-EXXXXX-OA
 	rdfs:label	"Opening auction" ;
 	sess:activeFrom	"08:50:00"^^xsd:time ;
 	sess:activeTill	"09:04:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETC-EXXXXX-Post
@@ -3630,6 +3705,7 @@ sess:XETC-EXXXXX-Post
 	rdfs:label	"Post-trading" ;
 	sess:activeFrom	"17:45:00"^^xsd:time ;
 	sess:activeTill	"20:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETC-EXXXXX-Pre
@@ -3643,6 +3719,7 @@ sess:XETC-EXXXXX-Pre
 	rdfs:label	"Pre-trading" ;
 	sess:activeFrom	"07:30:00"^^xsd:time ;
 	sess:activeTill	"08:50:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XETC-EXXXXX-TAC
@@ -3656,6 +3733,7 @@ sess:XETC-EXXXXX-TAC
 	rdfs:label	"Trade At Close" ;
 	sess:activeFrom	"17:35:00"^^xsd:time ;
 	sess:activeTill	"17:45:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-BT-Summer
@@ -3669,6 +3747,7 @@ sess:XEUR-DAX-BT-Summer
 	sess:activeFrom	"02:15:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-BT-Winter
@@ -3682,6 +3761,7 @@ sess:XEUR-DAX-BT-Winter
 	sess:activeFrom	"01:15:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-CT-Summer
@@ -3695,6 +3775,7 @@ sess:XEUR-DAX-CT-Summer
 	sess:activeFrom	"02:10:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-CT-Summer-Last
@@ -3708,6 +3789,7 @@ sess:XEUR-DAX-CT-Summer-Last
 	sess:activeFrom	"02:10:00"^^xsd:time ;
 	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-CT-Winter
@@ -3721,6 +3803,7 @@ sess:XEUR-DAX-CT-Winter
 	sess:activeFrom	"01:10:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-CT-Winter-Last
@@ -3734,6 +3817,7 @@ sess:XEUR-DAX-CT-Winter-Last
 	sess:activeFrom	"01:10:00"^^xsd:time ;
 	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-Post
@@ -3747,6 +3831,7 @@ sess:XEUR-DAX-Post
 	sess:activeFrom	"22:00:00"^^xsd:time ;
 	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-Post-Last
@@ -3760,6 +3845,7 @@ sess:XEUR-DAX-Post-Last
 	sess:activeFrom	"13:00:00"^^xsd:time ;
 	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-Pre-Summer
@@ -3773,6 +3859,7 @@ sess:XEUR-DAX-Pre-Summer
 	sess:activeFrom	"02:00:00"^^xsd:time ;
 	sess:activeTill	"02:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-DAX-Pre-Winter
@@ -3786,6 +3873,7 @@ sess:XEUR-DAX-Pre-Winter
 	sess:activeFrom	"01:00:00"^^xsd:time ;
 	sess:activeTill	"01:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-BT-Summer
@@ -3799,6 +3887,7 @@ sess:XEUR-ESX-BT-Summer
 	sess:activeFrom	"02:15:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-BT-Winter
@@ -3812,6 +3901,7 @@ sess:XEUR-ESX-BT-Winter
 	sess:activeFrom	"01:15:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-CT-Summer
@@ -3825,6 +3915,7 @@ sess:XEUR-ESX-CT-Summer
 	sess:activeFrom	"02:10:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-CT-Summer-Last
@@ -3838,6 +3929,7 @@ sess:XEUR-ESX-CT-Summer-Last
 	sess:activeFrom	"02:10:00"^^xsd:time ;
 	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-CT-Winter
@@ -3851,6 +3943,7 @@ sess:XEUR-ESX-CT-Winter
 	sess:activeFrom	"01:10:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-CT-Winter-Last
@@ -3864,6 +3957,7 @@ sess:XEUR-ESX-CT-Winter-Last
 	sess:activeFrom	"01:10:00"^^xsd:time ;
 	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-Post
@@ -3877,6 +3971,7 @@ sess:XEUR-ESX-Post
 	sess:activeFrom	"22:00:00"^^xsd:time ;
 	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-Post-Last
@@ -3890,6 +3985,7 @@ sess:XEUR-ESX-Post-Last
 	sess:activeFrom	"13:00:00"^^xsd:time ;
 	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-Pre-Summer
@@ -3903,6 +3999,7 @@ sess:XEUR-ESX-Pre-Summer
 	sess:activeFrom	"02:00:00"^^xsd:time ;
 	sess:activeTill	"02:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-ESX-Pre-Winter
@@ -3916,6 +4013,7 @@ sess:XEUR-ESX-Pre-Winter
 	sess:activeFrom	"01:00:00"^^xsd:time ;
 	sess:activeTill	"01:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FBT-BT
@@ -3929,6 +4027,7 @@ sess:XEUR-FBT-BT
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"19:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FBT-CT
@@ -3942,6 +4041,7 @@ sess:XEUR-FBT-CT
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"19:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FBT-CT-Last
@@ -3955,6 +4055,7 @@ sess:XEUR-FBT-CT-Last
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"12:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FBT-Post
@@ -3968,6 +4069,7 @@ sess:XEUR-FBT-Post
 	sess:activeFrom	"19:00:00"^^xsd:time ;
 	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FBT-Post-Last
@@ -3981,6 +4083,7 @@ sess:XEUR-FBT-Post-Last
 	sess:activeFrom	"12:30:00"^^xsd:time ;
 	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FBT-Pre
@@ -3994,6 +4097,7 @@ sess:XEUR-FBT-Pre
 	sess:activeFrom	"07:30:00"^^xsd:time ;
 	sess:activeTill	"08:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-BT-Summer
@@ -4007,6 +4111,7 @@ sess:XEUR-FGB-BT-Summer
 	sess:activeFrom	"02:15:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-BT-Winter
@@ -4020,6 +4125,7 @@ sess:XEUR-FGB-BT-Winter
 	sess:activeFrom	"01:15:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-CT-Summer
@@ -4033,6 +4139,7 @@ sess:XEUR-FGB-CT-Summer
 	sess:activeFrom	"02:10:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-CT-Summer-Last
@@ -4046,6 +4153,7 @@ sess:XEUR-FGB-CT-Summer-Last
 	sess:activeFrom	"02:10:00"^^xsd:time ;
 	sess:activeTill	"12:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-CT-Winter
@@ -4059,6 +4167,7 @@ sess:XEUR-FGB-CT-Winter
 	sess:activeFrom	"01:10:00"^^xsd:time ;
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-CT-Winter-Last
@@ -4072,6 +4181,7 @@ sess:XEUR-FGB-CT-Winter-Last
 	sess:activeFrom	"01:10:00"^^xsd:time ;
 	sess:activeTill	"12:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-Post
@@ -4085,6 +4195,7 @@ sess:XEUR-FGB-Post
 	sess:activeFrom	"22:00:00"^^xsd:time ;
 	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-Post-Last
@@ -4098,6 +4209,7 @@ sess:XEUR-FGB-Post-Last
 	sess:activeFrom	"12:30:00"^^xsd:time ;
 	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-Pre-Summer
@@ -4111,6 +4223,7 @@ sess:XEUR-FGB-Pre-Summer
 	sess:activeFrom	"02:00:00"^^xsd:time ;
 	sess:activeTill	"02:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XEUR-FGB-Pre-Winter
@@ -4124,6 +4237,7 @@ sess:XEUR-FGB-Pre-Winter
 	sess:activeFrom	"01:00:00"^^xsd:time ;
 	sess:activeTill	"01:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Berlin> .
 
 sess:XFKA-EXXXXX-AMCDA
@@ -4177,6 +4291,7 @@ sess:XFTA-FMX-BT
 	sess:activeTill	"18:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XFTA-LiS ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -4192,6 +4307,7 @@ sess:XFTA-FMX-BT-Last
 	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XFTA-LiS ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -4207,6 +4323,7 @@ sess:XFTA-FMX-CT
 	sess:activeTill	"17:40:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XFTA-COB ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -4222,6 +4339,7 @@ sess:XFTA-FMX-CT-Last
 	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XFTA-COB ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -4237,6 +4355,7 @@ sess:XFTA-FTI-BT
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XFTA-LiS ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -4252,6 +4371,7 @@ sess:XFTA-FTI-BT-Last
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XFTA-LiS ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -4267,6 +4387,7 @@ sess:XFTA-FTI-CT
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XFTA-COB ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -4282,6 +4403,7 @@ sess:XFTA-FTI-CT-Last
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XFTA-COB ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
@@ -4478,6 +4600,7 @@ sess:XKAC-FXXXXX-Night
 	rdfs:label	"Night session" ;
 	sess:activeFrom	"16:30:00"^^xsd:time ;
 	sess:activeTill	"06:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
 
 sess:XKAZ-EXXXXX-CT
@@ -4504,6 +4627,7 @@ sess:XKAZ-EXXXXX-OA
 	rdfs:label	"Opening Auction" ;
 	sess:activeFrom	"11:20:00"^^xsd:time ;
 	sess:activeTill	"11:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Almaty> .
 
 sess:XKFB-EXXXXX-CT
@@ -5256,6 +5380,7 @@ sess:XLUX-EXXXXX-OA
 	rdfs:label	"Opening Auction" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Luxembourg> .
 
 sess:XLUX-EXXXXX-TAC
@@ -5282,6 +5407,7 @@ sess:XLUX-EXXXXX-YBYN1
 	rdfs:label	"Group YB, YN Auction 1" ;
 	sess:activeFrom	"10:00:00"^^xsd:time ;
 	sess:activeTill	"10:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Luxembourg> .
 
 sess:XLUX-EXXXXX-YBYN2
@@ -5295,6 +5421,7 @@ sess:XLUX-EXXXXX-YBYN2
 	rdfs:label	"Group YB, YN Auction 2" ;
 	sess:activeFrom	"13:00:00"^^xsd:time ;
 	sess:activeTill	"13:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Luxembourg> .
 
 sess:XLUX-EXXXXX-YBYN3
@@ -5308,6 +5435,7 @@ sess:XLUX-EXXXXX-YBYN3
 	rdfs:label	"Group YB, YN Auction 3" ;
 	sess:activeFrom	"16:00:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Luxembourg> .
 
 sess:XMAB-FXXXXX-CT
@@ -5509,6 +5637,7 @@ sess:XMON-FFICSX-BT
 	sess:activeTill	"22:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XMON-LiS ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -5524,6 +5653,7 @@ sess:XMON-FFICSX-BT-Last
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XMON-LiS ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -5539,6 +5669,7 @@ sess:XMON-FFICSX-CT
 	sess:activeTill	"17:40:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XMON-COB ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -5554,6 +5685,7 @@ sess:XMON-FFICSX-CT-Last
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XMON-COB ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
@@ -5764,7 +5896,6 @@ sess:XNEP-EXXXXX-CT
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"11:00:00"^^xsd:time ;
 	sess:activeTill	"15:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
 	tempo:validFrom	"2022-06-15"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kathmandu> .
 
@@ -5778,7 +5909,6 @@ sess:XNEP-EXXXXX-CT-Fri
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"11:00:00"^^xsd:time ;
 	sess:activeTill	"13:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Friday ;
 	tempo:validFrom	"2022-06-15"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kathmandu> .
 
@@ -5793,6 +5923,7 @@ sess:XNEP-EXXXXX-CT_2016-07-17
 	sess:activeFrom	"12:00:00"^^xsd:time ;
 	sess:activeTill	"15:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validTill	"2016-07-17"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kathmandu> .
 
@@ -5807,6 +5938,7 @@ sess:XNEP-EXXXXX-CT_2020-03-15
 	sess:activeFrom	"11:00:00"^^xsd:time ;
 	sess:activeTill	"15:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2016-07-17"^^xsd:date ;
 	tempo:validTill	"2020-03-15"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kathmandu> .
@@ -5822,6 +5954,7 @@ sess:XNEP-EXXXXX-CT_2022-06-15
 	sess:activeFrom	"10:30:00"^^xsd:time ;
 	sess:activeTill	"15:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2020-03-15"^^xsd:date ;
 	tempo:validTill	"2022-06-15"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Kathmandu> .
@@ -5847,7 +5980,7 @@ sess:XNGM-EXXXXX-CT
 	pav:lastRefreshedOn	"2024-03-27T12:28:52.177Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:20:18Z"^^xsd:dateTime ;
-	rdfs:label	"Continuous Trading Period" ;
+	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"17:30:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
@@ -5863,6 +5996,7 @@ sess:XNGM-EXXXXX-Post
 	rdfs:label	"Post-closing" ;
 	sess:activeFrom	"17:30:00"^^xsd:time ;
 	sess:activeTill	"18:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XNGM-EXXXXX-Pre
@@ -5928,6 +6062,7 @@ sess:XNGO-EXXXXX-AMTAC
 	rdfs:label	"AM Closing Price Trades" ;
 	sess:activeFrom	"11:35:00"^^xsd:time ;
 	sess:activeTill	"12:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
 
 sess:XNGO-EXXXXX-PMCA
@@ -5980,6 +6115,7 @@ sess:XNGO-EXXXXX-PMTAC
 	rdfs:label	"PM Closing Price Trades" ;
 	sess:activeFrom	"15:35:00"^^xsd:time ;
 	sess:activeTill	"16:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
 
 sess:XNGO-EXXXXX-Repo
@@ -5993,6 +6129,7 @@ sess:XNGO-EXXXXX-Repo
 	rdfs:label	"Company Share Repurchase Trading" ;
 	sess:activeFrom	"08:20:00"^^xsd:time ;
 	sess:activeTill	"08:45:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
 
 sess:XNGS-EXXXXX-CT
@@ -6152,6 +6289,7 @@ sess:XPAR-EXXXXX-CU
 	rdfs:label	"Closing uncrossing" ;
 	sess:activeFrom	"17:35:00"^^xsd:time ;
 	sess:activeTill	"17:35:30"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
 sess:XPAR-EXXXXX-OU
@@ -6165,6 +6303,7 @@ sess:XPAR-EXXXXX-OU
 	rdfs:label	"Opening uncrossing" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"09:00:30"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
 sess:XPAR-EXXXXX-Pre
@@ -6191,6 +6330,7 @@ sess:XPAR-EXXXXX-TAL
 	rdfs:label	"Trade At Last" ;
 	sess:activeFrom	"17:35:00"^^xsd:time ;
 	sess:activeTill	"17:40:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
 
 sess:XPSX-EXXXXX-CT
@@ -6244,7 +6384,7 @@ The Closing Call Auction takes place between 15:59:30 and 16:00:00. A random unc
 	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:18:49Z"^^xsd:dateTime ;
 	rdfs:label	"Closing Call Auction (Uncross)" ;
-	sess:activeFrom	"15:59:30"^^xsd:time , "16:00:00"^^xsd:time ;
+	sess:activeFrom	"15:59:30"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Riga> .
 
@@ -6279,7 +6419,7 @@ During the Opening Call Auction, order books move to continuous trading. Thus ma
 	pav:sourceLastAccessedOn	"2024-03-27T10:18:49Z"^^xsd:dateTime ;
 	rdfs:label	"Opening Call Auction (Uncross)" ;
 	sess:activeFrom	"10:00:00"^^xsd:time ;
-	sess:activeTill	"10:00:00"^^xsd:time , "10:00:05"^^xsd:time ;
+	sess:activeTill	"10:00:05"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Riga> .
 
 sess:XRIS-EXXXXX-PC
@@ -6349,6 +6489,7 @@ sess:XSAP-EXXXXX-AMCA_1991-04-30
 	rdfs:label	"AM Closing Auction" ;
 	sess:activeFrom	"11:30:00"^^xsd:time ;
 	sess:activeTill	"11:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"1951-04-23"^^xsd:date ;
 	tempo:validTill	"1991-04-30"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -6364,6 +6505,7 @@ sess:XSAP-EXXXXX-AMCA_2011-11-21
 	rdfs:label	"AM Closing Auction" ;
 	sess:activeFrom	"11:00:00"^^xsd:time ;
 	sess:activeTill	"11:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"1991-04-30"^^xsd:date ;
 	tempo:validTill	"2011-11-21"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -6393,6 +6535,7 @@ sess:XSAP-EXXXXX-AMCT_1991-04-30
 	rdfs:label	"AM Continuous Trading" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"11:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"1951-04-23"^^xsd:date ;
 	tempo:validTill	"1991-04-30"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -6408,6 +6551,7 @@ sess:XSAP-EXXXXX-AMCT_2011-11-21
 	rdfs:label	"AM Continuous Trading" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"11:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"1991-04-30"^^xsd:date ;
 	tempo:validTill	"2011-11-21"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -6437,6 +6581,7 @@ sess:XSAP-EXXXXX-PMCA_1991-04-30
 	rdfs:label	"PM Closing Auction" ;
 	sess:activeFrom	"15:30:00"^^xsd:time ;
 	sess:activeTill	"15:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"1951-04-23"^^xsd:date ;
 	tempo:validTill	"1991-04-30"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -6452,6 +6597,7 @@ sess:XSAP-EXXXXX-PMCA_2011-11-21
 	rdfs:label	"PM Closing Auction" ;
 	sess:activeFrom	"15:30:00"^^xsd:time ;
 	sess:activeTill	"15:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"1991-04-30"^^xsd:date ;
 	tempo:validTill	"2011-11-21"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -6481,6 +6627,7 @@ sess:XSAP-EXXXXX-PMCT_1991-04-30
 	rdfs:label	"PM Continuous Trading" ;
 	sess:activeFrom	"13:00:00"^^xsd:time ;
 	sess:activeTill	"15:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"1951-04-23"^^xsd:date ;
 	tempo:validTill	"1991-04-30"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -6496,6 +6643,7 @@ sess:XSAP-EXXXXX-PMCT_2011-11-21
 	rdfs:label	"PM Continuous Trading" ;
 	sess:activeFrom	"12:30:00"^^xsd:time ;
 	sess:activeTill	"15:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"1991-04-30"^^xsd:date ;
 	tempo:validTill	"2011-11-21"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
@@ -6525,6 +6673,7 @@ sess:XSAT-EXXXXX-CA-half
 	sess:activeFrom	"12:55:00"^^xsd:time ;
 	sess:activeTill	"13:00:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XSAT-EXXXXX-CT
@@ -6552,6 +6701,7 @@ sess:XSAT-EXXXXX-CT-half
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"12:55:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XSAT-EXXXXX-OA
@@ -6565,6 +6715,7 @@ sess:XSAT-EXXXXX-OA
 	rdfs:label	"Pre Open" ;
 	sess:activeFrom	"08:45:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XSAT-EXXXXX-OA-half
@@ -6579,6 +6730,7 @@ sess:XSAT-EXXXXX-OA-half
 	sess:activeFrom	"08:45:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XSAT-EXXXXX-Post
@@ -6606,6 +6758,7 @@ sess:XSAT-EXXXXX-Post-half
 	sess:activeFrom	"13:00:00"^^xsd:time ;
 	sess:activeTill	"13:20:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XSAT-EXXXXX-Pre
@@ -6619,6 +6772,7 @@ sess:XSAT-EXXXXX-Pre
 	rdfs:label	"Pre Open" ;
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"08:45:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XSAT-EXXXXX-Pre-half
@@ -6633,6 +6787,7 @@ sess:XSAT-EXXXXX-Pre-half
 	sess:activeFrom	"08:00:00"^^xsd:time ;
 	sess:activeTill	"08:45:00"^^xsd:time ;
 	sess:efficaciousOn	sess:HalfDay ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XSBI-EXXXXX-Day
@@ -6659,6 +6814,7 @@ sess:XSBI-EXXXXX-Night
 	rdfs:label	"Nighttime session" ;
 	sess:activeFrom	"16:30:00"^^xsd:time ;
 	sess:activeTill	"06:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
 
 sess:XSFE-BB-CT-Day
@@ -6672,6 +6828,7 @@ sess:XSFE-BB-CT-Day
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
 
@@ -6686,6 +6843,7 @@ sess:XSFE-BB-CT-Night
 	sess:activeFrom	"17:40:00"^^xsd:time ;
 	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
 
@@ -6701,6 +6859,7 @@ sess:XSFE-FFAXXX-CT-Day
 	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6716,6 +6875,7 @@ sess:XSFE-FFAXXX-CT-Final
 	sess:activeTill	"12:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6731,6 +6891,7 @@ sess:XSFE-FFAXXX-CT-Night
 	sess:activeTill	"19:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6746,6 +6907,7 @@ sess:XSFE-FFAXXX-Pre_Open
 	sess:activeTill	"11:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Pre_Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6761,6 +6923,7 @@ sess:XSFE-FFICSX-CT-Day
 	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6776,6 +6939,7 @@ sess:XSFE-FFICSX-CT-Night-D
 	sess:activeTill	"08:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6791,6 +6955,7 @@ sess:XSFE-FFICSX-CT-Night-S
 	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6806,6 +6971,7 @@ sess:XSFE-FFICSX-Pre_Open
 	sess:activeTill	"09:50:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Pre_Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6821,6 +6987,7 @@ sess:XSFE-IB-CT-Day
 	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6836,6 +7003,7 @@ sess:XSFE-IB-CT-Night-D
 	sess:activeTill	"07:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6851,6 +7019,7 @@ sess:XSFE-IB-CT-Night-S
 	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6866,6 +7035,7 @@ sess:XSFE-IR-CT-Day
 	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6881,6 +7051,7 @@ sess:XSFE-IR-CT-Night-D
 	sess:activeTill	"07:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6896,6 +7067,7 @@ sess:XSFE-IR-CT-Night-S
 	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6911,6 +7083,7 @@ sess:XSFE-IR-Last-Day
 	sess:activeTill	"12:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6926,6 +7099,7 @@ sess:XSFE-XT-CT-Day
 	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6941,6 +7115,7 @@ sess:XSFE-XT-CT-Night-D
 	sess:activeTill	"07:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6956,6 +7131,7 @@ sess:XSFE-XT-CT-Night-S
 	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6971,6 +7147,7 @@ sess:XSFE-XT-Last-Day
 	sess:activeTill	"12:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -6986,6 +7163,7 @@ sess:XSFE-YT-CT-Day
 	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -7001,6 +7179,7 @@ sess:XSFE-YT-CT-Night-D
 	sess:activeTill	"07:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -7016,6 +7195,7 @@ sess:XSFE-YT-CT-Night-S
 	sess:activeTill	"07:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open_Night ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -7031,6 +7211,7 @@ sess:XSFE-YT-Last-Day
 	sess:activeTill	"12:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	sess:operatesIn	regm:XSFE-Open ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2018-07-23"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
@@ -7045,6 +7226,7 @@ sess:XSGO-FFCPSX-CT
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"14:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
 
@@ -7059,6 +7241,7 @@ sess:XSGO-FFICSX-CT-summer
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
 
@@ -7073,6 +7256,7 @@ sess:XSGO-FFICSX-CT-winter
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
 
@@ -7087,6 +7271,7 @@ sess:XSGO-FFNCSX-CT-summer
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
 
@@ -7101,6 +7286,7 @@ sess:XSGO-FFNCSX-CT-winter
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	tempo:validFrom	"2015-08-12"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/America/Santiago> .
 
@@ -7141,6 +7327,7 @@ sess:XSTO-EXXXXX-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"17:25:00"^^xsd:time ;
 	sess:activeTill	"17:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
 sess:XSTO-EXXXXX-CT
@@ -7167,6 +7354,7 @@ sess:XSWX-FFDPSX-BT
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
 
 sess:XSWX-FFDPSX-CT
@@ -7180,6 +7368,7 @@ sess:XSWX-FFDPSX-CT
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"17:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
 
 sess:XSWX-FFDPSX-CT-Last
@@ -7193,6 +7382,7 @@ sess:XSWX-FFDPSX-CT-Last
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"12:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
 
 sess:XSWX-FFDPSX-Post
@@ -7206,6 +7396,7 @@ sess:XSWX-FFDPSX-Post
 	sess:activeFrom	"17:00:00"^^xsd:time ;
 	sess:activeTill	"22:10:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
 
 sess:XSWX-FFDPSX-Post-Last
@@ -7219,6 +7410,7 @@ sess:XSWX-FFDPSX-Post-Last
 	sess:activeFrom	"12:30:00"^^xsd:time ;
 	sess:activeTill	"20:00:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
 
 sess:XSWX-FFDPSX-Pre
@@ -7232,6 +7424,7 @@ sess:XSWX-FFDPSX-Pre
 	sess:activeFrom	"07:30:00"^^xsd:time ;
 	sess:activeTill	"08:30:00"^^xsd:time ;
 	sess:efficaciousOn	time:Friday , time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zurich> .
 
 sess:XTAE-EXXXXX-Tamar-CA
@@ -7245,7 +7438,6 @@ sess:XTAE-EXXXXX-Tamar-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"17:24:00"^^xsd:time ;
 	sess:activeTill	"17:25:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-Tamar-CA-Sun
@@ -7259,7 +7451,6 @@ sess:XTAE-EXXXXX-Tamar-CA-Sun
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"15:49:00"^^xsd:time ;
 	sess:activeTill	"15:50:00"^^xsd:time ;
-	sess:efficaciousOn	time:Sunday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-Tamar-CT
@@ -7273,7 +7464,6 @@ sess:XTAE-EXXXXX-Tamar-CT
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"09:59:00"^^xsd:time ;
 	sess:activeTill	"17:15:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-Tamar-CT-Sun
@@ -7287,7 +7477,6 @@ sess:XTAE-EXXXXX-Tamar-CT-Sun
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"09:59:00"^^xsd:time ;
 	sess:activeTill	"15:40:00"^^xsd:time ;
-	sess:efficaciousOn	time:Sunday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-Tamar-OA
@@ -7301,7 +7490,6 @@ sess:XTAE-EXXXXX-Tamar-OA
 	rdfs:label	"Opening Auction" ;
 	sess:activeFrom	"09:59:00"^^xsd:time ;
 	sess:activeTill	"10:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-Tamar-PC
@@ -7315,7 +7503,6 @@ sess:XTAE-EXXXXX-Tamar-PC
 	rdfs:label	"Pre-Closing" ;
 	sess:activeFrom	"17:14:00"^^xsd:time ;
 	sess:activeTill	"17:25:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-Tamar-PC-Sun
@@ -7329,7 +7516,6 @@ sess:XTAE-EXXXXX-Tamar-PC-Sun
 	rdfs:label	"Pre-Closing" ;
 	sess:activeFrom	"15:39:00"^^xsd:time ;
 	sess:activeTill	"15:50:00"^^xsd:time ;
-	sess:efficaciousOn	time:Sunday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-Tamar-PO
@@ -7343,7 +7529,6 @@ sess:XTAE-EXXXXX-Tamar-PO
 	rdfs:label	"Pre-opening" ;
 	sess:activeFrom	"09:25:00"^^xsd:time ;
 	sess:activeTill	"10:00:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-nonTamar-CA
@@ -7357,7 +7542,6 @@ sess:XTAE-EXXXXX-nonTamar-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"17:24:00"^^xsd:time ;
 	sess:activeTill	"17:25:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-nonTamar-CA-Sun
@@ -7371,7 +7555,6 @@ sess:XTAE-EXXXXX-nonTamar-CA-Sun
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"15:49:00"^^xsd:time ;
 	sess:activeTill	"15:50:00"^^xsd:time ;
-	sess:efficaciousOn	time:Sunday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-nonTamar-CT
@@ -7385,7 +7568,6 @@ sess:XTAE-EXXXXX-nonTamar-CT
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"10:15:00"^^xsd:time ;
 	sess:activeTill	"17:15:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-nonTamar-CT-Sun
@@ -7399,7 +7581,6 @@ sess:XTAE-EXXXXX-nonTamar-CT-Sun
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"10:15:00"^^xsd:time ;
 	sess:activeTill	"15:40:00"^^xsd:time ;
-	sess:efficaciousOn	time:Sunday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-nonTamar-OA
@@ -7413,7 +7594,6 @@ sess:XTAE-EXXXXX-nonTamar-OA
 	rdfs:label	"Opening Auction" ;
 	sess:activeFrom	"10:15:00"^^xsd:time ;
 	sess:activeTill	"10:15:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-nonTamar-PC
@@ -7427,7 +7607,6 @@ sess:XTAE-EXXXXX-nonTamar-PC
 	rdfs:label	"Pre-Closing" ;
 	sess:activeFrom	"17:14:00"^^xsd:time ;
 	sess:activeTill	"17:25:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-nonTamar-PC-Sun
@@ -7441,7 +7620,6 @@ sess:XTAE-EXXXXX-nonTamar-PC-Sun
 	rdfs:label	"Pre-Closing" ;
 	sess:activeFrom	"15:39:00"^^xsd:time ;
 	sess:activeTill	"15:50:00"^^xsd:time ;
-	sess:efficaciousOn	time:Sunday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAE-EXXXXX-nonTamar-PO
@@ -7455,7 +7633,6 @@ sess:XTAE-EXXXXX-nonTamar-PO
 	rdfs:label	"Pre-opening" ;
 	sess:activeFrom	"09:25:00"^^xsd:time ;
 	sess:activeTill	"10:15:00"^^xsd:time ;
-	sess:efficaciousOn	time:Monday , time:Sunday , time:Thursday , time:Tuesday , time:Wednesday ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Jerusalem> .
 
 sess:XTAI-EXXXXX-BT
@@ -7537,6 +7714,7 @@ The Closing Call Auction takes place between 15:59:30 and 16:00:00. A random unc
 	rdfs:label	"Closing Call Auction (Uncross)" ;
 	sess:activeFrom	"15:59:30"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Tallinn> .
 
 sess:XTAL-EXXXXX-CT
@@ -7571,6 +7749,7 @@ During the Opening Call Auction, order books move to continuous trading. Thus ma
 	rdfs:label	"Opening Call Auction (Uncross)" ;
 	sess:activeFrom	"10:00:00"^^xsd:time ;
 	sess:activeTill	"10:00:05"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Vilnius> .
 
 sess:XTAL-EXXXXX-PC
@@ -7734,6 +7913,7 @@ Trades publish at 4:00 unless a Price Movement Extension is required"""@en ;
 	rdfs:label	"MOC Freeze Period" ;
 	sess:activeFrom	"15:56:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
 
 sess:XTSE-EXXXXX-Imb
@@ -7748,6 +7928,7 @@ sess:XTSE-EXXXXX-Imb
 	rdfs:label	"MOC Imbalance Period" ;
 	sess:activeFrom	"15:50:00"^^xsd:time ;
 	sess:activeTill	"15:56:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
 
 sess:XTSE-EXXXXX-PMCS
@@ -7762,6 +7943,7 @@ sess:XTSE-EXXXXX-PMCS
 	rdfs:label	"Post Market Cancel Session" ;
 	sess:activeFrom	"16:10:00"^^xsd:time ;
 	sess:activeTill	"16:15:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
 
 sess:XTSE-EXXXXX-PME
@@ -7776,6 +7958,7 @@ sess:XTSE-EXXXXX-PME
 	rdfs:label	"Price Movement Extension" ;
 	sess:activeFrom	"16:00:00"^^xsd:time ;
 	sess:activeTill	"16:10:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
 
 sess:XTSE-EXXXXX-Pre
@@ -7833,6 +8016,7 @@ Trades publish at 4:00 unless a Price Movement Extension is required"""@en ;
 	rdfs:label	"MOC Freeze Period" ;
 	sess:activeFrom	"15:56:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
 
 sess:XTSX-EXXXXX-Imb
@@ -7847,6 +8031,7 @@ sess:XTSX-EXXXXX-Imb
 	rdfs:label	"MOC Imbalance Period" ;
 	sess:activeFrom	"15:50:00"^^xsd:time ;
 	sess:activeTill	"15:56:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
 
 sess:XTSX-EXXXXX-PMCS
@@ -7861,6 +8046,7 @@ sess:XTSX-EXXXXX-PMCS
 	rdfs:label	"Post Market Cancel Session" ;
 	sess:activeFrom	"16:10:00"^^xsd:time ;
 	sess:activeTill	"16:15:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
 
 sess:XTSX-EXXXXX-PME
@@ -7875,6 +8061,7 @@ sess:XTSX-EXXXXX-PME
 	rdfs:label	"Price Movement Extension" ;
 	sess:activeFrom	"16:00:00"^^xsd:time ;
 	sess:activeTill	"16:10:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/Toronto> .
 
 sess:XTSX-EXXXXX-Pre
@@ -7915,6 +8102,7 @@ sess:XTUN-EXXXXX-CA-Ramadan
 	rdfs:label	"Closing Auction during Ramadan and Summer, Group 11" ;
 	sess:activeFrom	"12:05:00"^^xsd:time ;
 	sess:activeTill	"12:05:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Tunis> .
 
 sess:XTUN-EXXXXX-CAC
@@ -7941,6 +8129,7 @@ sess:XTUN-EXXXXX-CAC-Ramadan
 	rdfs:label	"Closing Auction Call during Ramadan and Summer, Group 11" ;
 	sess:activeFrom	"12:00:00"^^xsd:time ;
 	sess:activeTill	"12:05:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Tunis> .
 
 sess:XTUN-EXXXXX-CT
@@ -7952,7 +8141,7 @@ sess:XTUN-EXXXXX-CT
 	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:45:34Z"^^xsd:dateTime ;
 	rdfs:label	"Continuous Trading, Group 11" ;
-	sess:activeFrom	"09:00:00"^^xsd:time , "10:00:00"^^xsd:time ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"14:00:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Tunis> .
 
@@ -7967,6 +8156,7 @@ sess:XTUN-EXXXXX-CT-Ramadan
 	rdfs:label	"Continuous Trading during Ramadan and Summer, Group 11" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"12:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Tunis> .
 
 sess:XTUN-EXXXXX-OA
@@ -7993,6 +8183,7 @@ sess:XTUN-EXXXXX-OA-Ramadan
 	rdfs:label	"Opening Auction during Ramadan and Summer, Group 11" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Tunis> .
 
 sess:XTUN-EXXXXX-OAC
@@ -8019,6 +8210,7 @@ sess:XTUN-EXXXXX-OAC-Ramadan
 	rdfs:label	"Open Auction Call during Ramadan and Summer, Group 11" ;
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"09:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Tunis> .
 
 sess:XTUN-EXXXXX-TAC
@@ -8045,6 +8237,7 @@ sess:XTUN-EXXXXX-TAC-Ramadan
 	rdfs:label	"Trading at last price during Ramadan and Summer, Group 11" ;
 	sess:activeFrom	"12:05:00"^^xsd:time ;
 	sess:activeTill	"12:15:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Tunis> .
 
 sess:XULA-EXXXXX-CA
@@ -8188,6 +8381,7 @@ sess:XVIE-EXXXXX-Post
 	rdfs:label	"Post Market" ;
 	sess:activeFrom	"17:45:00"^^xsd:time ;
 	sess:activeTill	"17:50:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Vienna> .
 
 sess:XVIE-EXXXXX-Pre
@@ -8240,6 +8434,7 @@ sess:XZAM-EXXXXX-CA
 	rdfs:label	"Closing Auction" ;
 	sess:activeFrom	"15:55:00"^^xsd:time ;
 	sess:activeTill	"16:00:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zagreb> .
 
 sess:XZAM-EXXXXX-NA
@@ -8253,6 +8448,7 @@ sess:XZAM-EXXXXX-NA
 	rdfs:label	"Noon Auction" ;
 	sess:activeFrom	"12:00:00"^^xsd:time ;
 	sess:activeTill	"12:10:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zagreb> .
 
 sess:XZAM-EXXXXX-OA
@@ -8266,6 +8462,7 @@ sess:XZAM-EXXXXX-OA
 	rdfs:label	"Opening Auction" ;
 	sess:activeFrom	"09:00:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zagreb> .
 
 sess:XZAM-EXXXXX-PMCT
@@ -8292,6 +8489,7 @@ sess:XZAM-EXXXXX-Post
 	rdfs:label	"Post-Trading" ;
 	sess:activeFrom	"16:00:00"^^xsd:time ;
 	sess:activeTill	"16:25:00"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Zagreb> .
 
 sess:XZAM-EXXXXX-Pre

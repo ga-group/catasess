@@ -81,6 +81,7 @@ WHERE {
 	[] a fibo-fip:TradingSession ;
 		fibo-fip:isTradingSessionOf ?c ;
 		skos:exactMatch|skos:closeMatch ?xs
+	FILTER(STRSTARTS(STRAFTER(STR(?xs),STR(sess:)),STRAFTER(STR(?xc),STR(cata:))))
 	}
 
 	BIND(IRI(CONCAT(STR(day:),STRAFTER(STR(?xc),STR(cata:)),'-Full')) AS ?xcd)

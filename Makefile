@@ -28,23 +28,18 @@ check.%: %.ttl shacl/%.shacl.ttl
 	$(stardog) data add --remove-all -g "http://data.ga-group.nl/catasess/" catasess $< $(ADDITIONAL)
 	$(stardog) icv report --output-format PRETTY_TURTLE -g "http://data.ga-group.nl/catasess/" -r -l -1 catasess shacl/$*.shacl.ttl \
         >> /tmp/$@.ttl || true
-	$(MAKE) $*.rpt
-
-check.%: %.ttl shacl/%.shacl.sql
-	$(RM) tmp/shacl-*.qry
-	mawk 'BEGIN{f=0}/\f/{f++;next}{print>"tmp/shacl-"f".qry"}' $(filter %.sql, $^)
-	truncate -s 0 /tmp/$@.ttl
-	$(stardog) data add --remove-all -g "http://data.ga-group.nl/catasess/" catasess $< $(ADDITIONAL)
-	for i in tmp/shacl-*.qry; do \
-		$(stardog) query execute --format PRETTY_TURTLE -g "http://data.ga-group.nl/catasess/" -r -l -1 catasess $${i}; \
-	done \
-        >> /tmp/$@.ttl || true
+	if test -f shacl/$*.shacl.sql; then \
+		m4 shacl/$*.shacl.sql \
+		| $(ttlsql) \
+			>> /tmp/$@.ttl || true; \
+	fi
 	$(MAKE) $*.rpt
 
 %.rpt: /tmp/check.%.ttl
 	$(sparql) --results text --data $< --query sql/valrpt.sql
 %.anno: /tmp/check.%.ttl
-	mawk '!/violated-shape/||/\.$$/&&$$0="."' $*.ttl > $@
+	mawk '!(/violated-shape/||/warned-shape/)||/\.$$/&&$$0="."' $*.ttl \
+	> $@
 	$(sparql) --data $< --query sql/rptanno.sql \
 	>> $@ && mv $@ $*.ttl
 

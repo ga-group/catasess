@@ -64,6 +64,7 @@ INSERT {
 	?xcn a fibo-fip:TradingDay ;
 		day:activeSession sess:None ;
 		day:observedOn ?nond ;
+		day:neverCoincidesWith ?xcf ;
 		fibo-fip:isTradingDayOf ?xc ;
 		pav:importedOn ?impon ;
 		pav:lastRefreshedOn ?refon .
@@ -105,6 +106,7 @@ WHERE {
 	}
 
 	BIND(IRI(CONCAT(STR(day:),STRAFTER(STR(?xc),STR(cata:)),'-Non')) AS ?xcn)
+	BIND(IRI(CONCAT(STR(day:),STRAFTER(STR(?xc),STR(cata:)),'-Full')) AS ?xcf)
 }
 ;
 ECHO $ROWCNT "\n";
@@ -124,8 +126,9 @@ PREFIX cdr: <http://ga.local/cdr#>
 ##FROM <http://data.ga-group.nl/cal/>
 WITH <http://data.ga-group.nl/catasess/days/>
 INSERT {
-	?xcn a fibo-fip:TradingDay ;
+	?xch a fibo-fip:TradingDay ;
 		day:observedOn ?nond ;
+		day:neverCoincidesWith ?xcn , ?xcf ;
 		fibo-fip:isTradingDayOf ?xc ;
 		pav:importedOn ?impon ;
 		pav:lastRefreshedOn ?refon .
@@ -164,7 +167,9 @@ WHERE {
 	?cd prov:generatedAtTime ?impon
 	}
 
-	BIND(IRI(CONCAT(STR(day:),STRAFTER(STR(?xc),STR(cata:)),'-Half')) AS ?xcn)
+	BIND(IRI(CONCAT(STR(day:),STRAFTER(STR(?xc),STR(cata:)),'-Half')) AS ?xch)
+	BIND(IRI(CONCAT(STR(day:),STRAFTER(STR(?xc),STR(cata:)),'-Non')) AS ?xcn)
+	BIND(IRI(CONCAT(STR(day:),STRAFTER(STR(?xc),STR(cata:)),'-Full')) AS ?xcf)
 }
 ;
 ECHO $ROWCNT "\n";

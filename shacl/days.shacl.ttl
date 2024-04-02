@@ -29,6 +29,7 @@ fibo-fip:TradingDay-shape a sh:NodeShape ;
 	## tests
 	sh:property fibo-fip:isTradingDayOf-property ;
 	sh:property day:activeSession-property ;
+	sh:property day:neverCoincidesWith-property ;
 	.
 
 ## properties
@@ -49,4 +50,9 @@ day:activeSession-property a sh:PropertyShape ;
 	sh:path day:activeSession ;
 	sh:minCount 1 ;
 	sh:class fibo-fip:TradingSession ;
+	.
+
+day:neverCoincidesWith-property a sh:PropertyShape ;
+	sh:path day:neverCoincidesWith ;
+	sh:class fibo-fip:TradingDay ;
 	.
