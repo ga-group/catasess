@@ -167,6 +167,16 @@ cata:ARCX-EXXXXX
 	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2006-09-25"^^xsd:date .
 
+cata:ARTX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-ARTX ;
+	pav:importedOn	"2024-03-08T14:38:45.413Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:23:27.401Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2024-03-07T11:48:42Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:35:05Z"^^xsd:dateTime ;
+	tempo:validFrom	"2023-02-27"^^xsd:date .
+
 cata:BATE-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -270,6 +280,12 @@ cata:BMTF-EXXXXX
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-06-22"^^xsd:date .
+
+cata:BSEX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-BSEX ;
+	tempo:validFrom	"2007-09-24"^^xsd:date .
 
 cata:BVCA-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -1251,6 +1267,34 @@ cata:XASE-OXXICS
 	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-06-25"^^xsd:date .
 
+cata:XASE-OXXICS-NDX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:OXXICS ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:50.934Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
+	rdfs:label	"NYSE American options on NASDAQ indices" ;
+	sh:violated-shape	rdfs:label-property ;
+	sh:warned-shape	cata:cons-unused-catalogue ;
+	tempo:validFrom	"2012-06-25"^^xsd:date .
+
+cata:XASE-OXXSPS
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:OXXICS ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:39:50.934Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
+	rdfs:label	"NYSE American equity options" ;
+	sh:violated-shape	rdfs:label-property ;
+	sh:warned-shape	cata:cons-unused-catalogue ;
+	tempo:validFrom	"2012-06-25"^^xsd:date .
+
 cata:XASX-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
@@ -1395,6 +1439,16 @@ cata:XBOG-EXXXXX
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
+
+cata:XBOM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:37.343Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime ;
+	tempo:validFrom	"2011-09-26"^^xsd:date .
 
 cata:XBOM-OXXICS
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -2546,7 +2600,7 @@ cata:XNEC-EXXXXX
 	pav:sourceLastAccessedOn	"2024-03-27T10:37:35Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-unused-catalogue ;
-	tempo:validFrom	"2007-06-25"^^xsd:date .
+	tempo:validFrom	"2002-01-01"^^xsd:date .
 
 cata:XNEP-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;

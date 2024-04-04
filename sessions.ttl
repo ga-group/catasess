@@ -458,6 +458,45 @@ sess:ARCX-EXXXXX-Pre
 	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
+sess:ARTX-EXXXXX-CA
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.artex-stockexchange.com/trading-information"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:ARTX-EXXXXX ;
+	pav:importedOn	"2024-03-09T08:41:56.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:34:47.555Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2024-03-07T11:48:42Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:35:05Z"^^xsd:dateTime ;
+	rdfs:label	"Closing Auction" ;
+	sess:activeFrom	"17:30:00"^^xsd:time ;
+	sess:activeTill	"17:35:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vaduz> .
+
+sess:ARTX-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.artex-stockexchange.com/trading-information"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:ARTX-EXXXXX ;
+	pav:importedOn	"2024-03-09T08:41:56.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:34:47.555Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2024-03-07T11:48:42Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:35:05Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
+	sess:activeTill	"17:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vaduz> .
+
+sess:ARTX-EXXXXX-OA
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.artex-stockexchange.com/trading-information"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:ARTX-EXXXXX ;
+	pav:importedOn	"2024-03-09T08:41:56.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:34:47.555Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2024-03-07T11:48:42Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:35:05Z"^^xsd:dateTime ;
+	rdfs:label	"Opening Auction" ;
+	sess:activeFrom	"08:50:00"^^xsd:time ;
+	sess:activeTill	"09:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Vaduz> .
+
 sess:BATE-EXXXXX-After
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://www.cboe.com/about/hours/european-equities/"^^xsd:anyURI ;
@@ -788,6 +827,45 @@ sess:BJSE-EXXXXX-PMCT
 	sess:activeFrom	"13:00:00"^^xsd:time ;
 	sess:activeTill	"14:58:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Shanghai> .
+
+sess:BLOX-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.instinet.com/legal-regulatory"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BLOX-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:32:38.896Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:21:23Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"08:00:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
+sess:BSEX-EXXXXX-AMCT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bfb.az/en/faqs"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BSEX-EXXXXX ;
+	pav:importedOn	"2024-04-04T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-04T12:24:54.420Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2024-04-04T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-04T10:12:53Z"^^xsd:dateTime ;
+	rdfs:label	"AM Continuous Trading" ;
+	sess:activeFrom	"10:00:00"^^xsd:time ;
+	sess:activeTill	"12:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Baku> .
+
+sess:BSEX-EXXXXX-PMCT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bfb.az/en/faqs"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BSEX-EXXXXX ;
+	pav:importedOn	"2024-04-04T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-04T12:24:54.420Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2024-04-04T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-04T10:12:53Z"^^xsd:dateTime ;
+	rdfs:label	"PM Continuous Trading" ;
+	sess:activeFrom	"14:15:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Baku> .
 
 sess:CEDX-FFICSX-CH-Q
 	a	fibo-fip:TradingSession ;
@@ -2279,6 +2357,18 @@ sess:SPNO-EXXXXX-Pre-half
 	sh:warned-shape	sess:cons-unused-session ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Stockholm> .
 
+sess:UKPX-FXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	fibo-fip:isTradingSessionOf	cata:UKPX-FXXXXX ;
+	pav:importedOn	"2022-05-24T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:52.573Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:20:45Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"00:00:00"^^xsd:time ;
+	sess:activeTill	"24:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/London> .
+
 sess:XADE-FFICSX-CT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
@@ -2472,6 +2562,45 @@ sess:XAMS-EXXXXX-TAC
 	sess:activeTill	"17:40:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Amsterdam> .
 
+sess:XARM-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://amx.am/en/trading_hours_and_holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XARM-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:54.420Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:12:53Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"11:00:00"^^xsd:time ;
+	sess:activeTill	"15:05:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Yerevan> .
+
+sess:XARM-EXXXXX-OA
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://amx.am/en/trading_hours_and_holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XARM-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:54.420Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:12:53Z"^^xsd:dateTime ;
+	rdfs:label	"Opening Auction Call" ;
+	sess:activeFrom	"10:50:00"^^xsd:time ;
+	sess:activeTill	"10:59:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Yerevan> .
+
+sess:XARM-EXXXXX-OAC
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://amx.am/en/trading_hours_and_holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XARM-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:54.420Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:12:53Z"^^xsd:dateTime ;
+	rdfs:label	"Opening Auction" ;
+	sess:activeFrom	"10:50:00"^^xsd:time , "10:59:00"^^xsd:time ;
+	sess:activeTill	"10:59:00"^^xsd:time , "11:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Yerevan> .
+
 sess:XASE-EXXXXX-CA
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://www.nyse.com/markets/hours-calendars#american"^^xsd:anyURI ;
@@ -2585,6 +2714,46 @@ sess:XASE-EXXXXX-Pre
 	rdfs:label	"Pre-Opening" ;
 	sess:activeFrom	"06:30:00"^^xsd:time ;
 	sess:activeTill	"06:59:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:XASE-OXXICS-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nyse.com/markets/hours-calendars#american-options"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XASE-OXXICS ;
+	pav:importedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:48.956Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:XASE-OXXICS-NDX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nyse.com/markets/hours-calendars#american-options"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XASE-OXXICS , cata:XASE-OXXICS-NDX ;
+	pav:importedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:48.956Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:15:00"^^xsd:time ;
+	skos:closeMatch	sess:XASE-OXXICS-CT , sess:XASE-OXXSPS-CT ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:XASE-OXXSPS-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nyse.com/markets/hours-calendars#american-options"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XASE-OXXSPS ;
+	pav:importedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:24:48.956Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:XASX-EXXXXX-CA
@@ -2733,6 +2902,32 @@ sess:XASX-OXXICS-CT-Night-EST
 	tempo:validFrom	"2022-06-28T09:53:47+10:00"^^xsd:dateTime ;
 	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
+sess:XBAB-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://bse.com.bb/markets/trading-hours-public-holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBAB-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:25:01.676Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:48:39Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"10:00:00"^^xsd:time ;
+	sess:activeTill	"13:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/Barbados> .
+
+sess:XBAB-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://bse.com.bb/markets/trading-hours-public-holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBAB-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:25:01.676Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:48:39Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-open" ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
+	sess:activeTill	"10:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/America/Barbados> .
+
 sess:XBLB-EXXXXX-CT
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://www.blberza.com/Pages/docview.aspx?page=sp6"^^xsd:anyURI ;
@@ -2758,6 +2953,84 @@ sess:XBLB-EXXXXX-Pre
 	sess:activeFrom	"08:30:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Sarajevo> .
+
+sess:XBOM-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bseindia.com/markets/equity/session_timings.aspx"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBOM-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:25:16.268Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"09:15:00"^^xsd:time ;
+	sess:activeTill	"15:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+sess:XBOM-EXXXXX-Post
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bseindia.com/markets/equity/session_timings.aspx"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBOM-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:25:16.268Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime ;
+	rdfs:label	"Post Close" ;
+	sess:activeFrom	"15:40:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+sess:XBOM-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bseindia.com/markets/equity/session_timings.aspx"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBOM-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:25:16.268Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-Open" ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
+	sess:activeTill	"09:15:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+sess:XBOM-OXXICS-CA
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bseindia.com/static/markets/Derivatives/DeriReports/market_information.html#timings"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBOM-OXXICS ;
+	pav:importedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:25:16.268Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime ;
+	rdfs:label	"Closing Auction" ;
+	sess:activeFrom	"15:30:00"^^xsd:time ;
+	sess:activeTill	"15:40:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+sess:XBOM-OXXICS-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bseindia.com/static/markets/Derivatives/DeriReports/market_information.html#timings"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBOM-OXXICS ;
+	pav:importedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:25:16.268Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading Period" ;
+	sess:activeFrom	"09:15:00"^^xsd:time ;
+	sess:activeTill	"15:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
+
+sess:XBOM-OXXICS-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bseindia.com/static/markets/Derivatives/DeriReports/market_information.html#timings"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBOM-OXXICS ;
+	pav:importedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:25:16.268Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:15.065Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime ;
+	rdfs:label	"Login" ;
+	sess:activeFrom	"07:50:00"^^xsd:time ;
+	sess:activeTill	"09:15:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Kolkata> .
 
 sess:XBOS-EXXXXX-CT
 	a	fibo-fip:TradingSession ;
@@ -2852,6 +3125,88 @@ sess:XBRD-FFICSX-CT-Last
 	sess:activeTill	"16:00:00"^^xsd:time ;
 	sess:operatesIn	regm:XBRD-COB ;
 	tempo:validFrom	"2021-09-06"^^xsd:date ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+sess:XBRU-EXXXXX-CAC
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBRU-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:26:28.467Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:31:14Z"^^xsd:dateTime ;
+	rdfs:label	"Closing Auction Call" ;
+	sess:activeFrom	"17:30:00"^^xsd:time ;
+	sess:activeTill	"17:35:00"^^xsd:time ;
+	skos:closeMatch	sess:XBRU-EXXXXX-CU ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+sess:XBRU-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBRU-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:26:28.467Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:31:14Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
+	sess:activeTill	"17:30:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+sess:XBRU-EXXXXX-CU
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBRU-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:03.457Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:54:07Z"^^xsd:dateTime ;
+	rdfs:label	"Closing uncrossing" ;
+	sess:activeFrom	"17:35:00"^^xsd:time ;
+	sess:activeTill	"17:35:30"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+sess:XBRU-EXXXXX-OU
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBRU-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-19T12:51:03.457Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-19T11:54:07Z"^^xsd:dateTime ;
+	rdfs:label	"Opening uncrossing" ;
+	sess:activeFrom	"09:00:00"^^xsd:time ;
+	sess:activeTill	"09:00:30"^^xsd:time ;
+	sh:warned-shape	sess:cons-unused-session ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Paris> .
+
+sess:XBRU-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBRU-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:26:28.467Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:31:14Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-opening" ;
+	sess:activeFrom	"07:30:00"^^xsd:time ;
+	sess:activeTill	"09:00:00"^^xsd:time ;
+	skos:closeMatch	sess:XBRU-EXXXXX-OU ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
+
+sess:XBRU-EXXXXX-TAC
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBRU-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:26:28.467Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:31:14Z"^^xsd:dateTime ;
+	rdfs:label	"Trade at Close" ;
+	sess:activeFrom	"17:35:00"^^xsd:time ;
+	sess:activeTill	"17:40:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/Europe/Brussels> .
 
 sess:XBVM-EXXXXX
@@ -5885,6 +6240,72 @@ sess:XNCM-EXXXXX-Pre
 	sess:activeFrom	"04:00:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:XNEC-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nsx.com.au/regulation/exchange/trading-hours-and-calendar/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XNEC-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:30:19.563Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:35Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"10:00:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XNEC-EXXXXX-Enq
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nsx.com.au/regulation/exchange/trading-hours-and-calendar/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XNEC-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:30:19.563Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:35Z"^^xsd:dateTime ;
+	rdfs:label	"Enquiry" ;
+	sess:activeFrom	"05:00:00"^^xsd:time ;
+	sess:activeTill	"07:00:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XNEC-EXXXXX-PC
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nsx.com.au/regulation/exchange/trading-hours-and-calendar/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XNEC-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:30:19.563Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:35Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-close" ;
+	sess:activeFrom	"16:00:00"^^xsd:time ;
+	sess:activeTill	"16:05:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XNEC-EXXXXX-Post
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nsx.com.au/regulation/exchange/trading-hours-and-calendar/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XNEC-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2023-05-03T06:47:04.061Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2023-05-03T06:46:13Z"^^xsd:dateTime ;
+	rdfs:label	"Post-close" ;
+	sess:activeFrom	"16:05:00"^^xsd:time ;
+	sess:activeTill	"16:15:00"^^xsd:time ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
+
+sess:XNEC-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nsx.com.au/regulation/exchange/trading-hours-and-calendar/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XNEC-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:30:19.563Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:37:35Z"^^xsd:dateTime ;
+	rdfs:label	"Pre-open" ;
+	sess:activeFrom	"07:00:00"^^xsd:time ;
+	sess:activeTill	"10:00:00"^^xsd:time ;
+	skos:closeMatch	sess:XNEC-EXXXXX-Enq ;
+	time:timeZone	<http://dbpedia.org/resource/Australia/Sydney> .
 
 sess:XNEP-EXXXXX-CT
 	a	fibo-fip:TradingSession ;

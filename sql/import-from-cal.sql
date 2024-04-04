@@ -43,6 +43,8 @@ DELETE {
 WHERE {
 	?xcn a fibo-fip:TradingDay ;
 		day:observedOn ?nond .
+	FILTER(ISLITERAL(?nond))
+	FILTER(STRENDS(STR(?xcn),'-Full') || STRENDS(STR(?xcn),'-Half'))
 }
 ;
 ECHO $ROWCNT "\n";
