@@ -27,8 +27,8 @@ or, in case of concurrent sessions, allows to distinguish between the sessions a
 
 The identifier for a trading regime is the regime's MIC suffixed by the exchange's regime label, mostly in English."""@en ;
 	dct:issued	"2022-05-31T02:25:19Z"^^xsd:dateTime ;
-	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
-	dct:modified	"2022-05-31T06:51:08Z"^^xsd:dateTime ;
+	dct:isPartOf	<http://data.ga-group.nl/catasess/> ;
+	dct:license	<http://creativecommons.org/licenses/by-sa/4.0/> ;
 	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/regimes/> ;
 	rdfs:label	"Trading Regimes" ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;

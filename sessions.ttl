@@ -28,8 +28,8 @@ This ontology draws heavily upon vocabulary from FIBO which is why there is no s
 
 The identifier for a session is the product group's identifier suffixed by a session name in plain English."""@en ;
 	dct:issued	"2022-05-31T02:25:19Z"^^xsd:dateTime ;
-	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
-	dct:modified	"2022-05-31T06:51:08Z"^^xsd:dateTime ;
+	dct:isPartOf	<http://data.ga-group.nl/catasess/> ;
+	dct:license	<http://creativecommons.org/licenses/by-sa/4.0/> ;
 	owl:imports	<https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> ;
 	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/sessions/> ;
 	rdfs:label	"Trading Sessions" ;

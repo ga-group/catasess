@@ -2,6 +2,7 @@ SHELL := /bin/zsh
 
 include .make.env
 
+NOW := $(shell dateconv now)Z
 FILES = catalogues.ttl regimes.ttl sessions.ttl days.ttl
 
 all: $(FILES:%.ttl=.imported.%)
@@ -85,6 +86,28 @@ export.%: /var/scratch/lakshmi/freundt/%.ttl
 	>> $@
 	touch .imported.$*
 	mv $@ $*.ttl
+
+export.void: $(FILES:%.ttl=tmp/%.void)
+	-mawk '(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' void.ttl > $@
+	@echo >> $@
+	@echo "## with summaries" >> $@
+	cat $^ \
+	>> $@
+	mv $@ void.ttl && ln -f void.ttl tmp/void_$(NOW).ttl
+
+tmp/%.void: .imported.%
+	$(ttlsql) \
+		sql/void-summary.sql \
+		sql/void-vocabulary.sql \
+		sql/void-class-partitions.sql \
+		sql/void-no-class-partition.sql \
+		sql/void-property-partitions.sql \
+		-u GRAPH="http://data.ga-group.nl/catasess/$*/" \
+	| ttl2ttl --sortable --expand-generic \
+	| sed 's@<urn:sha1:\([0-9a-f]*\)>@ _:b\1@; s/rdf:type\t/a\t/; /^@/d' \
+	| sort -u \
+	| ttl2ttl -B \
+	> $@
 
 
 setup-stardog:

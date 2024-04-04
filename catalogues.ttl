@@ -31,8 +31,8 @@ For further distinction a plain a term in plain English might be appended.
 
 Supplementary information regarding a product group, e.g. the products it comprises, is out of scope, and is expected to be sourced from elsewhere."""@en ;
 	dct:issued	"2022-06-28T02:25:19Z"^^xsd:dateTime ;
-	dct:license	<https://creativecommons.org/licenses/by/4.0/> ;
-	dct:modified	"2022-06-28T06:51:08Z"^^xsd:dateTime ;
+	dct:isPartOf	<http://data.ga-group.nl/catasess/> ;
+	dct:license	<http://creativecommons.org/licenses/by-sa/4.0/> ;
 	owl:versionIRI	<http://data.ga-group.nl/catasess/20220501/catalogues/> ;
 	rdfs:label	"Catalogues" ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
