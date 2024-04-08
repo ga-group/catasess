@@ -7,6 +7,8 @@ FILES = catalogues.ttl regimes.ttl sessions.ttl days.ttl
 
 all: $(FILES:%.ttl=.imported.%)
 check: $(FILES:%.ttl=check.%)
+export: $(FILES:%.ttl=export.%)
+anno: $(FILES:%.ttl=%.anno)
 
 .%.ttl.canon: %.ttl
 	rapper -i turtle $< >/dev/null
@@ -23,6 +25,7 @@ check.days: ADDITIONAL = catalogues.ttl sessions.ttl
 
 tmp/import-from-bps.out: /data/data-source/bbstk/.imported.bps
 tmp/import-from-cal.out: /data/data-source/bbstk/.imported.bps /data/data-source/bbstk/.imported.cal
+tmp/reconcile-days-sessions.out: .imported.sessions .imported.days
 
 check.%: %.ttl shacl/%.shacl.ttl
 	truncate -s 0 /tmp/$@.ttl

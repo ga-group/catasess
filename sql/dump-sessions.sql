@@ -22,6 +22,7 @@ DB.DBA.XML_SET_NS_DECL('skos', 'http://www.w3.org/2004/02/skos/core#', 3);
 DB.DBA.XML_SET_NS_DECL('bps', 'http://bsym.bloomberg.com/pricing_source/', 3);
 DB.DBA.XML_SET_NS_DECL('cata', 'http://data.ga-group.nl/catasess/catalogues/', 1);
 DB.DBA.XML_SET_NS_DECL('sess', 'http://data.ga-group.nl/catasess/sessions/', 1);
+DB.DBA.XML_SET_NS_DECL('day', 'http://data.ga-group.nl/catasess/days/', 1);
 DB.DBA.XML_SET_NS_DECL('regm', 'http://data.ga-group.nl/catasess/regimes/', 1);
 DB.DBA.XML_SET_NS_DECL('cdr', 'http://ga.local/cdr#', 1);
 DB.DBA.XML_SET_NS_DECL('intr', 'http://ga.local/intr#', 3);

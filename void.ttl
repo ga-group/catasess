@@ -82,19 +82,19 @@ A product group's only purpose is to segment a market (identified by it's Market
 
 <http://data.ga-group.nl/catasess/catalogues/Dataset>
 	a	void:Dataset ;
-	pav:lastRefreshedOn	"2024-04-04T12:15:21.445672"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-08T10:47:05.957629"^^xsd:dateTime ;
 	void:classPartition	[
 		void:class	fibo-fpas:FinancialProductCatalog ;
-		void:entities	261 ;
+		void:entities	272 ;
 	] , [
 		void:class	owl:NamedIndividual ;
-		void:entities	261 ;
+		void:entities	272 ;
 	] , [
 		void:class	owl:Ontology ;
 		void:entities	1 ;
 	] ;
 	void:classes	3 ;
-	void:entities	262 ;
+	void:entities	273 ;
 	void:properties	25 ;
 	void:propertyPartition	[
 		void:distinctObjects	22 ;
@@ -102,10 +102,10 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	dcterms:source ;
 		void:triples	44 ;
 	] , [
-		void:distinctObjects	37 ;
-		void:distinctSubjects	38 ;
+		void:distinctObjects	38 ;
+		void:distinctSubjects	39 ;
 		void:property	rdfs:label ;
-		void:triples	38 ;
+		void:triples	39 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -113,14 +113,14 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:triples	1 ;
 	] , [
 		void:distinctObjects	1 ;
-		void:distinctSubjects	223 ;
+		void:distinctSubjects	234 ;
 		void:property	sh:violated-shape ;
-		void:triples	223 ;
+		void:triples	234 ;
 	] , [
-		void:distinctObjects	196 ;
-		void:distinctSubjects	237 ;
+		void:distinctObjects	203 ;
+		void:distinctSubjects	248 ;
 		void:property	pav:sourceLastAccessedOn ;
-		void:triples	237 ;
+		void:triples	248 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -143,9 +143,9 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:triples	1 ;
 	] , [
 		void:distinctObjects	8 ;
-		void:distinctSubjects	237 ;
+		void:distinctSubjects	248 ;
 		void:property	pav:sourceAccessedOn ;
-		void:triples	237 ;
+		void:triples	248 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -157,10 +157,10 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	skos:note ;
 		void:triples	2 ;
 	] , [
-		void:distinctObjects	1 ;
-		void:distinctSubjects	258 ;
+		void:distinctObjects	2 ;
+		void:distinctSubjects	76 ;
 		void:property	sh:warned-shape ;
-		void:triples	258 ;
+		void:triples	76 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -187,15 +187,15 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	owl:versionIRI ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	200 ;
-		void:distinctSubjects	260 ;
+		void:distinctObjects	207 ;
+		void:distinctSubjects	271 ;
 		void:property	pav:lastRefreshedOn ;
-		void:triples	260 ;
+		void:triples	271 ;
 	] , [
 		void:distinctObjects	3 ;
-		void:distinctSubjects	262 ;
+		void:distinctSubjects	273 ;
 		void:property	rdf:type ;
-		void:triples	523 ;
+		void:triples	545 ;
 	] , [
 		void:distinctObjects	14 ;
 		void:distinctSubjects	191 ;
@@ -203,31 +203,31 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:triples	191 ;
 	] , [
 		void:distinctObjects	12 ;
-		void:distinctSubjects	260 ;
+		void:distinctSubjects	271 ;
 		void:property	pav:importedOn ;
-		void:triples	260 ;
+		void:triples	271 ;
 	] , [
-		void:distinctObjects	100 ;
-		void:distinctSubjects	261 ;
+		void:distinctObjects	105 ;
+		void:distinctSubjects	272 ;
 		void:property	tempo:validFrom ;
-		void:triples	261 ;
+		void:triples	272 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
 		void:property	dcterms:isPartOf ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	211 ;
-		void:distinctSubjects	261 ;
+		void:distinctObjects	218 ;
+		void:distinctSubjects	272 ;
 		void:property	fibo-rel:isProvidedBy ;
-		void:triples	261 ;
+		void:triples	272 ;
 	] ;
-	void:triples	2845 ;
+	void:triples	2763 ;
 	void:vocabulary	<http://data.ga-group.nl/catasess/catalogues/> , <http://purl.org/dc/terms/> , <http://purl.org/pav/> , <http://purl.org/tempo/> , <http://www.omg.org/techprocess/ab/SpecificationMetadata/> , <http://www.w3.org/2000/01/rdf-schema#> , <http://www.w3.org/2002/07/owl#> , <http://www.w3.org/2004/02/skos/core#> , <http://www.w3.org/ns/shacl#> , <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/> , <https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/> , <https://www.omg.org/spec/Commons/Classifiers/> , rdf: .
 
 <http://data.ga-group.nl/catasess/regimes/Dataset>
 	a	void:Dataset ;
-	pav:lastRefreshedOn	"2024-04-04T12:15:21.571045"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-08T10:47:06.061750"^^xsd:dateTime ;
 	void:classPartition	[
 		void:class	owl:Ontology ;
 		void:entities	1 ;
@@ -307,51 +307,49 @@ A product group's only purpose is to segment a market (identified by it's Market
 
 <http://data.ga-group.nl/catasess/sessions/Dataset>
 	a	void:Dataset ;
-	pav:lastRefreshedOn	"2024-04-04T12:15:21.644535"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-08T10:47:06.109553"^^xsd:dateTime ;
 	void:classPartition	[
 		void:class	owl:NamedIndividual ;
 		void:entities	112 ;
 	] , [
 		void:class	owl:AnnotationProperty ;
+		void:entities	1 ;
+	] , [
+		void:class	rdfs:Resource ;
 		void:entities	2 ;
 	] , [
 		void:class	owl:Ontology ;
 		void:entities	1 ;
 	] , [
 		void:class	fibo-fip:TradingSession ;
-		void:entities	656 ;
+		void:entities	746 ;
 	] , [
 		void:class	owl:DatatypeProperty ;
 		void:entities	2 ;
 	] ;
 	void:classes	5 ;
-	void:entities	662 ;
+	void:entities	753 ;
 	void:properties	35 ;
 	void:propertyPartition	[
-		void:distinctObjects	138 ;
-		void:distinctSubjects	656 ;
+		void:distinctObjects	152 ;
+		void:distinctSubjects	746 ;
 		void:property	<http://data.ga-group.nl/catasess/sessions/activeFrom> ;
-		void:triples	657 ;
+		void:triples	746 ;
 	] , [
 		void:distinctObjects	1 ;
-		void:distinctSubjects	4 ;
+		void:distinctSubjects	3 ;
 		void:property	rdfs:domain ;
-		void:triples	4 ;
+		void:triples	3 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
 		void:property	<http://www.omg.org/techprocess/ab/SpecificationMetadata/copyright> ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	8 ;
-		void:distinctSubjects	6 ;
-		void:property	skos:closeMatch ;
-		void:triples	11 ;
-	] , [
-		void:distinctObjects	297 ;
-		void:distinctSubjects	662 ;
+		void:distinctObjects	314 ;
+		void:distinctSubjects	751 ;
 		void:property	rdfs:label ;
-		void:triples	666 ;
+		void:triples	755 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -359,34 +357,34 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:triples	1 ;
 	] , [
 		void:distinctObjects	1 ;
-		void:distinctSubjects	221 ;
+		void:distinctSubjects	8 ;
 		void:property	sh:warned-shape ;
-		void:triples	221 ;
+		void:triples	8 ;
 	] , [
 		void:distinctObjects	5 ;
 		void:distinctSubjects	12 ;
 		void:property	gas:clone-for ;
 		void:triples	12 ;
 	] , [
-		void:distinctObjects	147 ;
-		void:distinctSubjects	656 ;
+		void:distinctObjects	174 ;
+		void:distinctSubjects	746 ;
 		void:property	pav:lastRefreshedOn ;
-		void:triples	656 ;
+		void:triples	746 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
 		void:property	<http://www.omg.org/techprocess/ab/SpecificationMetadata/fileAbbreviation> ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	7 ;
-		void:distinctSubjects	106 ;
+		void:distinctObjects	254 ;
+		void:distinctSubjects	742 ;
 		void:property	<http://data.ga-group.nl/catasess/sessions/efficaciousOn> ;
-		void:triples	485 ;
+		void:triples	1232 ;
 	] , [
-		void:distinctObjects	103 ;
-		void:distinctSubjects	633 ;
+		void:distinctObjects	122 ;
+		void:distinctSubjects	723 ;
 		void:property	dcterms:source ;
-		void:triples	633 ;
+		void:triples	723 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -398,30 +396,30 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	gas:clone-as ;
 		void:triples	12 ;
 	] , [
-		void:distinctObjects	5 ;
-		void:distinctSubjects	11 ;
+		void:distinctObjects	9 ;
+		void:distinctSubjects	19 ;
 		void:property	tempo:validTill ;
-		void:triples	11 ;
+		void:triples	19 ;
 	] , [
-		void:distinctObjects	11 ;
-		void:distinctSubjects	41 ;
+		void:distinctObjects	12 ;
+		void:distinctSubjects	42 ;
 		void:property	<http://data.ga-group.nl/catasess/sessions/operatesIn> ;
-		void:triples	41 ;
+		void:triples	42 ;
 	] , [
-		void:distinctObjects	15 ;
-		void:distinctSubjects	547 ;
+		void:distinctObjects	21 ;
+		void:distinctSubjects	674 ;
 		void:property	pav:sourceAccessedOn ;
-		void:triples	547 ;
+		void:triples	674 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
 		void:property	dcterms:issued ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	15 ;
-		void:distinctSubjects	75 ;
+		void:distinctObjects	18 ;
+		void:distinctSubjects	81 ;
 		void:property	tempo:validFrom ;
-		void:triples	75 ;
+		void:triples	81 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	12 ;
@@ -434,9 +432,9 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:triples	1 ;
 	] , [
 		void:distinctObjects	5 ;
-		void:distinctSubjects	662 ;
+		void:distinctSubjects	751 ;
 		void:property	rdf:type ;
-		void:triples	773 ;
+		void:triples	862 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -448,30 +446,35 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	owl:versionIRI ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	172 ;
-		void:distinctSubjects	656 ;
+		void:distinctObjects	198 ;
+		void:distinctSubjects	746 ;
 		void:property	fibo-fip:isTradingSessionOf ;
-		void:triples	659 ;
+		void:triples	749 ;
 	] , [
-		void:distinctObjects	135 ;
-		void:distinctSubjects	656 ;
+		void:distinctObjects	146 ;
+		void:distinctSubjects	746 ;
 		void:property	<http://data.ga-group.nl/catasess/sessions/activeTill> ;
-		void:triples	657 ;
+		void:triples	746 ;
 	] , [
-		void:distinctObjects	140 ;
-		void:distinctSubjects	547 ;
+		void:distinctObjects	164 ;
+		void:distinctSubjects	674 ;
 		void:property	pav:sourceLastAccessedOn ;
-		void:triples	547 ;
+		void:triples	674 ;
 	] , [
-		void:distinctObjects	65 ;
-		void:distinctSubjects	656 ;
+		void:distinctObjects	76 ;
+		void:distinctSubjects	746 ;
 		void:property	time:timeZone ;
-		void:triples	656 ;
+		void:triples	746 ;
 	] , [
-		void:distinctObjects	18 ;
-		void:distinctSubjects	656 ;
+		void:distinctObjects	23 ;
+		void:distinctSubjects	746 ;
 		void:property	pav:importedOn ;
-		void:triples	656 ;
+		void:triples	746 ;
+	] , [
+		void:distinctObjects	1 ;
+		void:distinctSubjects	8 ;
+		void:property	sh:violated-shape ;
+		void:triples	8 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -493,22 +496,22 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	dcterms:isPartOf ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	4 ;
-		void:distinctSubjects	4 ;
+		void:distinctObjects	3 ;
+		void:distinctSubjects	3 ;
 		void:property	skos:definition ;
-		void:triples	4 ;
+		void:triples	3 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
 		void:property	dcterms:license ;
 		void:triples	1 ;
 	] ;
-	void:triples	8045 ;
+	void:triples	9649 ;
 	void:vocabulary	<http://data.ga-group.nl/catasess/sessions/> , <http://purl.org/dc/terms/> , <http://purl.org/pav/> , <http://purl.org/tempo/> , <http://schema.ga-group.nl/symbology#> , <http://www.omg.org/techprocess/ab/SpecificationMetadata/> , <http://www.w3.org/2000/01/rdf-schema#> , <http://www.w3.org/2002/07/owl#> , <http://www.w3.org/2004/02/skos/core#> , <http://www.w3.org/2006/time#> , <http://www.w3.org/ns/shacl#> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> , rdf: .
 
 <http://data.ga-group.nl/catasess/days/Dataset>
 	a	void:Dataset ;
-	pav:lastRefreshedOn	"2024-04-04T12:15:21.731784"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-08T10:47:06.173443"^^xsd:dateTime ;
 	void:classPartition	[
 		void:class	owl:SymmetricProperty ;
 		void:entities	1 ;
@@ -517,7 +520,7 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:entities	1 ;
 	] , [
 		void:class	fibo-fip:TradingDay ;
-		void:entities	571 ;
+		void:entities	661 ;
 	] , [
 		void:class	owl:ObjectProperty ;
 		void:entities	1 ;
@@ -527,30 +530,33 @@ A product group's only purpose is to segment a market (identified by it's Market
 	] , [
 		void:class	owl:Ontology ;
 		void:entities	1 ;
+	] , [
+		void:class	rdfs:Resource ;
+		void:entities	2 ;
 	] ;
 	void:classes	6 ;
-	void:entities	575 ;
-	void:properties	25 ;
+	void:entities	667 ;
+	void:properties	27 ;
 	void:propertyPartition	[
-		void:distinctObjects	4318 ;
-		void:distinctSubjects	332 ;
+		void:distinctObjects	4352 ;
+		void:distinctSubjects	351 ;
 		void:property	<http://data.ga-group.nl/catasess/days/observedOn> ;
-		void:triples	30481 ;
+		void:triples	31652 ;
 	] , [
-		void:distinctObjects	33 ;
-		void:distinctSubjects	555 ;
+		void:distinctObjects	36 ;
+		void:distinctSubjects	645 ;
 		void:property	pav:importedOn ;
-		void:triples	555 ;
+		void:triples	645 ;
 	] , [
 		void:distinctObjects	4 ;
 		void:distinctSubjects	4 ;
 		void:property	rdfs:label ;
 		void:triples	4 ;
 	] , [
-		void:distinctObjects	233 ;
-		void:distinctSubjects	571 ;
+		void:distinctObjects	272 ;
+		void:distinctSubjects	661 ;
 		void:property	fibo-fip:isTradingDayOf ;
-		void:triples	573 ;
+		void:triples	663 ;
 	] , [
 		void:distinctObjects	2 ;
 		void:distinctSubjects	2 ;
@@ -562,20 +568,25 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	<http://www.omg.org/techprocess/ab/SpecificationMetadata/contributor> ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	194 ;
-		void:distinctSubjects	243 ;
+		void:distinctObjects	204 ;
+		void:distinctSubjects	318 ;
 		void:property	pav:sourceLastAccessedOn ;
-		void:triples	243 ;
+		void:triples	318 ;
 	] , [
 		void:distinctObjects	6 ;
-		void:distinctSubjects	575 ;
+		void:distinctSubjects	665 ;
 		void:property	rdf:type ;
-		void:triples	576 ;
+		void:triples	666 ;
 	] , [
-		void:distinctObjects	224 ;
-		void:distinctSubjects	555 ;
+		void:distinctObjects	240 ;
+		void:distinctSubjects	645 ;
 		void:property	pav:lastRefreshedOn ;
-		void:triples	555 ;
+		void:triples	645 ;
+	] , [
+		void:distinctObjects	6 ;
+		void:distinctSubjects	6 ;
+		void:property	tempo:validFrom ;
+		void:triples	6 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -587,10 +598,15 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	dcterms:isPartOf ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	438 ;
-		void:distinctSubjects	371 ;
+		void:distinctObjects	7 ;
+		void:distinctSubjects	7 ;
+		void:property	tempo:validTill ;
+		void:triples	7 ;
+	] , [
+		void:distinctObjects	741 ;
+		void:distinctSubjects	473 ;
 		void:property	<http://data.ga-group.nl/catasess/days/activeSession> ;
-		void:triples	663 ;
+		void:triples	988 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	1 ;
@@ -612,20 +628,20 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	dcterms:license ;
 		void:triples	1 ;
 	] , [
-		void:distinctObjects	329 ;
-		void:distinctSubjects	330 ;
+		void:distinctObjects	347 ;
+		void:distinctSubjects	345 ;
 		void:property	<http://data.ga-group.nl/catasess/days/neverCoincidesWith> ;
-		void:triples	442 ;
+		void:triples	465 ;
 	] , [
-		void:distinctObjects	9 ;
-		void:distinctSubjects	243 ;
+		void:distinctObjects	12 ;
+		void:distinctSubjects	318 ;
 		void:property	pav:sourceAccessedOn ;
-		void:triples	243 ;
+		void:triples	318 ;
 	] , [
-		void:distinctObjects	1 ;
-		void:distinctSubjects	207 ;
+		void:distinctObjects	2 ;
+		void:distinctSubjects	190 ;
 		void:property	sh:violated-shape ;
-		void:triples	207 ;
+		void:triples	195 ;
 	] , [
 		void:distinctObjects	1 ;
 		void:distinctSubjects	3 ;
@@ -657,5 +673,5 @@ A product group's only purpose is to segment a market (identified by it's Market
 		void:property	dcterms:abstract ;
 		void:triples	1 ;
 	] ;
-	void:triples	34561 ;
-	void:vocabulary	<http://data.ga-group.nl/catasess/days/> , <http://purl.org/dc/terms/> , <http://purl.org/pav/> , <http://www.omg.org/techprocess/ab/SpecificationMetadata/> , <http://www.w3.org/2000/01/rdf-schema#> , <http://www.w3.org/2002/07/owl#> , <http://www.w3.org/2004/02/skos/core#> , <http://www.w3.org/ns/shacl#> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> , rdf: .
+	void:triples	36591 ;
+	void:vocabulary	<http://data.ga-group.nl/catasess/days/> , <http://purl.org/dc/terms/> , <http://purl.org/pav/> , <http://purl.org/tempo/> , <http://www.omg.org/techprocess/ab/SpecificationMetadata/> , <http://www.w3.org/2000/01/rdf-schema#> , <http://www.w3.org/2002/07/owl#> , <http://www.w3.org/2004/02/skos/core#> , <http://www.w3.org/ns/shacl#> , <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/> , rdf: .

@@ -106,6 +106,7 @@ WITH <http://data.ga-group.nl/catasess/sessions/>
 INSERT {
 	?xs a fibo-fip:TradingSession ;
 		fibo-fip:isTradingSessionOf ?xc ;
+		sess:efficaciousOn ?xcd ;
 		?v ?o .
 }
 USING <http://data.ga-group.nl/bps/>
@@ -120,11 +121,14 @@ WHERE {
 	FILTER(STRSTARTS(STRAFTER(STR(?xs),STR(sess:)),STRAFTER(STR(?xc),STR(cata:))))
 	FILTER(?v != fibo-fip:isTradingSessionOf)
 	FILTER(?v != skos:exactMatch)
+	FILTER(?v != skos:closeMatch)
 
 	BIND(EXISTS {
 		?xs rdfs:label ?lbl
 	} AS ?lblp)
 	FILTER(!?lblp || ?v != rdfs:label)
+
+	BIND(IRI(CONCAT(STR(day:),STRAFTER(STR(?xc),STR(cata:)),'-Full')) AS ?xcd)
 }
 ;
 ECHO $ROWCNT "\n";

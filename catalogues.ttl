@@ -54,7 +54,7 @@ cata:A2XX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:47:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2018-02-26"^^xsd:date .
 
 cata:AIXK-EXXXXX
@@ -66,7 +66,6 @@ cata:AIXK-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:02:14Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2018-04-23"^^xsd:date .
 
 cata:AMXO-OXXICS
@@ -78,7 +77,6 @@ cata:AMXO-OXXICS
 	pav:importedOn	"2022-06-29T02:45:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:45:24Z"^^xsd:dateTime ;
 	rdfs:label	"NYSE American Index Options" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2008-11-24"^^xsd:date .
 
 cata:APEX-FXXXXX-1010
@@ -90,7 +88,6 @@ cata:APEX-FXXXXX-1010
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
 cata:APEX-FXXXXX-1020
@@ -102,7 +99,6 @@ cata:APEX-FXXXXX-1020
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
 cata:APEX-FXXXXX-20
@@ -114,7 +110,6 @@ cata:APEX-FXXXXX-20
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
 cata:APEX-FXXXXX-501010
@@ -126,7 +121,6 @@ cata:APEX-FXXXXX-501010
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
 cata:APEX-FXXXXX-501020
@@ -138,7 +132,6 @@ cata:APEX-FXXXXX-501020
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-11-27"^^xsd:date .
 
 cata:AQEU-EXXXXX
@@ -151,7 +144,7 @@ cata:AQEU-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:31:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
 
 cata:ARCX-EXXXXX
@@ -164,7 +157,6 @@ cata:ARCX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:01:04Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2006-09-25"^^xsd:date .
 
 cata:ARTX-EXXXXX
@@ -175,6 +167,7 @@ cata:ARTX-EXXXXX
 	pav:lastRefreshedOn	"2024-03-27T12:23:27.401Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2024-03-07T11:48:42Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:35:05Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-02-27"^^xsd:date .
 
 cata:BATE-EXXXXX
@@ -188,7 +181,6 @@ cata:BATE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:21:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:BATS-EXXXXX
@@ -201,7 +193,6 @@ cata:BATS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:56:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
 
 cata:BATY-EXXXXX
@@ -214,7 +205,6 @@ cata:BATY-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:56:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
 
 cata:BEUE-EXXXXX
@@ -228,7 +218,6 @@ cata:BEUE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2018-09-24"^^xsd:date .
 
 cata:BIVA-EXXXXX
@@ -240,7 +229,6 @@ cata:BIVA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:49:35Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-09-25"^^xsd:date .
 
 cata:BJSE-EXXXXX
@@ -252,7 +240,6 @@ cata:BJSE-EXXXXX
 	pav:sourceAccessedOn	"2024-03-07T07:33:18Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:02:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-03-28"^^xsd:date .
 
 cata:BLOX-EXXXXX
@@ -265,7 +252,6 @@ cata:BLOX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:21:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-09-26"^^xsd:date .
 
 cata:BMTF-EXXXXX
@@ -278,13 +264,14 @@ cata:BMTF-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:21:40Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-06-22"^^xsd:date .
 
 cata:BSEX-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BSEX ;
+	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2007-09-24"^^xsd:date .
 
 cata:BVCA-EXXXXX
@@ -297,7 +284,7 @@ cata:BVCA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:52:00Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2014-04-28"^^xsd:date .
 
 cata:BVMF-EXXXXX
@@ -310,7 +297,6 @@ cata:BVMF-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:51:05Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-03-28"^^xsd:date .
 
 cata:CEDX-FFICSX-CH
@@ -323,7 +309,6 @@ cata:CEDX-FFICSX-CH
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEDX-FFICSX-DE
@@ -336,7 +321,6 @@ cata:CEDX-FFICSX-DE
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEDX-FFICSX-ES
@@ -349,7 +333,6 @@ cata:CEDX-FFICSX-ES
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEDX-FFICSX-EU
@@ -362,7 +345,6 @@ cata:CEDX-FFICSX-EU
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEDX-FFICSX-FR
@@ -375,7 +357,6 @@ cata:CEDX-FFICSX-FR
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEDX-FFICSX-IT
@@ -388,7 +369,6 @@ cata:CEDX-FFICSX-IT
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEDX-FFICSX-NL
@@ -401,7 +381,6 @@ cata:CEDX-FFICSX-NL
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEDX-FFICSX-NO
@@ -415,7 +394,6 @@ cata:CEDX-FFICSX-NO
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime ;
 	rdfs:label	"CEDX Norwegian Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEDX-FFICSX-SE
@@ -429,7 +407,6 @@ cata:CEDX-FFICSX-SE
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-19T11:58:23Z"^^xsd:dateTime ;
 	rdfs:label	"CEDX Swedish Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEDX-FFICSX-UK
@@ -442,7 +419,6 @@ cata:CEDX-FFICSX-UK
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2023-05-03T06:46:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-11-23"^^xsd:date .
 
 cata:CEUX-EXXXXX
@@ -456,7 +432,6 @@ cata:CEUX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:35:32Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:CHIA-EXXXXX
@@ -470,7 +445,6 @@ cata:CHIA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:37:20Z"^^xsd:dateTime ;
 	rdfs:label	"Cboe Australian Equities" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
 cata:CHIC-EXXXXX
@@ -479,11 +453,10 @@ cata:CHIC-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIC ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-27T12:17:51.004Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:21:35.937Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:53:43Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
 cata:CHIJ-EXXXXX
@@ -496,7 +469,6 @@ cata:CHIJ-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:04:45Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-11-28"^^xsd:date .
 
 cata:CHIS-EXXXXX
@@ -509,7 +481,6 @@ cata:CHIS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:04:45Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-11-28"^^xsd:date .
 
 cata:CHIX-EXXXXX
@@ -523,7 +494,6 @@ cata:CHIX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:22:02Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:DIFX-EXXXXX
@@ -536,7 +506,6 @@ cata:DIFX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:15:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-02-27"^^xsd:date .
 
 cata:DIFX-FFICSX
@@ -549,7 +518,6 @@ cata:DIFX-FFICSX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:15:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-02-27"^^xsd:date .
 
 cata:DKED-OXXICS
@@ -562,7 +530,7 @@ cata:DKED-OXXICS
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:17:40Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2017-04-24"^^xsd:date .
 
 cata:DSMD-EXXXXX
@@ -575,7 +543,7 @@ cata:DSMD-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:14:05Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2009-11-23"^^xsd:date .
 
 cata:EDGA-EXXXXX
@@ -588,7 +556,6 @@ cata:EDGA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:57:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
 
 cata:EDGX-EXXXXX
@@ -602,7 +569,6 @@ cata:EDGX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:57:35Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
 
 cata:ENAX-EXXXXX
@@ -616,7 +582,6 @@ cata:ENAX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:26:35Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
 cata:EPRL-EXXXXX
@@ -629,7 +594,7 @@ cata:EPRL-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:59:14Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2020-02-24"^^xsd:date .
 
 cata:EUWX-EXXXXX
@@ -642,7 +607,7 @@ cata:EUWX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:33:33Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
 cata:FNDK-EXXXXX
@@ -655,7 +620,7 @@ cata:FNDK-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:17:29Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
 cata:FNFI-EXXXXX
@@ -668,7 +633,6 @@ cata:FNFI-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:18:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
 cata:FNIS-EXXXXX
@@ -680,7 +644,7 @@ cata:FNIS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:18:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
 cata:FNSE-EXXXXX
@@ -692,7 +656,6 @@ cata:FNSE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:19:52Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
 cata:HSTC-EXXXXX
@@ -705,7 +668,6 @@ cata:HSTC-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:10:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2009-07-27"^^xsd:date .
 
 cata:IEXG-EXXXXX
@@ -718,7 +680,6 @@ cata:IEXG-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:58:13Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 cata:IFCA-FCXPSX
@@ -731,10 +692,33 @@ cata:IFCA-FCXPSX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:57:58Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2011-10-24"^^xsd:date .
 
-cata:IFSG-FXXXXX
+cata:IFSG-FXXXXX-1010
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFSG ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:18:49.142Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:09:18Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2013-12-23"^^xsd:date .
+
+cata:IFSG-FXXXXX-5030
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFSG ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:18:49.142Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:09:18Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	sh:warned-shape	cata:cons-no-sessions ;
+	tempo:validFrom	"2013-12-23"^^xsd:date .
+
+cata:IFSG-FXXXXX-Rest
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
@@ -744,7 +728,7 @@ cata:IFSG-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:09:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2013-12-23"^^xsd:date .
 
 cata:IFUS-FXXXXX
@@ -757,7 +741,7 @@ cata:IFUS-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:57:58Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2013-12-23"^^xsd:date .
 
 cata:IINX-FXXXXX
@@ -771,7 +755,6 @@ cata:IINX-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:10:47Z"^^xsd:dateTime ;
 	rdfs:label	"India INX Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2018-03-26"^^xsd:date .
 
 cata:LICA-EXXXXX
@@ -784,7 +767,7 @@ cata:LICA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:53:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2010-09-27"^^xsd:date .
 
 cata:LTSE-EXXXXX
@@ -797,7 +780,7 @@ cata:LTSE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:58:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2019-12-23"^^xsd:date .
 
 cata:LYNX-EXXXXX
@@ -810,7 +793,7 @@ cata:LYNX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:53:11Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2012-11-26"^^xsd:date .
 
 cata:MALX-EXXXXX
@@ -823,7 +806,6 @@ cata:MALX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:12:02Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2011-08-22"^^xsd:date .
 
 cata:MATN-CSE-EXXXXX
@@ -837,7 +819,6 @@ cata:MATN-CSE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:55:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2008-01-28"^^xsd:date .
 
 cata:MATN-TSX-EXXXXX
@@ -851,7 +832,6 @@ cata:MATN-TSX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:55:46Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2008-01-28"^^xsd:date .
 
 cata:MATN-V-EXXXXX
@@ -865,8 +845,18 @@ cata:MATN-V-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:55:58Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2008-01-28"^^xsd:date .
+
+cata:MCXX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-MCXX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:50:32.298Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:11:01Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2020-07-27"^^xsd:date .
 
 cata:MEMX-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -878,7 +868,6 @@ cata:MEMX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:59:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-04-25"^^xsd:date .
 
 cata:MFOX-FFICSX
@@ -892,8 +881,18 @@ cata:MFOX-FFICSX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:29:25Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Lisbon Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2023-04-24"^^xsd:date .
+
+cata:MTAA-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-MTAA ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:40:41.034Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:27:07Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2017-05-22"^^xsd:date .
 
 cata:N2EX-FXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -905,7 +904,7 @@ cata:N2EX-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:24:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2009-11-23"^^xsd:date .
 
 cata:NDEX-FCXXXX
@@ -918,7 +917,6 @@ cata:NDEX-FCXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:35:58Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-06-26"^^xsd:date .
 
 cata:NEOE-EXXXXX
@@ -931,7 +929,7 @@ cata:NEOE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:54:49Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2019-06-24"^^xsd:date .
 
 cata:NEXX-EXXXXX
@@ -944,7 +942,7 @@ cata:NEXX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:21:00Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2017-06-26"^^xsd:date .
 
 cata:NILX-EXXXXX
@@ -957,7 +955,6 @@ cata:NILX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T12:13:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2011-01-24"^^xsd:date .
 
 cata:ODXE-EXXXXX
@@ -969,7 +966,6 @@ cata:ODXE-EXXXXX
 	pav:sourceAccessedOn	"2022-11-08T08:16:09.971Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:05:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-01-24"^^xsd:date .
 
 cata:OMGA-EXXXXX
@@ -982,7 +978,7 @@ cata:OMGA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:54:57Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2008-01-28"^^xsd:date .
 
 cata:OTXB-EXXXXX
@@ -995,7 +991,7 @@ cata:OTXB-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:36:56Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2017-12-25"^^xsd:date .
 
 cata:PLPX-FXXXXX
@@ -1008,7 +1004,7 @@ cata:PLPX-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:16:11Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2007-07-23"^^xsd:date .
 
 cata:ROCO-EXXXXX
@@ -1020,7 +1016,6 @@ cata:ROCO-EXXXXX
 	pav:sourceAccessedOn	"2024-03-15T03:57:15Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
 cata:RSEX-EXXXXX
@@ -1033,7 +1028,7 @@ cata:RSEX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:46:32Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2011-08-22"^^xsd:date .
 
 cata:RTSX-EXXXXX
@@ -1046,7 +1041,7 @@ cata:RTSX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:17:00Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2018-11-26"^^xsd:date .
 
 cata:SBIU-EXXXXX
@@ -1058,7 +1053,6 @@ cata:SBIU-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:05:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-04-27"^^xsd:date .
 
 cata:SPDK-EXXXXX
@@ -1071,7 +1065,6 @@ cata:SPDK-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:20:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:SPNO-EXXXXX
@@ -1084,7 +1077,6 @@ cata:SPNO-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:20:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:STUA-EXXXXX
@@ -1097,7 +1089,7 @@ cata:STUA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:34:37Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
 cata:STUB-EXXXXX
@@ -1110,7 +1102,7 @@ cata:STUB-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:34:37Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
 cata:TFEX-FXXXXX
@@ -1123,7 +1115,7 @@ cata:TFEX-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:09:46Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2006-06-26"^^xsd:date .
 
 cata:UKPX-FXXXXX
@@ -1136,7 +1128,6 @@ cata:UKPX-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:20:45Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2006-06-26"^^xsd:date .
 
 cata:WBAH-EXXXXX
@@ -1149,7 +1140,7 @@ cata:WBAH-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:31:06Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2007-07-23"^^xsd:date .
 
 cata:WDER-FFXCSX
@@ -1162,7 +1153,7 @@ cata:WDER-FFXCSX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:16:14Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"1991-04-16"^^xsd:date .
 
 cata:XADE-FFICSX
@@ -1176,7 +1167,6 @@ cata:XADE-FFICSX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:26:21Z"^^xsd:dateTime ;
 	rdfs:label	"ATHEX Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
 cata:XADE-OXXICS
@@ -1188,7 +1178,6 @@ cata:XADE-OXXICS
 	pav:importedOn	"2022-06-28T07:39:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-28T06:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"ATHEX Index Options" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
 cata:XADS-EXXXXX
@@ -1201,7 +1190,7 @@ cata:XADS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:14:32Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2011-06-27"^^xsd:date .
 
 cata:XAMM-EXXXXX
@@ -1213,7 +1202,6 @@ cata:XAMM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:13:34Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2019-10-28"^^xsd:date .
 
 cata:XAMS-EXXXXX
@@ -1225,7 +1213,6 @@ cata:XAMS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:35:45Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
 cata:XARM-EXXXXX
@@ -1238,7 +1225,6 @@ cata:XARM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:12:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
 cata:XASE-EXXXXX
@@ -1251,7 +1237,6 @@ cata:XASE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-06-25"^^xsd:date .
 
 cata:XASE-OXXICS
@@ -1264,7 +1249,6 @@ cata:XASE-OXXICS
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-06-25"^^xsd:date .
 
 cata:XASE-OXXICS-NDX
@@ -1277,8 +1261,7 @@ cata:XASE-OXXICS-NDX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
 	rdfs:label	"NYSE American options on NASDAQ indices" ;
-	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-days ;
 	tempo:validFrom	"2012-06-25"^^xsd:date .
 
 cata:XASE-OXXSPS
@@ -1291,8 +1274,6 @@ cata:XASE-OXXSPS
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
 	rdfs:label	"NYSE American equity options" ;
-	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-06-25"^^xsd:date .
 
 cata:XASX-EXXXXX
@@ -1306,7 +1287,6 @@ cata:XASX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"1987-04-01"^^xsd:date .
 
 cata:XASX-OXXICS
@@ -1320,7 +1300,6 @@ cata:XASX-OXXICS
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:37:13Z"^^xsd:dateTime ;
 	rdfs:label	"ASX Index Options" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2009-01-01"^^xsd:date .
 
 cata:XATS-EXXXXX
@@ -1333,7 +1312,7 @@ cata:XATS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:52:22Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-04-24"^^xsd:date .
 
 cata:XBAA-EXXXXX
@@ -1346,7 +1325,7 @@ cata:XBAA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:48:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBAB-EXXXXX
@@ -1359,7 +1338,6 @@ cata:XBAB-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:48:39Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBDA-EXXXXX
@@ -1372,7 +1350,7 @@ cata:XBDA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:52:12Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBEL-EXXXXX
@@ -1385,7 +1363,7 @@ cata:XBEL-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:29:35Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2014-12-22"^^xsd:date .
 
 cata:XBEY-EXXXXX
@@ -1397,7 +1375,7 @@ cata:XBEY-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:13:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2009-04-27"^^xsd:date .
 
 cata:XBLB-EXXXXX
@@ -1411,7 +1389,6 @@ cata:XBLB-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:25:46Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-10-24"^^xsd:date .
 
 cata:XBNV-EXXXXX
@@ -1424,7 +1401,7 @@ cata:XBNV-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:49:34Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBOG-EXXXXX
@@ -1437,7 +1414,7 @@ cata:XBOG-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:51:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBOM-EXXXXX
@@ -1448,6 +1425,7 @@ cata:XBOM-EXXXXX
 	pav:lastRefreshedOn	"2024-03-27T10:40:37.343Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-09-26"^^xsd:date .
 
 cata:XBOM-OXXICS
@@ -1460,7 +1438,6 @@ cata:XBOM-OXXICS
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:10:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2011-09-26"^^xsd:date .
 
 cata:XBOS-EXXXXX
@@ -1473,7 +1450,6 @@ cata:XBOS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:59:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-04-23"^^xsd:date .
 
 cata:XBOT-EXXXXX
@@ -1486,7 +1462,7 @@ cata:XBOT-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:47:39Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBRA-EXXXXX
@@ -1499,7 +1475,7 @@ cata:XBRA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:17:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBRD-FFICSX
@@ -1515,7 +1491,6 @@ cata:XBRD-FFICSX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:31:14Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Brussels Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
 cata:XBRN-EXXXXX
@@ -1528,7 +1503,7 @@ cata:XBRN-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:36:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:XBRU-EXXXXX
@@ -1541,7 +1516,6 @@ cata:XBRU-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:31:14Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
 cata:XBRV-EXXXXX
@@ -1554,7 +1528,40 @@ cata:XBRV-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:48:34Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
+	tempo:validFrom	"2005-06-27"^^xsd:date .
+
+cata:XBUD-FCXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBUD ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:00.392Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:15:52Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2005-06-27"^^xsd:date .
+
+cata:XBUD-FFNXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBUD ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:00.392Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:15:52Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2005-06-27"^^xsd:date .
+
+cata:XBUD-FFSXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBUD ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:41:00.392Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:15:52Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBVM-EXXXXX
@@ -1566,7 +1573,6 @@ cata:XBVM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:46:16Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2014-10-27"^^xsd:date .
 
 cata:XCAS-EXXXXX
@@ -1578,7 +1584,6 @@ cata:XCAS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T12:13:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XCAY-EXXXXX
@@ -1590,7 +1595,6 @@ cata:XCAY-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:48:52Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XCBF-FFXCSX
@@ -1603,7 +1607,7 @@ cata:XCBF-FFXCSX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:56:47Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2008-07-28"^^xsd:date .
 
 cata:XCBT-FCAPXX
@@ -1615,7 +1619,6 @@ cata:XCBT-FCAPXX
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Agricultural Physical Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XCBT-FCAXXX
@@ -1627,7 +1630,6 @@ cata:XCBT-FCAXXX
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Agricultural Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XCBT-ZR
@@ -1640,7 +1642,6 @@ cata:XCBT-ZR
 	pav:importedOn	"2022-06-30T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-30T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"CBOT Rough Rice Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XCEC-FCXXXX
@@ -1653,7 +1654,6 @@ cata:XCEC-FCXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:56:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XCHI-EXXXXX
@@ -1666,7 +1666,6 @@ cata:XCHI-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:01:19Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
 
 cata:XCIS-EXXXXX
@@ -1679,7 +1678,6 @@ cata:XCIS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:01:28Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
 
 cata:XCSE-EXXXXX
@@ -1691,7 +1689,6 @@ cata:XCSE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:17:40Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:XCSX-EXXXXX
@@ -1703,10 +1700,31 @@ cata:XCSX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:28Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
 
-cata:XCYS-EXXXXX
+cata:XCX2-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCX2 ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:21:40.548Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:54:09Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2022-02-28"^^xsd:date .
+
+cata:XCXD-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCXD ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:21:45.201Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:54:32Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2016-09-26"^^xsd:date .
+
+cata:XCYS-EXXXXX-A
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
@@ -1715,8 +1733,7 @@ cata:XCYS-EXXXXX
 	pav:lastRefreshedOn	"2024-03-27T10:41:56.349Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:13:05Z"^^xsd:dateTime ;
-	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	rdfs:label	"CSE Cash Markets, Main Market" ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XDAR-EXXXXX
@@ -1729,7 +1746,6 @@ cata:XDAR-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:46:56Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XDHA-EXXXXX
@@ -1742,7 +1758,6 @@ cata:XDHA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:10:34Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XDSX-EXXXXX
@@ -1755,7 +1770,6 @@ cata:XDSX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:47:31Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2008-05-26"^^xsd:date .
 
 cata:XECM-EXXXXX
@@ -1768,7 +1782,6 @@ cata:XECM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:13:05Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2009-05-25"^^xsd:date .
 
 cata:XEEE-FXXXXX
@@ -1781,7 +1794,6 @@ cata:XEEE-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:33:24Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-09-28"^^xsd:date .
 
 cata:XEMD-FXXXXX-5010
@@ -1793,7 +1805,6 @@ cata:XEMD-FXXXXX-5010
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:49:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XEMD-FXXXXX-5020
@@ -1805,7 +1816,6 @@ cata:XEMD-FXXXXX-5020
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:49:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XEMD-FXXXXX-5030
@@ -1817,7 +1827,6 @@ cata:XEMD-FXXXXX-5030
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:49:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XEQT-EXXXXX
@@ -1830,7 +1839,6 @@ cata:XEQT-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:33:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2008-05-26"^^xsd:date .
 
 cata:XEQY-EXXXXX
@@ -1843,7 +1851,6 @@ cata:XEQY-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:14:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 cata:XETA-EXXXXX-DAX
@@ -1856,7 +1863,6 @@ cata:XETA-EXXXXX-DAX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:34:53Z"^^xsd:dateTime ;
 	rdfs:label	"Xetra regulated market, shares in DAX, TecDAX, MDAX, and SDAX" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
 cata:XETA-EXXXXX-DE
@@ -1869,7 +1875,6 @@ cata:XETA-EXXXXX-DE
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-19T11:57:26Z"^^xsd:dateTime ;
 	rdfs:label	"Xetra regulated market, German shares not in DAX, TecDAX, MDAX, and SDAX" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
 cata:XETC-EXXXXX
@@ -1882,7 +1887,6 @@ cata:XETC-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-19T11:57:26Z"^^xsd:dateTime ;
 	rdfs:label	"Xetra international shares" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
 cata:XEUR-DAX
@@ -1896,7 +1900,6 @@ cata:XEUR-DAX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2008-01-01"^^xsd:date .
 
 cata:XEUR-ESX
@@ -1910,7 +1913,6 @@ cata:XEUR-ESX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2008-01-01"^^xsd:date .
 
 cata:XEUR-FBT
@@ -1924,7 +1926,6 @@ cata:XEUR-FBT
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Italian/French Government Bonds Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
 cata:XEUR-FGB
@@ -1938,7 +1939,6 @@ cata:XEUR-FGB
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German/French Government Bonds Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2004-01-01"^^xsd:date .
 
 cata:XFKA-EXXXXX
@@ -1951,7 +1951,6 @@ cata:XFKA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:05:00Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XFNO-XXXXXX
@@ -1963,7 +1962,6 @@ cata:XFNO-XXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:14:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 cata:XFTA-FMX
@@ -1977,7 +1975,6 @@ cata:XFTA-FMX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2003-04-01"^^xsd:date .
 
 cata:XFTA-FTI
@@ -1991,7 +1988,6 @@ cata:XFTA-FTI
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Amsterdam Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2003-04-01"^^xsd:date .
 
 cata:XGAT-EXXXXX
@@ -2004,7 +2000,7 @@ cata:XGAT-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:33:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:XGRM-EXXXXX
@@ -2017,7 +2013,7 @@ cata:XGRM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:33:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:XHEL-EXXXXX
@@ -2029,7 +2025,6 @@ cata:XHEL-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:18:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:XHNX-EXXXXX
@@ -2042,7 +2037,6 @@ cata:XHNX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:10:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2009-07-27"^^xsd:date .
 
 cata:XICE-EXXXXX
@@ -2055,7 +2049,6 @@ cata:XICE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:18:29Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:XICX-EXXXXX
@@ -2067,8 +2060,18 @@ cata:XICX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:52:58Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2010-11-22"^^xsd:date .
+
+cata:XIDX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XIDX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T10:43:33.448Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:08:37Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2008-04-28"^^xsd:date .
 
 cata:XIMC-FXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -2079,7 +2082,6 @@ cata:XIMC-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:11:04Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2006-04-24"^^xsd:date .
 
 cata:XINE-FXXXXX
@@ -2092,7 +2094,7 @@ cata:XINE-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:03:26Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2014-06-23"^^xsd:date .
 
 cata:XIQS-EXXXXX
@@ -2105,7 +2107,7 @@ cata:XIQS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:13:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2011-10-24"^^xsd:date .
 
 cata:XISX-OXXICS
@@ -2118,7 +2120,6 @@ cata:XISX-OXXICS
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:58:47Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2014-10-27"^^xsd:date .
 
 cata:XJAM-EXXXXX
@@ -2131,7 +2132,6 @@ cata:XJAM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:49:08Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XKAC-FXXXXX
@@ -2143,7 +2143,6 @@ cata:XKAC-FXXXXX
 	pav:sourceAccessedOn	"2024-03-07T07:56:50Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:06:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2017-03-27"^^xsd:date .
 
 cata:XKAR-EXXXXX
@@ -2156,7 +2155,7 @@ cata:XKAR-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:12:22Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2016-04-25"^^xsd:date .
 
 cata:XKAZ-EXXXXX
@@ -2168,7 +2167,6 @@ cata:XKAZ-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:02:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:XKFB-EXXXXX
@@ -2180,7 +2178,6 @@ cata:XKFB-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:07:08Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2010-08-23"^^xsd:date .
 
 cata:XKFE-FXXXXX
@@ -2192,7 +2189,6 @@ cata:XKFE-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:07:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2013-09-23"^^xsd:date .
 
 cata:XKLS-EXXXXX
@@ -2204,7 +2200,6 @@ cata:XKLS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:09:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XKON-EXXXXX
@@ -2216,7 +2211,6 @@ cata:XKON-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:07:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-01-25"^^xsd:date .
 
 cata:XKOS-EXXXXX
@@ -2228,7 +2222,6 @@ cata:XKOS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:07:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2013-09-23"^^xsd:date .
 
 cata:XKRX-EXXXXX
@@ -2240,7 +2233,6 @@ cata:XKRX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:07:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2013-09-23"^^xsd:date .
 
 cata:XKUW-EXXXXX
@@ -2252,7 +2244,6 @@ cata:XKUW-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:13:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2007-03-26"^^xsd:date .
 
 cata:XLAO-EXXXXX
@@ -2264,7 +2255,6 @@ cata:XLAO-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2011-02-28"^^xsd:date .
 
 cata:XLDN-EXXXXX
@@ -2276,7 +2266,7 @@ cata:XLDN-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2010-03-22"^^xsd:date .
 
 cata:XLIM-EXXXXX
@@ -2289,7 +2279,7 @@ cata:XLIM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:51:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XLIT-EXXXXX
@@ -2301,7 +2291,6 @@ cata:XLIT-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:18:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:XLJU-EXXXXX
@@ -2314,7 +2303,7 @@ cata:XLJU-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:29:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XLON-EQS-EXXXXX
@@ -2328,7 +2317,7 @@ cata:XLON-EQS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:23:52Z"^^xsd:dateTime ;
 	rdfs:label	"European Quoting System" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
 cata:XLON-EXXXXX
@@ -2340,7 +2329,6 @@ cata:XLON-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:23:59Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
 cata:XLUS-EXXXXX
@@ -2353,7 +2341,6 @@ cata:XLUS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:47:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"1994-01-01"^^xsd:date .
 
 cata:XLUX-EXXXXX
@@ -2365,7 +2352,6 @@ cata:XLUX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:35:31Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMAB-FXXXXX
@@ -2377,7 +2363,6 @@ cata:XMAB-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:50:39Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMAD-EXXXXX
@@ -2390,7 +2375,7 @@ cata:XMAD-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:30:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMAE-EXXXXX
@@ -2402,7 +2387,6 @@ cata:XMAE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:29:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:XMAL-EXXXXX
@@ -2414,7 +2398,6 @@ cata:XMAL-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:29:04Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-05-23"^^xsd:date .
 
 cata:XMAU-EXXXXX
@@ -2426,7 +2409,6 @@ cata:XMAU-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:46:05Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMEV-EXXXXX
@@ -2439,7 +2421,7 @@ cata:XMEV-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:50:19Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMEX-EXXXXX
@@ -2451,7 +2433,6 @@ cata:XMEX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:50:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMNX-EXXXXX
@@ -2463,7 +2444,6 @@ cata:XMNX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:29:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2006-12-25"^^xsd:date .
 
 cata:XMOL-EXXXXX
@@ -2475,7 +2455,6 @@ cata:XMOL-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:16:26Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMON-FFICSX
@@ -2489,8 +2468,19 @@ cata:XMON-FFICSX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Paris Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-days ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
+
+cata:XMSM-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMSM ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:22:31.489Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T10:18:31Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2019-01-28"^^xsd:date .
 
 cata:XMSW-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -2501,7 +2491,6 @@ cata:XMSW-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:45:58Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMTB-FXXXXX-10
@@ -2513,7 +2502,6 @@ cata:XMTB-FXXXXX-10
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMTB-FXXXXX-20
@@ -2525,7 +2513,6 @@ cata:XMTB-FXXXXX-20
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMTB-FXXXXX-5010
@@ -2537,7 +2524,6 @@ cata:XMTB-FXXXXX-5010
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMTB-FXXXXX-5020
@@ -2549,7 +2535,6 @@ cata:XMTB-FXXXXX-5020
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMTB-FXXXXX-5030
@@ -2561,7 +2546,6 @@ cata:XMTB-FXXXXX-5030
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:50:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XNAI-EXXXXX
@@ -2573,7 +2557,6 @@ cata:XNAI-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:45:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XNCM-EXXXXX
@@ -2586,7 +2569,6 @@ cata:XNCM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:00:03Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2008-02-25"^^xsd:date .
 
 cata:XNEC-EXXXXX
@@ -2599,7 +2581,6 @@ cata:XNEC-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:37:35Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2002-01-01"^^xsd:date .
 
 cata:XNEP-EXXXXX
@@ -2611,7 +2592,6 @@ cata:XNEP-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:12:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XNGM-EXXXXX
@@ -2623,7 +2603,6 @@ cata:XNGM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:20:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-04-23"^^xsd:date .
 
 cata:XNGO-EXXXXX
@@ -2636,7 +2615,6 @@ cata:XNGO-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:05:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XNGS-EXXXXX
@@ -2649,7 +2627,6 @@ cata:XNGS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:00:33Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2006-07-24"^^xsd:date .
 
 cata:XNIM-EXXXXX
@@ -2662,7 +2639,7 @@ cata:XNIM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:00:43Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2008-02-25"^^xsd:date .
 
 cata:XNMS-EXXXXX
@@ -2675,7 +2652,6 @@ cata:XNMS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:00:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XNSE-EXXXXX
@@ -2688,7 +2664,6 @@ cata:XNSE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:11:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XNYL-FXXXXX
@@ -2701,7 +2676,7 @@ cata:XNYL-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:01:40Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2008-05-26"^^xsd:date .
 
 cata:XNYS-EXXXXX
@@ -2714,7 +2689,6 @@ cata:XNYS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:01:49Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-05-23"^^xsd:date .
 
 cata:XNZE-EXXXXX
@@ -2727,7 +2701,7 @@ cata:XNZE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:37:44Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XPAE-EXXXXX
@@ -2740,7 +2714,7 @@ cata:XPAE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:14:19Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2013-11-25"^^xsd:date .
 
 cata:XPAR-EXXXXX
@@ -2753,7 +2727,6 @@ cata:XPAR-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:32:11Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
 cata:XPHS-EXXXXX
@@ -2766,7 +2739,7 @@ cata:XPHS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:09:05Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XPOS-EXXXXX
@@ -2779,7 +2752,7 @@ cata:XPOS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:22:58Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2017-10-23"^^xsd:date .
 
 cata:XPOW-FXXXXX
@@ -2792,7 +2765,7 @@ cata:XPOW-FXXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:32:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XPSX-EXXXXX
@@ -2805,7 +2778,6 @@ cata:XPSX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:00:46Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2013-03-25"^^xsd:date .
 
 cata:XPTY-EXXXXX
@@ -2818,7 +2790,7 @@ cata:XPTY-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:50:06Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 cata:XQUI-EXXXXX
@@ -2831,7 +2803,7 @@ cata:XQUI-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:51:40Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2011-06-27"^^xsd:date .
 
 cata:XRIS-EXXXXX
@@ -2843,7 +2815,6 @@ cata:XRIS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:18:49Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:XSAP-EXXXXX
@@ -2855,7 +2826,6 @@ cata:XSAP-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:06:16Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSAT-EXXXXX
@@ -2867,7 +2837,6 @@ cata:XSAT-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:20:28Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-06-27"^^xsd:date .
 
 cata:XSAU-EXXXXX
@@ -2880,7 +2849,7 @@ cata:XSAU-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:14:11Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSBI-EXXXXX
@@ -2892,7 +2861,6 @@ cata:XSBI-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:05:44Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2020-04-27"^^xsd:date .
 
 cata:XSEC-EXXXXX
@@ -2905,7 +2873,7 @@ cata:XSEC-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:02:54Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-05-25"^^xsd:date .
 
 cata:XSFE-BB
@@ -2917,7 +2885,6 @@ cata:XSFE-BB
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"NZ 90 Day Bank Bill Futures and Options" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
 
 cata:XSFE-FFAXXX
@@ -2931,7 +2898,6 @@ cata:XSFE-FFAXXX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Grain futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
 
 cata:XSFE-FFICSX
@@ -2945,7 +2911,6 @@ cata:XSFE-FFICSX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Index derivatives" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
 
 cata:XSFE-IB
@@ -2959,7 +2924,6 @@ cata:XSFE-IB
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"30 Day Interbank Cash Rate Futures and Options" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
 
 cata:XSFE-IR
@@ -2973,7 +2937,6 @@ cata:XSFE-IR
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"90 Day Bank Bill Futures and Options" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
 
 cata:XSFE-XT
@@ -2987,7 +2950,6 @@ cata:XSFE-XT
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"10 Year/20 Year Treasury Bond Futures and Options" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	skos:note	"comprises XT and LT products" ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
 
@@ -3002,7 +2964,6 @@ cata:XSFE-YT
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"3 Year/5 Year Treasury Bond Futures and Options" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	skos:note	"comprises YT and VT products" ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
 
@@ -3016,7 +2977,7 @@ cata:XSGO-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:51:26Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSGO-FFCPSX
@@ -3028,7 +2989,6 @@ cata:XSGO-FFCPSX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago Currency Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSGO-FFICSX
@@ -3040,7 +3000,6 @@ cata:XSGO-FFICSX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago Index Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSGO-FFNCSX
@@ -3052,7 +3011,6 @@ cata:XSGO-FFNCSX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Bolsa de Santiago Rate Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSGO-FFXXXX
@@ -3065,7 +3023,7 @@ cata:XSGO-FFXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:51:26Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSHE-EXXXXX
@@ -3078,7 +3036,7 @@ cata:XSHE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:03:44Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSOM-EXXXXX
@@ -3091,7 +3049,7 @@ cata:XSOM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:51:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2003-04-01"^^xsd:date .
 
 cata:XSSC-EXXXXX
@@ -3104,7 +3062,7 @@ cata:XSSC-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:02:43Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2014-08-25"^^xsd:date .
 
 cata:XSSE-EXXXXX
@@ -3117,7 +3075,6 @@ cata:XSSE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:26:02Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2007-06-25"^^xsd:date .
 
 cata:XSTC-EXXXXX
@@ -3130,7 +3087,6 @@ cata:XSTC-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:10:19Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2009-12-28"^^xsd:date .
 
 cata:XSTO-EXXXXX
@@ -3143,7 +3099,6 @@ cata:XSTO-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:20:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:XSTO-FXXXXX
@@ -3156,7 +3111,7 @@ cata:XSTO-FXXXXX
 	pav:sourceAccessedOn	"2022-10-20T12:28:08.463Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:20:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:XSWX-FFDPSX
@@ -3170,7 +3125,6 @@ cata:XSWX-FFDPSX
 	pav:importedOn	"2022-06-29T02:43:43.910Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2022-06-29T02:44:24.674Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Zurich Rate Futures" ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
 cata:XTAE-EXXXXX-Tamar
@@ -3183,7 +3137,6 @@ cata:XTAE-EXXXXX-Tamar
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:13:22Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XTAE-EXXXXX-nonTamar
@@ -3196,7 +3149,6 @@ cata:XTAE-EXXXXX-nonTamar
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-19T11:37:44Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XTAI-EXXXXX
@@ -3208,7 +3160,6 @@ cata:XTAI-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:08:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XTAL-EXXXXX
@@ -3221,7 +3172,6 @@ cata:XTAL-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:17:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:XTFF-FFXXXX
@@ -3234,7 +3184,7 @@ cata:XTFF-FFXXXX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:06:30Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2007-09-24"^^xsd:date .
 
 cata:XTKS-EXXXXX
@@ -3246,7 +3196,6 @@ cata:XTKS-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:06:45Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2016-05-23"^^xsd:date .
 
 cata:XTRN-EXXXXX
@@ -3259,7 +3208,7 @@ cata:XTRN-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:49:26Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XTSE-EXXXXX
@@ -3272,7 +3221,6 @@ cata:XTSE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:55:26Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XTSX-EXXXXX
@@ -3285,7 +3233,6 @@ cata:XTSX-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:55:37Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XTUN-EXXXXX
@@ -3298,7 +3245,6 @@ cata:XTUN-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:45:34Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-06-27"^^xsd:date .
 
 cata:XUGA-EXXXXX
@@ -3311,7 +3257,7 @@ cata:XUGA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:46:47Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
+	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XULA-EXXXXX
@@ -3323,7 +3269,6 @@ cata:XULA-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:06:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XVIE-EXXXXX
@@ -3336,7 +3281,6 @@ cata:XVIE-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:31:06Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2011-04-25"^^xsd:date .
 
 cata:XZAM-EXXXXX
@@ -3349,7 +3293,6 @@ cata:XZAM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:26:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"1991-07-05"^^xsd:date .
 
 cata:XZCE-FCXPSX
@@ -3362,7 +3305,6 @@ cata:XZCE-FCXPSX
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:03:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"1990-10-01"^^xsd:date .
 
 cata:XZIM-EXXXXX
@@ -3375,7 +3317,6 @@ cata:XZIM-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T09:47:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2022-05-23"^^xsd:date .
 
 cata:ZBUL-EXXXXX
@@ -3388,5 +3329,4 @@ cata:ZBUL-EXXXXX
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-27T10:15:33Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-unused-catalogue ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
