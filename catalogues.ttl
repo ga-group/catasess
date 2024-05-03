@@ -50,11 +50,10 @@ cata:A2XX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-A2XX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:27.139Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:59:11.837Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:00:10Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:51:02Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2018-02-26"^^xsd:date .
 
 cata:AIXK-EXXXXX
@@ -62,9 +61,9 @@ cata:AIXK-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-AIXK ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:35.312Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:59:43.058Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:13:17Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:05:07Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2018-04-23"^^xsd:date .
 
@@ -140,11 +139,10 @@ cata:AQEU-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-AQEU ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:54.340Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T11:00:08.339Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:42:18Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:33:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
 
 cata:AQXE-EXXXXX
@@ -152,9 +150,9 @@ cata:AQXE-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-AQXE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:16.650Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:56:27.698Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:31:32Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:23:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-01-23"^^xsd:date .
 
@@ -164,9 +162,9 @@ cata:ARCX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-ARCX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:54.833Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:32.444Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:12:33Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:04:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2006-09-25"^^xsd:date .
 
@@ -175,9 +173,9 @@ cata:ARTX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-ARTX ;
 	pav:importedOn	"2024-03-08T14:38:45.413Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:05:45.695Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T11:01:14.597Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2024-03-07T11:48:42Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:45:41Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:36:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-02-27"^^xsd:date .
 
@@ -188,9 +186,9 @@ cata:BATE-EXXXXX
 	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BATE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:51.949Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:30.165Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:32:31Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:24:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
@@ -200,9 +198,9 @@ cata:BATS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BATS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:54.744Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:33.446Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:08:16Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:59:03Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
 
@@ -212,9 +210,9 @@ cata:BATY-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BATY ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:26.873Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:31.635Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:08:07Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:58:56Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
 
@@ -236,9 +234,9 @@ cata:BIVA-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BIVA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:11.016Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:58:51.528Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:52:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2017-09-25"^^xsd:date .
 
@@ -247,9 +245,9 @@ cata:BJSE-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BJSE ;
 	pav:importedOn	"2024-03-08T14:38:34.637Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:05:34.849Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T11:00:59.944Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2024-03-07T07:33:18Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:13:49Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:05:24Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-03-28"^^xsd:date .
 
@@ -259,9 +257,9 @@ cata:BLOX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BLOX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:33.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:56:48.704Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:32:01Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:24:21Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-09-26"^^xsd:date .
 
@@ -271,9 +269,9 @@ cata:BMTF-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BMTF ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:16.380Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:58:57.755Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:32:16Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:24:37Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-06-22"^^xsd:date .
@@ -291,9 +289,9 @@ cata:BVCA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BVCA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:09.126Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:50.085Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:04:17Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:55:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2014-04-28"^^xsd:date .
 
@@ -303,9 +301,9 @@ cata:BVMF-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-BVMF ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:26.883Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:10.459Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:53Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-03-28"^^xsd:date .
 
@@ -438,9 +436,9 @@ cata:CEUX-EXXXXX
 	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CEUX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:56.979Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T11:00:11.393Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:46:01Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:37:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
@@ -453,7 +451,7 @@ cata:CHIA-EXXXXX
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2025-03-19T02:44:24.674Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:47:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:39:14Z"^^xsd:dateTime ;
 	rdfs:label	"Cboe Australian Equities" ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
@@ -463,9 +461,9 @@ cata:CHIC-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIC ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:40.870Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:59:50.330Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:05:51Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:56:06Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
@@ -475,9 +473,9 @@ cata:CHIJ-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIJ ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:20.497Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:11.764Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:16:31Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:07:49Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-11-28"^^xsd:date .
 
@@ -487,9 +485,9 @@ cata:CHIS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:20.497Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:11.764Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:16:31Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:07:49Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-11-28"^^xsd:date .
 
@@ -500,9 +498,9 @@ cata:CHIX-EXXXXX
 	dct:source	"https://www.cboe.com/europe/equities/overview/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-CHIX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:06.280Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:40:25.698Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:32:59Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:24:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
@@ -512,9 +510,9 @@ cata:DGCX-DailyGold
 	cata:supporting-ticker	"DGFC" ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-DGCX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:40.160Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:43.756Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:25:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:11Z"^^xsd:dateTime ;
 	rdfs:label	"Daily Gold" ;
 	tempo:validFrom	"2005-12-26"^^xsd:date .
 
@@ -523,9 +521,9 @@ cata:DGCX-FXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-DGCX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:40.160Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:43.756Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:25:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:11Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-12-26"^^xsd:date .
 
@@ -535,9 +533,9 @@ cata:DGCX-SpotPhysGold
 	cata:supporting-ticker	"DGSG" , "DPG" , "DSG" ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-DGCX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:40.160Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:43.756Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:25:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:11Z"^^xsd:dateTime ;
 	rdfs:label	"Spot Gold and Physical Gold" ;
 	tempo:validFrom	"2005-12-26"^^xsd:date .
 
@@ -547,9 +545,9 @@ cata:DIFX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-DIFX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:08.643Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:41.358Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:25:44Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2017-02-27"^^xsd:date .
 
@@ -559,9 +557,9 @@ cata:DIFX-FFICSX
 	cmns-cls:isClassifiedBy	cfi:FFICSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-DIFX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:08.643Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:41.358Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:25:44Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2017-02-27"^^xsd:date .
 
@@ -570,9 +568,9 @@ cata:DKED-FXXICS
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-DKED ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:17.680Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:17.234Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:28:06Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:20:16Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2017-04-24"^^xsd:date .
 
@@ -582,9 +580,9 @@ cata:DKED-OXXICS
 	cmns-cls:isClassifiedBy	cfi:OXXICS ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-DKED ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:17.680Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:17.234Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:28:06Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:20:16Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2017-04-24"^^xsd:date .
 
@@ -594,9 +592,9 @@ cata:DSMD-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-DSMD ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:34.185Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:14.815Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:24:23Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:15:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2009-11-23"^^xsd:date .
 
@@ -606,9 +604,9 @@ cata:EDGA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-EDGA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:06.610Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:03.065Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:09:13Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:00:06Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
 
@@ -619,9 +617,9 @@ cata:EDGX-EXXXXX
 	dct:source	"https://www.cboe.com/about/hours/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-EDGX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:09.637Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:06.621Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:09:18Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:00:24Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2018-06-25"^^xsd:date .
 
@@ -632,9 +630,9 @@ cata:ENAX-EXXXXX
 	dct:source	"https://www.athexgroup.gr/web/guest/trading-alternative-market"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-ENAX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:43.814Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:20.820Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:36:56Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:28:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
@@ -644,12 +642,22 @@ cata:EPRL-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-EPRL ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:03:51.869Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:58:29.394Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:11:05Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:02:29Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2020-02-24"^^xsd:date .
+
+cata:ETLX-EXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-ETLX ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:27.474Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:28:32Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2023-04-24"^^xsd:date .
 
 cata:EUWX-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -657,9 +665,9 @@ cata:EUWX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-EUWX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:16.898Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:24.193Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:42Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:35:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
@@ -669,9 +677,9 @@ cata:FNDK-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-FNDK ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:48.425Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:49.145Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:28:05Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:20:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
@@ -681,9 +689,9 @@ cata:FNFI-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-FNFI ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:42.883Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:43.238Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:28:21Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:20:32Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
@@ -692,9 +700,9 @@ cata:FNIS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-FNIS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:45.603Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:46.117Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:28:45Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:20:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
@@ -703,9 +711,9 @@ cata:FNSE-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-FNSE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:39.923Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:40.148Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:30:33Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:22:40Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
@@ -726,9 +734,9 @@ cata:HSTC-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-HSTC ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:08.900Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:59.280Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:21:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2009-07-27"^^xsd:date .
 
@@ -738,9 +746,9 @@ cata:IEXG-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IEXG ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:24.845Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:56:39.640Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:09:57Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:01:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-10-24"^^xsd:date .
 
@@ -750,9 +758,9 @@ cata:IFCA-FCXPSX
 	cmns-cls:isClassifiedBy	cfi:FCXPSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFCA ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:41.991Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:51.057Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:09:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:00:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2011-10-24"^^xsd:date .
@@ -762,9 +770,9 @@ cata:IFSG-FXXXXX-1010
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFSG ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:49.514Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:06.861Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:20:41Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2013-12-23"^^xsd:date .
 
@@ -773,9 +781,9 @@ cata:IFSG-FXXXXX-5030
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFSG ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:49.514Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:06.861Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:20:41Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2013-12-23"^^xsd:date .
 
@@ -785,9 +793,9 @@ cata:IFSG-FXXXXX-Rest
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFSG ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:49.514Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:06.861Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:20:41Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2013-12-23"^^xsd:date .
 
@@ -797,9 +805,9 @@ cata:IFUS-FXXXXX
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IFUS ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:41.991Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:51.057Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:09:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:00:53Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2013-12-23"^^xsd:date .
@@ -811,9 +819,9 @@ cata:IINX-FXXXXX
 	dct:source	"https://www.indiainx.com/static/productsnapshot.aspx"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-IINX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:32.578Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:59:39.901Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:21:50Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:13:09Z"^^xsd:dateTime ;
 	rdfs:label	"India INX Futures" ;
 	tempo:validFrom	"2018-03-26"^^xsd:date .
 
@@ -823,11 +831,10 @@ cata:LICA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-LICA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:18.660Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:22.315Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:05:09Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:55:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2010-09-27"^^xsd:date .
 
 cata:LTSE-EXXXXX
@@ -836,9 +843,9 @@ cata:LTSE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-LTSE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:05:15.849Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T11:00:35.471Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:10:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:02:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-12-23"^^xsd:date .
 
@@ -848,9 +855,9 @@ cata:LYNX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-LYNX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:22.061Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:56:34.458Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:05:25Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:55:43Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2012-11-26"^^xsd:date .
 
@@ -860,9 +867,9 @@ cata:MALX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MALX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:05.082Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:06.882Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:22:33Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:14:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-08-22"^^xsd:date .
 
@@ -873,9 +880,9 @@ cata:MATN-CSE-EXXXXX
 	dct:source	"https://www.cboe.com/ca/equities/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MATN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:03:54.619Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:58:32.253Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:07:29Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:58:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2008-01-28"^^xsd:date .
 
@@ -886,9 +893,9 @@ cata:MATN-TSX-EXXXXX
 	dct:source	"https://www.cboe.com/ca/equities/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MATN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:00.957Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:56.783Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:07:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:58:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2008-01-28"^^xsd:date .
 
@@ -899,9 +906,9 @@ cata:MATN-V-EXXXXX
 	dct:source	"https://www.cboe.com/ca/equities/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MATN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:03:22.131Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:39.966Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:07:46Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:58:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2008-01-28"^^xsd:date .
 
@@ -910,9 +917,9 @@ cata:MCXX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MCXX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:11.855Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:02.453Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:21:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:13:13Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2020-07-27"^^xsd:date .
 
@@ -922,9 +929,9 @@ cata:MEMX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MEMX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:05:18.600Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T11:00:38.662Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:11:21Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:02:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-04-25"^^xsd:date .
 
@@ -935,9 +942,9 @@ cata:MFOX-FFICSX
 	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MFOX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:06.825Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:13.746Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:39:49Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:30:46Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Lisbon Index Futures" ;
 	tempo:validFrom	"2023-04-24"^^xsd:date .
 
@@ -946,9 +953,9 @@ cata:MTAA-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-MTAA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:15.460Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:57.354Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:37:17Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:28:35Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2017-05-22"^^xsd:date .
 
@@ -958,11 +965,10 @@ cata:N2EX-FXXXXX
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-N2EX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:35.365Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:40.753Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:35:12Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:26:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2009-11-23"^^xsd:date .
 
 cata:NDEX-FCXXXX
@@ -971,9 +977,9 @@ cata:NDEX-FCXXXX
 	cmns-cls:isClassifiedBy	cfi:FCXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-NDEX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:03:03.037Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:21.743Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:46:21Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:37:29Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2017-06-26"^^xsd:date .
 
@@ -982,9 +988,9 @@ cata:NEOD-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-NEOD ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:37.989Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:59:46.604Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:06:40Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:57:06Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-06-24"^^xsd:date .
 
@@ -994,9 +1000,9 @@ cata:NEOE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-NEOE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:03:00.331Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:18.731Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:06:46Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:57:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-06-24"^^xsd:date .
 
@@ -1005,9 +1011,9 @@ cata:NEON-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-NEON ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:03:24.960Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:43.015Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:07:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:57:35Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-06-24"^^xsd:date .
 
@@ -1017,11 +1023,10 @@ cata:NEXX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-NEXX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:19.874Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:59.524Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:31:46Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:24:07Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2017-06-26"^^xsd:date .
 
 cata:NILX-EXXXXX
@@ -1030,9 +1035,9 @@ cata:NILX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-NILX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:36.617Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:29.526Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:57:20Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:48:14Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-01-24"^^xsd:date .
 
@@ -1041,9 +1046,9 @@ cata:ODXE-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-ODXE ;
 	pav:importedOn	"2022-11-08T08:16:09.971Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:05:42.958Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T11:01:11.485Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-11-08T08:16:09.971Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:17:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:09:02Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-01-24"^^xsd:date .
 
@@ -1053,11 +1058,10 @@ cata:OMGA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-OMGA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:57.689Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:35.477Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:07:07Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:57:45Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2008-01-28"^^xsd:date .
 
 cata:OTXB-EXXXXX
@@ -1066,9 +1070,9 @@ cata:OTXB-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-OTXB ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:43.653Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:49.906Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:47:06Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:38:22Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2017-12-25"^^xsd:date .
 
@@ -1077,9 +1081,9 @@ cata:PFTS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-PFTS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:11.348Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:50.115Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:27:49Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:20:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2010-05-24"^^xsd:date .
 
@@ -1089,9 +1093,9 @@ cata:PLPX-FXXXXX
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-PLPX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:34.488Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:34.287Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:26:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:18:26Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2007-07-23"^^xsd:date .
@@ -1101,9 +1105,9 @@ cata:ROCO-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-ROCO ;
 	pav:importedOn	"2024-03-16T10:18:40.460Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:53.943Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:55.114Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2024-03-15T03:57:15Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:19:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:10:54Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
@@ -1113,11 +1117,10 @@ cata:RSEX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-RSEX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:20.743Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:19.083Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:58:33Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:49:31Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2011-08-22"^^xsd:date .
 
 cata:RTSX-EXXXXX
@@ -1126,9 +1129,9 @@ cata:RTSX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-RTSX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:08.679Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:39.892Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:27:29Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:19:33Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2018-11-26"^^xsd:date .
@@ -1138,9 +1141,9 @@ cata:SBIU-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-SBIU ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:57.497Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:07.554Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:17:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:08:31Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2020-04-27"^^xsd:date .
 
@@ -1149,9 +1152,9 @@ cata:SHSC-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-SHSC ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:46.613Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:03.637Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:16:11Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:07:31Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2014-08-25"^^xsd:date .
 
@@ -1185,11 +1188,10 @@ cata:STUA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-STUA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:00.014Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:29.393Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:44:57Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:36:37Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
 cata:STUB-EXXXXX
@@ -1198,11 +1200,10 @@ cata:STUB-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-STUB ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:00.014Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:29.393Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:44:57Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:36:37Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
 cata:SZSC-EXXXXX
@@ -1210,23 +1211,65 @@ cata:SZSC-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-SZSC ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:03:19.352Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:36.846Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:16:20Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:07:40Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2016-09-26"^^xsd:date .
 
-cata:TFEX-FXXXXX
+cata:TFEX-FXXXXX-2010
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
-	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-TFEX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:13.697Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:58.692Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:20:49Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:14Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
+	tempo:validFrom	"2006-06-26"^^xsd:date .
+
+cata:TFEX-FXXXXX-3040
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-TFEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:58.692Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:14Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2006-06-26"^^xsd:date .
+
+cata:TFEX-FXXXXX-5010
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-TFEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:58.692Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:14Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2006-06-26"^^xsd:date .
+
+cata:TFEX-FXXXXX-5020
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-TFEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:58.692Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:14Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	tempo:validFrom	"2006-06-26"^^xsd:date .
+
+cata:TFEX-FXXXXX-5030
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-TFEX ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:58.692Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:14Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2006-06-26"^^xsd:date .
 
 cata:UKPX-FXXXXX
@@ -1235,9 +1278,9 @@ cata:UKPX-FXXXXX
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-UKPX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:35.550Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:10.938Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:31:29Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:23:37Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2006-06-26"^^xsd:date .
 
@@ -1247,11 +1290,10 @@ cata:WBAH-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-WBAH ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:39.276Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:26.393Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:41:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:32:39Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2007-07-23"^^xsd:date .
 
 cata:WDER-FFXCSX
@@ -1260,9 +1302,9 @@ cata:WDER-FFXCSX
 	cmns-cls:isClassifiedBy	cfi:FFXCSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-WDER ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:36.028Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:22.833Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:26:57Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:18:44Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"1991-04-16"^^xsd:date .
 
@@ -1273,9 +1315,9 @@ cata:XADE-FFICSX
 	dct:source	"https://www.athexgroup.gr/web/guest/markets-derivatives"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADE ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:41.159Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:17.644Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:36:49Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:28:03Z"^^xsd:dateTime ;
 	rdfs:label	"ATHEX Index Futures" ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
@@ -1296,9 +1338,9 @@ cata:XADS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XADS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:18.271Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:50.920Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:25:17Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:16:44Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-06-27"^^xsd:date .
 
@@ -1307,9 +1349,9 @@ cata:XAMM-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XAMM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:32.724Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:07.475Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:23:58Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:15:14Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-10-28"^^xsd:date .
 
@@ -1318,9 +1360,9 @@ cata:XAMS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XAMS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:59.628Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:05.403Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:46:15Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:37:28Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
@@ -1330,9 +1372,9 @@ cata:XARM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XARM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:38.350Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:14.196Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:23:22Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:14:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
@@ -1342,9 +1384,9 @@ cata:XASE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:29.895Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:04.068Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:12:24Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:03:58Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2012-06-25"^^xsd:date .
 
@@ -1366,9 +1408,9 @@ cata:XASE-OXXICS-NDX
 	cmns-cls:isClassifiedBy	cfi:OXXICS ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASE ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-03-27T10:39:50.934Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:04.068Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-03-27T10:00:53Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:03:58Z"^^xsd:dateTime ;
 	rdfs:label	"NYSE American options on NASDAQ indices" ;
 	tempo:validFrom	"2012-06-25"^^xsd:date .
 
@@ -1391,9 +1433,9 @@ cata:XASX-EXXXXX
 	dct:source	"https://www.asx.com.au/markets/trade-our-cash-market/overview/shares"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:24.324Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:40:48.084Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:47:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:39:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"1987-04-01"^^xsd:date .
 
@@ -1404,9 +1446,9 @@ cata:XASX-OXXICS
 	dct:source	"https://www.asx.com.au/about/index-options.htm"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XASX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:24.324Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:40:48.084Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:47:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:39:09Z"^^xsd:dateTime ;
 	rdfs:label	"ASX Index Options" ;
 	tempo:validFrom	"2009-01-01"^^xsd:date .
 
@@ -1415,9 +1457,9 @@ cata:XATH-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XATH ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:53.450Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:21.510Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:37:10Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:28:28Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
@@ -1427,9 +1469,9 @@ cata:XATS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XATS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:05:48.416Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T11:01:17.724Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:04:47Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:55:24Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-04-24"^^xsd:date .
 
@@ -1439,11 +1481,10 @@ cata:XBAA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBAA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:46.552Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:23.937Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:01:17Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:51:46Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBAB-EXXXXX
@@ -1452,9 +1493,9 @@ cata:XBAB-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBAB ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:49.245Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:27.040Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:01:19Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:52:00Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1464,11 +1505,10 @@ cata:XBDA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBDA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:03.305Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:43.878Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:04:18Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:55:08Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBEL-EXXXXX
@@ -1477,11 +1517,10 @@ cata:XBEL-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBEL ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:00.546Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:40.489Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:39:57Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:31:08Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2014-12-22"^^xsd:date .
 
 cata:XBER-EXXXXX
@@ -1489,9 +1528,9 @@ cata:XBER-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBER ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:57.173Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:26.022Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:42:54Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:34:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2007-09-24"^^xsd:date .
 
@@ -1500,11 +1539,10 @@ cata:XBEY-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBEY ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:57.813Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:37.272Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:24:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:15:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2009-04-27"^^xsd:date .
 
 cata:XBLB-EXXXXX
@@ -1514,9 +1552,9 @@ cata:XBLB-EXXXXX
 	dct:source	"https://www.blberza.com/Pages/docview.aspx?page=sp6"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBLB ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:15.944Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:18.534Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:36:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:27:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-10-24"^^xsd:date .
 
@@ -1526,11 +1564,10 @@ cata:XBNV-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBNV ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:20.816Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:20.826Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:01:59Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:52:33Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBOG-EXXXXX
@@ -1539,11 +1576,10 @@ cata:XBOG-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOG ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:06.568Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:02.678Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:03:31Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:54:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBOM-EXXXXX
@@ -1551,9 +1587,9 @@ cata:XBOM-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:12.027Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:53.340Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:21:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:52Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-09-26"^^xsd:date .
 
@@ -1563,9 +1599,9 @@ cata:XBOM-OXXICS
 	cmns-cls:isClassifiedBy	cfi:OXXICS ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOM ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:12.027Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:42:53.340Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:21:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:52Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-09-26"^^xsd:date .
 
@@ -1575,9 +1611,9 @@ cata:XBOS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:05.718Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:38.147Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:11:29Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:03:07Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2012-04-23"^^xsd:date .
 
@@ -1587,11 +1623,10 @@ cata:XBOT-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBOT ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:21.311Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:04.019Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:59:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:50:32Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XBRA-EXXXXX
@@ -1600,9 +1635,9 @@ cata:XBRA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:50.032Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:44.689Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:27:35Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:19:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
@@ -1616,9 +1651,9 @@ cata:XBRD-FFICSX
 	dct:source	"https://www.euronext.com/en/trade/trading-hours-holidays"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRD ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:03.189Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:09.909Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:41:53Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:32:48Z"^^xsd:dateTime ;
 	rdfs:label	"Euronext Brussels Index Futures" ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
@@ -1628,11 +1663,10 @@ cata:XBRN-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:38.577Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:56:54.472Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:47:04Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:38:08Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:XBRU-EXXXXX
@@ -1641,9 +1675,9 @@ cata:XBRU-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRU ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:03.189Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:09.909Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:41:53Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:32:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
@@ -1653,9 +1687,9 @@ cata:XBRV-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBRV ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:24.074Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:07.185Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:01:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:51:32Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1664,9 +1698,9 @@ cata:XBUD-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBUD ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:32.640Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:17.039Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:26:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1675,9 +1709,9 @@ cata:XBUD-FCXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBUD ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:32.640Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:17.039Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:26:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1686,9 +1720,9 @@ cata:XBUD-FFNXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBUD ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:32.640Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:17.039Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:26:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1697,9 +1731,9 @@ cata:XBUD-FFSXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBUD ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:32.640Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:17.039Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:26:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:51Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1708,9 +1742,9 @@ cata:XBVM-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XBVM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:55:10.395Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:48:06.593Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:58:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:49:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2014-10-27"^^xsd:date .
 
@@ -1719,9 +1753,9 @@ cata:XCAI-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCAI ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:51.262Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:56.600Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:57:05Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:48:05Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2008-08-25"^^xsd:date .
 
@@ -1730,9 +1764,9 @@ cata:XCAS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCAS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:44.176Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:32.409Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:57:35Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:48:26Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1741,13 +1775,13 @@ cata:XCAY-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCAY ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:46.891Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:37.404Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:01:23Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:52:04Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
-cata:XCBF-FFXCSX
+cata:XCBF-IBIGHY
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:FFXCSX ;
@@ -1756,8 +1790,19 @@ cata:XCBF-FFXCSX
 	pav:lastRefreshedOn	"2024-04-09T05:51:49.783Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-04-09T05:08:38Z"^^xsd:dateTime ;
-	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
+	rdfs:label	"C'boe IBIG/IBHY Futures" ;
+	tempo:validFrom	"2008-07-28"^^xsd:date .
+
+cata:XCBF-VX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:FFXCSX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCBF ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:41.146Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:59:29Z"^^xsd:dateTime ;
+	rdfs:label	"C'boe VIX Futures" ;
 	tempo:validFrom	"2008-07-28"^^xsd:date .
 
 cata:XCBT-FCAPXX
@@ -1800,9 +1845,9 @@ cata:XCEC-FCXXXX
 	cmns-cls:isClassifiedBy	cfi:FCXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCEC ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:12.083Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:09.322Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:08:00Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:58:49Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1812,9 +1857,9 @@ cata:XCHI-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCHI ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:58.199Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:50.714Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:12:35Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:04:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
 
@@ -1823,11 +1868,11 @@ cata:XCIE-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCIE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:52.551Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:44.398Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:36:08Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:27:26Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	tempo:validFrom	"2017-05-22"^^xsd:date .
+	tempo:validFrom	"2013-12-20"^^xsd:date .
 
 cata:XCIS-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -1835,9 +1880,9 @@ cata:XCIS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCIS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:25.758Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:59.928Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:12:41Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:04:21Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .
 
@@ -1846,9 +1891,9 @@ cata:XCSE-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCSE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:17.680Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:17.234Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:28:06Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:20:16Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
@@ -1857,9 +1902,9 @@ cata:XCSX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCSX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:02.302Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:03.928Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:19:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:11:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2012-05-28"^^xsd:date .
 
@@ -1868,9 +1913,9 @@ cata:XCX2-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCX2 ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:43.588Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:59:53.799Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:06:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:56:35Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-02-28"^^xsd:date .
 
@@ -1879,9 +1924,9 @@ cata:XCXD-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCXD ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:04:46.246Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:59:56.994Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:06:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:56:54Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2016-09-26"^^xsd:date .
 
@@ -1891,9 +1936,9 @@ cata:XCYS-EXXXXX-A
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XCYS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:23.513Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:24.327Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:23:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:14:40Z"^^xsd:dateTime ;
 	rdfs:label	"CSE Cash Markets, Main Market" ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1903,9 +1948,9 @@ cata:XDAR-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XDAR ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:29.102Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:31.205Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:59:06Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:49:54Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1914,9 +1959,9 @@ cata:XDFM-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XDFM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:37.391Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:40.656Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:25:20Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:16:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1926,9 +1971,9 @@ cata:XDHA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XDHA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:31.827Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:34.559Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:21:20Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:45Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1938,9 +1983,9 @@ cata:XDSX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XDSX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:34.605Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:37.523Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:59:38Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:50:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2008-05-26"^^xsd:date .
 
@@ -1949,9 +1994,9 @@ cata:XDUS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XDUS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:45.764Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:50.194Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:34:59Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
@@ -1961,9 +2006,9 @@ cata:XECM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XECM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:23.513Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:24.327Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:23:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:14:40Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2009-05-25"^^xsd:date .
 
@@ -1973,9 +2018,9 @@ cata:XEEE-FXXXXX
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEEE ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:14.103Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:21.321Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:35Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:35:11Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-09-28"^^xsd:date .
 
@@ -1984,9 +2029,9 @@ cata:XEMD-FXXXXX-5010
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEMD ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:53.943Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:39.764Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:52:54Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -1995,9 +2040,9 @@ cata:XEMD-FXXXXX-5020
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEMD ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:53.943Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:39.764Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:52:54Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2006,9 +2051,9 @@ cata:XEMD-FXXXXX-5030
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEMD ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:53.943Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:39.764Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:52:54Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2018,9 +2063,9 @@ cata:XEQT-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEQT ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:54.058Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:59.398Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:21Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:34:59Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2008-05-26"^^xsd:date .
 
@@ -2030,9 +2075,9 @@ cata:XEQY-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEQY ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:02.394Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:40:21.299Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:24:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:16:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-10-24"^^xsd:date .
 
@@ -2042,9 +2087,9 @@ cata:XETA-EXXXXX-DAX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XETA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:42.274Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:29.581Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:45:11Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:36:49Z"^^xsd:dateTime ;
 	rdfs:label	"Xetra regulated market, shares in DAX, TecDAX, MDAX, and SDAX" ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
@@ -2077,9 +2122,9 @@ cata:XETR-CEXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XETR ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:00.201Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:56:08.288Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:45:27Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:36:50Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
@@ -2092,9 +2137,9 @@ cata:XEUR-DAX
 	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:02.900Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:32.933Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:35:10Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German Equity Index Futures" ;
 	tempo:validFrom	"2008-01-01"^^xsd:date .
 
@@ -2107,9 +2152,9 @@ cata:XEUR-ESX
 	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:02.900Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:32.933Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:35:10Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex European Equity Index Futures" ;
 	tempo:validFrom	"2008-01-01"^^xsd:date .
 
@@ -2122,9 +2167,9 @@ cata:XEUR-FBT
 	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:02.900Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:32.933Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:35:10Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex Italian/French Government Bonds Futures" ;
 	tempo:validFrom	"2016-11-28"^^xsd:date .
 
@@ -2137,9 +2182,9 @@ cata:XEUR-FGB
 	dct:source	"https://www.eurex.com/ex-en/trade/trading-hours"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XEUR ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:02.900Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:32.933Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:35:10Z"^^xsd:dateTime ;
 	rdfs:label	"Eurex German/French Government Bonds Futures" ;
 	tempo:validFrom	"2004-01-01"^^xsd:date .
 
@@ -2148,9 +2193,9 @@ cata:XFEX-1010
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFEX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:59.556Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:01.052Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:48:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:39:24Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-12-23"^^xsd:date .
 
@@ -2159,9 +2204,9 @@ cata:XFEX-1035
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFEX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:59.556Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:01.052Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:48:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:39:24Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-12-23"^^xsd:date .
 
@@ -2171,9 +2216,9 @@ cata:XFKA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFKA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:22.453Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:30.403Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:16:47Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:08:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2182,9 +2227,9 @@ cata:XFNO-XXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFNO ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:02.394Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:40:21.299Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:24:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:16:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-10-24"^^xsd:date .
 
@@ -2193,9 +2238,9 @@ cata:XFRA-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XFRA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:41.443Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:08.475Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:44Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:35:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2231,11 +2276,10 @@ cata:XGAT-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XGAT ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:29.811Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:34.803Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:07Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:34:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:XGHA-EXXXXX
@@ -2243,9 +2287,9 @@ cata:XGHA-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XGHA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:25.149Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:33.240Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:00:39Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:51:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2255,11 +2299,10 @@ cata:XGRM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XGRM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:29.811Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:34.803Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:07Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:34:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
 cata:XGSE-EXXXXX
@@ -2278,9 +2321,9 @@ cata:XHAM-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHAM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:28.019Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:36.016Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:43:59Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:35:50Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
@@ -2289,9 +2332,9 @@ cata:XHAN-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHAN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:30.777Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:39.116Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:44:12Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:35:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
@@ -2300,9 +2343,9 @@ cata:XHEL-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHEL ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:33.473Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:26.125Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:28:32Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:20:41Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
@@ -2311,9 +2354,9 @@ cata:XHKG-CES
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHKG ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:36.302Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:44.923Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:15:42Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:07:10Z"^^xsd:dateTime ;
 	rdfs:label	"CES China 120 Futures and Options" ;
 	tempo:validFrom	"2011-06-27"^^xsd:date .
 
@@ -2322,9 +2365,9 @@ cata:XHKG-ChinaA50
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHKG ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:36.302Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:44.923Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:15:42Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:07:10Z"^^xsd:dateTime ;
 	rdfs:label	"China A50 Futures and Options" ;
 	tempo:validFrom	"2011-06-27"^^xsd:date .
 
@@ -2333,9 +2376,9 @@ cata:XHKG-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHKG ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:11.527Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:43.216Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:15:58Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:07:16Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-06-27"^^xsd:date .
 
@@ -2377,22 +2420,10 @@ cata:XHKG-HSI
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHKG ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:36.302Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:44.923Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:15:42Z"^^xsd:dateTime ;
-	rdfs:label	"HSI Futures and Options" ;
-	tempo:validFrom	"2011-06-27"^^xsd:date .
-
-cata:XHKG-HSTECH
-	a	fibo-fpas:FinancialProductCatalog ;
-	a	owl:NamedIndividual ;
-	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHKG ;
-	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:36.302Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:15:42Z"^^xsd:dateTime ;
-	rdfs:label	"HS TECH Futures and Options" ;
-	sh:warned-shape	cata:cons-no-sessions ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:07:10Z"^^xsd:dateTime ;
+	rdfs:label	"HSI and HS TECH Futures and Options" ;
 	tempo:validFrom	"2011-06-27"^^xsd:date .
 
 cata:XHNX-EXXXXX
@@ -2401,9 +2432,9 @@ cata:XHNX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XHNX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:08.900Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:59.280Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:21:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2009-07-27"^^xsd:date .
 
@@ -2413,9 +2444,9 @@ cata:XICE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XICE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:46.077Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:55.731Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:28:56Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:21:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
@@ -2424,9 +2455,9 @@ cata:XICX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XICX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:23.412Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:22.117Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:05:07Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:55:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2010-11-22"^^xsd:date .
 
@@ -2435,9 +2466,9 @@ cata:XIDX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XIDX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:49.146Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:58.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:20:03Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:11:21Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2008-04-28"^^xsd:date .
 
@@ -2446,23 +2477,54 @@ cata:XIMC-FXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XIMC ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:42.019Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:35.563Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:22:07Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:13:24Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2006-04-24"^^xsd:date .
 
-cata:XINE-FXXXXX
+cata:XINE-BC
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
-	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XINE ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:03:46.456Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:58:17.603Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:14:50Z"^^xsd:dateTime ;
-	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:06:29Z"^^xsd:dateTime ;
+	rdfs:label	"INE Copper Futures" ;
+	tempo:validFrom	"2014-06-23"^^xsd:date .
+
+cata:XINE-LU
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XINE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:58:17.603Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:06:29Z"^^xsd:dateTime ;
+	rdfs:label	"INE LFSO Futures" ;
+	tempo:validFrom	"2014-06-23"^^xsd:date .
+
+cata:XINE-NR
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XINE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:58:17.603Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:06:29Z"^^xsd:dateTime ;
+	rdfs:label	"INE TSR 20 Futures" ;
+	tempo:validFrom	"2014-06-23"^^xsd:date .
+
+cata:XINE-SC
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XINE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:58:17.603Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:06:29Z"^^xsd:dateTime ;
+	rdfs:label	"INE Crude Oil Futures" ;
 	tempo:validFrom	"2014-06-23"^^xsd:date .
 
 cata:XIQS-EXXXXX
@@ -2471,11 +2533,10 @@ cata:XIQS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XIQS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:44.676Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:38.570Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:23:40Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:14:56Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2011-10-24"^^xsd:date .
 
 cata:XISX-OXXICS
@@ -2484,9 +2545,9 @@ cata:XISX-OXXICS
 	cmns-cls:isClassifiedBy	cfi:OXXICS ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XISX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:51.970Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:01.837Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:10:29Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:01:50Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2014-10-27"^^xsd:date .
 
@@ -2496,9 +2557,9 @@ cata:XJAM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XJAM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:54.782Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:04.599Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:01:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:52:05Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2507,9 +2568,9 @@ cata:XKAC-FXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKAC ;
 	pav:importedOn	"2024-03-08T14:25:21.191Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:00.408Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:11.475Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2024-03-07T07:56:50Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:17:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:09:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2017-03-27"^^xsd:date .
 
@@ -2519,11 +2580,10 @@ cata:XKAR-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKAR ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:03.318Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:15.904Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:22:57Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:14:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2016-04-25"^^xsd:date .
 
 cata:XKAZ-EXXXXX
@@ -2531,9 +2591,9 @@ cata:XKAZ-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKAZ ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:06.280Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:20.312Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:13:39Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:05:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
@@ -2542,9 +2602,9 @@ cata:XKFB-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKFB ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:26.155Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:18.025Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:18:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:10:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2010-08-23"^^xsd:date .
 
@@ -2553,9 +2613,9 @@ cata:XKFE-FXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKFE ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:09.099Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:24.706Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:18:56Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:10:41Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2013-09-23"^^xsd:date .
 
@@ -2564,9 +2624,9 @@ cata:XKLS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKLS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:15.229Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:40:36.990Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:20:24Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:11:45Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2575,9 +2635,9 @@ cata:XKON-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKON ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:02.878Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:56:11.272Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:18:32Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:10:18Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2016-01-25"^^xsd:date .
 
@@ -2586,9 +2646,9 @@ cata:XKOS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKOS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:11.980Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:29.420Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:18:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:10:24Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2013-09-23"^^xsd:date .
 
@@ -2597,9 +2657,9 @@ cata:XKRX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKRX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:23.403Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:14.977Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:18:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:10:31Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2013-09-23"^^xsd:date .
 
@@ -2608,9 +2668,9 @@ cata:XKUW-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XKUW ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:14.836Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:34.078Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:24:08Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:15:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2007-03-26"^^xsd:date .
 
@@ -2619,9 +2679,9 @@ cata:XLAO-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLAO ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:02.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:51.888Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:20:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:11:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-02-28"^^xsd:date .
 
@@ -2643,11 +2703,10 @@ cata:XLIM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLIM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:17.765Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:38.416Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:03:58Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:54:34Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XLIT-EXXXXX
@@ -2655,9 +2714,9 @@ cata:XLIT-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLIT ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:17.138Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:50.790Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:29:45Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:21:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
@@ -2667,11 +2726,10 @@ cata:XLJU-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLJU ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:20.602Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:43.068Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:40:03Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:31:14Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XLON-EQS-EXXXXX
@@ -2681,9 +2739,9 @@ cata:XLON-EQS-EXXXXX
 	dct:source	"https://www.londonstockexchange.com/equities-trading/asset-classes/shares-trading/european-quoting-service"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLON ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:51.895Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:59.222Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:34:35Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:26:13Z"^^xsd:dateTime ;
 	rdfs:label	"European Quoting System" ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
@@ -2693,9 +2751,9 @@ cata:XLON-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLON ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:11.883Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:40:32.717Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:34:49Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:26:22Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-11-23"^^xsd:date .
 
@@ -2705,9 +2763,9 @@ cata:XLUS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLUS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:29.231Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:46:57.146Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:59:19Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:49:59Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"1994-01-01"^^xsd:date .
 
@@ -2716,9 +2774,9 @@ cata:XLUX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XLUX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:57.305Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:45.953Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:45:56Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:37:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2727,9 +2785,9 @@ cata:XMAB-FXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMAB ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:51.105Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:35.150Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2739,11 +2797,10 @@ cata:XMAD-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMAD ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:52:14.805Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:44:12.951Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:41:20Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:32:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMAE-EXXXXX
@@ -2751,9 +2808,9 @@ cata:XMAE-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMAE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:31.961Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:01.614Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:39:48Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:30:31Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-03-27"^^xsd:date .
 
@@ -2762,9 +2819,9 @@ cata:XMAL-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMAL ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:40.141Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:15.062Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:39:38Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:30:14Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2016-05-23"^^xsd:date .
 
@@ -2773,23 +2830,58 @@ cata:XMAU-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMAU ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:42.893Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:20.925Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:58:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:49:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
-cata:XMEV-EXXXXX
+cata:XMEV-EXXXXX-Tplus0CA
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMEV ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:35.642Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:21.495Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:30Z"^^xsd:dateTime ;
-	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:17Z"^^xsd:dateTime ;
+	rdfs:label	"BYMA Shares in T+0 Closing Auction mode" ;
+	tempo:validFrom	"2005-06-27"^^xsd:date .
+
+cata:XMEV-EXXXXX-Tplus0VW
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMEV ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:21.495Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:17Z"^^xsd:dateTime ;
+	rdfs:label	"BYMA Shares in T+0 VWAP mode" ;
+	tempo:validFrom	"2005-06-27"^^xsd:date .
+
+cata:XMEV-EXXXXX-Tplus2CA
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMEV ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:21.495Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:17Z"^^xsd:dateTime ;
+	rdfs:label	"BYMA Shares in T+2 Closing Auction mode" ;
+	tempo:validFrom	"2005-06-27"^^xsd:date .
+
+cata:XMEV-EXXXXX-Tplus2VW
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMEV ;
+	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:21.495Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:17Z"^^xsd:dateTime ;
+	rdfs:label	"BYMA Shares in T+2 VWAP mode" ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XMEX-EXXXXX
@@ -2797,9 +2889,9 @@ cata:XMEX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMEX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:56.692Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:44.327Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:17Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:03Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2808,9 +2900,9 @@ cata:XMNX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMNX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:55:04.982Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:58.221Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:39:39Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:30:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2006-12-25"^^xsd:date .
 
@@ -2819,9 +2911,9 @@ cata:XMOL-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMOL ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:39.361Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:32.590Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:27:08Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:19:00Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2843,9 +2935,9 @@ cata:XMSM-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMSM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:05:13.126Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T11:00:32.017Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:29:10Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:21:16Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-01-28"^^xsd:date .
 
@@ -2854,9 +2946,9 @@ cata:XMSW-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMSW ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:37.406Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:10.627Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:58:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:48:57Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2865,9 +2957,9 @@ cata:XMTB-FXXXXX-10
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:48.296Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:30.379Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2876,9 +2968,9 @@ cata:XMTB-FXXXXX-20
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:48.296Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:30.379Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2887,9 +2979,9 @@ cata:XMTB-FXXXXX-5010
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:48.296Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:30.379Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2898,9 +2990,9 @@ cata:XMTB-FXXXXX-5020
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:48.296Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:30.379Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2909,9 +3001,9 @@ cata:XMTB-FXXXXX-5030
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMTB ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:54:48.296Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:30.379Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:23Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2920,9 +3012,9 @@ cata:XMUN-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XMUN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:55:48.847Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:19.612Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:44:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:36:16Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2007-09-24"^^xsd:date .
 
@@ -2931,9 +3023,9 @@ cata:XNAI-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNAI ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:55:57.247Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:28.880Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:58:06Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:48:43Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2943,9 +3035,9 @@ cata:XNCM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNCM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:26.142Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:25.215Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:11:39Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:03:22Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2008-02-25"^^xsd:date .
 
@@ -2955,9 +3047,9 @@ cata:XNEC-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNEC ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:00.095Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:48.969Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:48:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:39:38Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2002-01-01"^^xsd:date .
 
@@ -2966,9 +3058,9 @@ cata:XNEP-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNEP ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:31.433Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:06.263Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:22:42Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:14:13Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -2977,9 +3069,9 @@ cata:XNGM-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNGM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:46.522Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:23.539Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:31:08Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:23:17Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2012-04-23"^^xsd:date .
 
@@ -2989,9 +3081,9 @@ cata:XNGO-EXXXXX
 	dct:source	"https://www.nse.or.jp/e/meigara/"^^xsd:anyURI ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNGO ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:55:54.487Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:25.839Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:17:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:08:59Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3001,9 +3093,9 @@ cata:XNGS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNGS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:18.011Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:15.959Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:11:53Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:03:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2006-07-24"^^xsd:date .
 
@@ -3013,9 +3105,9 @@ cata:XNIM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNIM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:00:28.954Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:54:28.174Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:12:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:03:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2008-02-25"^^xsd:date .
@@ -3026,9 +3118,9 @@ cata:XNMS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNMS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:05.669Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:36.365Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:11:51Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:03:25Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3038,9 +3130,9 @@ cata:XNSE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNSE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:28.585Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:03.101Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:22:20Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:13:57Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3050,12 +3142,24 @@ cata:XNYL-FXXXXX
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNYL ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:34.243Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:09.277Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:12:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:04:28Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2008-05-26"^^xsd:date .
+
+cata:XNYM-FXXXXX
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNYM ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:09.277Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:04:28Z"^^xsd:dateTime ;
+	sh:violated-shape	rdfs:label-property ;
+	sh:warned-shape	cata:cons-no-sessions ;
+	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XNYS-EXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
@@ -3063,9 +3167,9 @@ cata:XNYS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNYS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:37.148Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:12.676Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:12:49Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:04:44Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-05-23"^^xsd:date .
 
@@ -3075,11 +3179,21 @@ cata:XNZE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNZE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:40.782Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:17.178Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:48:13Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:39:52Z"^^xsd:dateTime ;
+	rdfs:label	"NZX Main Board" ;
+	tempo:validFrom	"2005-06-27"^^xsd:date .
+
+cata:XNZE-FXXXXX-2540
+	a	fibo-fpas:FinancialProductCatalog ;
+	a	owl:NamedIndividual ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNZE ;
+	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:17.178Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:39:52Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XPAE-EXXXXX
@@ -3088,11 +3202,10 @@ cata:XPAE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPAE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:05.806Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:44.350Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:24:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:16:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2013-11-25"^^xsd:date .
 
 cata:XPAR-EXXXXX
@@ -3101,9 +3214,9 @@ cata:XPAR-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPAR ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:10.547Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:17.653Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:42:36Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:33:47Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
@@ -3113,11 +3226,10 @@ cata:XPHS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPHS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:14.279Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:53.239Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:20:33Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:11:55Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XPOS-EXXXXX
@@ -3126,9 +3238,9 @@ cata:XPOS-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPOS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:55.015Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:12.788Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:34:02Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:25:44Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2017-10-23"^^xsd:date .
@@ -3139,9 +3251,9 @@ cata:XPOW-FXXXXX
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPOW ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:25.440Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:05.505Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:42:41Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:33:56Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
@@ -3152,9 +3264,9 @@ cata:XPSX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPSX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:17.600Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:08.759Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:12:05Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:03:48Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2013-03-25"^^xsd:date .
 
@@ -3164,11 +3276,10 @@ cata:XPTY-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XPTY ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:08.609Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:50:47.203Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:02:18Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:53:12Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2022-10-24"^^xsd:date .
 
 cata:XQTX-EXXXXX
@@ -3176,9 +3287,9 @@ cata:XQTX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XQTX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:41.214Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:56:57.593Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:44:53Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:36:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
@@ -3188,9 +3299,9 @@ cata:XQUI-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XQUI ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:36.926Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:17.705Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:03:46Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:54:34Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-06-27"^^xsd:date .
 
@@ -3199,9 +3310,9 @@ cata:XRIS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XRIS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:14.246Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:47.344Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:29:31Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:21:33Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
@@ -3210,9 +3321,9 @@ cata:XSAP-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSAP ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:42.668Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:23.912Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:17:58Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:09:34Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3221,9 +3332,9 @@ cata:XSAT-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSAT ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:24.182Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:57.291Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:31:16Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:23:27Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-06-27"^^xsd:date .
 
@@ -3233,11 +3344,10 @@ cata:XSAU-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSAU ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:48.337Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:30.010Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:24:24Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:16:02Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSBI-EXXXXX
@@ -3245,9 +3355,9 @@ cata:XSBI-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSBI ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:40.828Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:46.823Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:17:22Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:08:49Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2020-04-27"^^xsd:date .
 
@@ -3257,11 +3367,10 @@ cata:XSEC-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSEC ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:03:16.545Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:33.787Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:14:26Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:05:57Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-05-25"^^xsd:date .
 
 cata:XSFE-BB
@@ -3361,11 +3470,10 @@ cata:XSGO-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:39.782Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:20.815Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:03:25Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:54:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSGO-FFCPSX
@@ -3407,9 +3515,9 @@ cata:XSGO-FFXXXX
 	cmns-cls:isClassifiedBy	cfi:FFXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSGO ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:39.782Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:20.815Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:03:25Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:54:15Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3419,11 +3527,10 @@ cata:XSHE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSHE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:59.700Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:42.771Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:15:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:06:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
 cata:XSOM-EXXXXX
@@ -3432,9 +3539,9 @@ cata:XSOM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSOM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:01:46.384Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:55:53.066Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:03:08Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:54:02Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2003-04-01"^^xsd:date .
 
@@ -3443,9 +3550,9 @@ cata:XSPS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSPS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:02.602Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:45.906Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:48:25Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:39:52Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3455,11 +3562,10 @@ cata:XSSC-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSSC ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T06:02:43.883Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:57:00.628Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:14:12Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:05:41Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2014-08-25"^^xsd:date .
 
 cata:XSSE-EXXXXX
@@ -3468,9 +3574,9 @@ cata:XSSE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSSE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:57:45.494Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:26.907Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:36:18Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:27:37Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2007-06-25"^^xsd:date .
 
@@ -3480,9 +3586,9 @@ cata:XSTC-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSTC ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:53:33.546Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:45:41.924Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:21:04Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:12:40Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2009-12-28"^^xsd:date .
 
@@ -3492,9 +3598,9 @@ cata:XSTO-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSTO ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:29.241Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:21.473Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:30:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:23:06Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
@@ -3504,11 +3610,10 @@ cata:XSTO-FXXXXX
 	cmns-cls:isClassifiedBy	cfi:FXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSTO ;
 	pav:importedOn	"2022-10-20T12:28:08.463Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:59:29.241Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:53:21.473Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-10-20T12:28:08.463Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:30:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:23:06Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
 cata:XSTU-EXXXXX
@@ -3516,9 +3621,9 @@ cata:XSTU-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSTU ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:50:00.014Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:29.393Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:44:57Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:36:37Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2023-05-22"^^xsd:date .
 
@@ -3527,9 +3632,9 @@ cata:XSWM-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSWM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:34.816Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:00.161Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:47:10Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:38:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2016-09-26"^^xsd:date .
 
@@ -3538,9 +3643,9 @@ cata:XSWX-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSWX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:34.816Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:00.161Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:47:10Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:38:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
@@ -3549,9 +3654,9 @@ cata:XSWX-EXXXXX-OffB
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XSWX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:34.816Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:00.161Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:47:10Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:38:36Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
 
@@ -3574,9 +3679,9 @@ cata:XTAE-EXXXXX-Tamar
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTAE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:10.844Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:55.466Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:23:49Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:15:03Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3597,9 +3702,9 @@ cata:XTAI-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTAI ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:08.013Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:51:52.131Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:19:41Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:11:08Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3609,9 +3714,9 @@ cata:XTAL-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTAL ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:56:02.761Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:49:35.023Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:28:13Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:20:20Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2015-12-28"^^xsd:date .
 
@@ -3621,11 +3726,10 @@ cata:XTFF-FFXXXX
 	cmns-cls:isClassifiedBy	cfi:FFXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTFF ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:16.416Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:01.596Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:18:07Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:09:44Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
-	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2007-09-24"^^xsd:date .
 
 cata:XTKS-EXXXXX
@@ -3633,9 +3737,9 @@ cata:XTKS-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTKS ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:21.868Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:07.692Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:18:16Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:09:56Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2016-05-23"^^xsd:date .
 
@@ -3645,9 +3749,9 @@ cata:XTRN-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTRN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:24.922Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:11.035Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:01:53Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:52:24Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3657,9 +3761,9 @@ cata:XTSE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTSE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:50.622Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:41:18.326Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:07:15Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:57:57Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3669,9 +3773,9 @@ cata:XTSX-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTSX ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:09.068Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:40:29.001Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:07:18Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:58:10Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3681,9 +3785,9 @@ cata:XTUN-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XTUN ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:27.639Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:13.910Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:57:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:48:31Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-06-27"^^xsd:date .
 
@@ -3693,9 +3797,9 @@ cata:XUGA-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XUGA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:33.129Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:19.801Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:59:01Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:49:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3704,9 +3808,9 @@ cata:XULA-EXXXXX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XULA ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:55:02.262Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:47:53.794Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:18:16Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:10:01Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
@@ -3716,9 +3820,9 @@ cata:XVIE-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XVIE ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:39.276Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:26.393Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:41:43Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:32:39Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2011-04-25"^^xsd:date .
 
@@ -3728,9 +3832,9 @@ cata:XZAM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XZAM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:45.983Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:33.795Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:36:28Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:27:39Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"1991-07-05"^^xsd:date .
 
@@ -3740,9 +3844,9 @@ cata:XZCE-FCXPSX
 	cmns-cls:isClassifiedBy	cfi:FCXPSX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XZCE ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:48.817Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:36.971Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:15:27Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:06:54Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"1990-10-01"^^xsd:date .
 
@@ -3752,9 +3856,9 @@ cata:XZIM-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-XZIM ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:58:51.581Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:52:39.944Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T04:59:26Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:50:11Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2022-05-23"^^xsd:date .
 
@@ -3763,9 +3867,9 @@ cata:YLDX-FFXCSX
 	a	owl:NamedIndividual ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-YLDX ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:49:28.490Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:40:52.908Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:00:14Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T09:51:09Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	sh:warned-shape	cata:cons-no-sessions ;
 	tempo:validFrom	"2015-04-27"^^xsd:date .
@@ -3776,8 +3880,8 @@ cata:ZBUL-EXXXXX
 	cmns-cls:isClassifiedBy	cfi:EXXXXX ;
 	fibo-rel:isProvidedBy	fibo-mic:Exchange-ZBUL ;
 	pav:importedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-09T05:51:38.431Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-04-23T10:43:25.588Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:42.584Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-09T05:25:59Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-04-23T10:17:42Z"^^xsd:dateTime ;
 	sh:violated-shape	rdfs:label-property ;
 	tempo:validFrom	"2019-02-25"^^xsd:date .

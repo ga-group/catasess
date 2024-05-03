@@ -30,6 +30,7 @@ fibo-fip:TradingSession-shape a sh:NodeShape ;
 	sh:property time:timeZone-property ;
 	sh:property sess:activeFrom-property ;
 	sh:property sess:activeTill-property ;
+	sh:property dct:source-property ;
 	sh:property fibo-fip:isTradingSessionOf-property ;
 	.
 
@@ -60,6 +61,13 @@ sess:activeTill-property a sh:PropertyShape ;
 	sh:minCount 1 ;
 	sh:maxCount 1 ;
 	sh:type xsd:time ;
+	.
+
+dct:source-property a sh:PropertyShape ;
+	sh:path dct:source ;
+	sh:minCount 1 ;
+	sh:type xsd:anyURI ;
+	sh:severity sh:Warning ;
 	.
 
 fibo-fip:isTradingSessionOf-property a sh:PropertyShape ;
