@@ -1,3 +1,4 @@
+@prefix cata: <http://data.ga-group.nl/catasess/catalogues/> .
 @prefix cc: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
 @prefix day: <http://data.ga-group.nl/catasess/days/> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -24,10 +25,10 @@
 <> sh:entailment <http://www.w3.org/ns/entailment/RDFS> .
 
 ## shapes
-fibo-fip:TradingDay-shape a sh:NodeShape ;
-	sh:targetClass fibo-fip:TradingDay ;
+day:TradingDay-shape a sh:NodeShape ;
+	sh:targetClass day:TradingDay ;
 	## tests
-	sh:property fibo-fip:isTradingDayOf-property ;
+	sh:property cata:isTradingDayOf-property ;
 	sh:property day:activeSession-property ;
 	sh:property day:observedOn-property ;
 	sh:property day:neverCoincidesWith-property ;
@@ -42,8 +43,8 @@ rdfs:label-property a sh:PropertyShape ;
 	sh:uniqueLang true ;
 	.
 
-fibo-fip:isTradingDayOf-property a sh:PropertyShape ;
-	sh:path fibo-fip:isTradingDayOf ;
+cata:isTradingDayOf-property a sh:PropertyShape ;
+	sh:path cata:isTradingDayOf ;
 	sh:minCount 1 ;
 	sh:class fibo-fpas:FinancialProductCatalog ;
 	.
@@ -56,7 +57,7 @@ day:activeSession-property a sh:PropertyShape ;
 
 day:neverCoincidesWith-property a sh:PropertyShape ;
 	sh:path day:neverCoincidesWith ;
-	sh:class fibo-fip:TradingDay ;
+	sh:class day:TradingDay ;
 	.
 
 day:observedOn-property a sh:PropertyShape ;

@@ -52,9 +52,9 @@ PREFIX day: <http://data.ga-group.nl/catasess/days/>
 ##FROM <http://data.ga-group.nl/bps/>
 WITH <http://data.ga-group.nl/catasess/days/>
 INSERT {
-	?xcd a fibo-fip:TradingDay ;
+	?xcd a day:TradingDay ;
 		day:activeSession ?xs ;
-		fibo-fip:isTradingDayOf ?xc ;
+		cata:isTradingDayOf ?xc ;
 		pav:importedOn ?impon ;
 		pav:lastRefreshedOn ?refon ;
 		pav:sourceAccessedOn ?sacon ;

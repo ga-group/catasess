@@ -9,7 +9,8 @@ DB.DBA.XML_SET_NS_DECL('fibo-mic', 'https://spec.edmcouncil.org/fibo/ontology/FB
 DB.DBA.XML_SET_NS_DECL('fibo-fpas', 'https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/', 3);
 DB.DBA.XML_SET_NS_DECL('cmns-cls', 'https://www.omg.org/spec/Commons/Classifiers/', 3);
 DB.DBA.XML_SET_NS_DECL('tempo', 'http://purl.org/tempo/', 3);
-DB.DBA.XML_SET_NS_DECL('cc', 'https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/', 3);
+DB.DBA.XML_SET_NS_DECL('lcc-3166-1-adj', 'https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/', 1);
+DB.DBA.XML_SET_NS_DECL('lcc-3166-2-adj', 'https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes-Adjunct/', 1);
 DB.DBA.XML_SET_NS_DECL('cfi', 'http://schema.ga-group.nl/meta/classification/CFI/', 3);
 DB.DBA.XML_SET_NS_DECL('dct', 'http://purl.org/dc/terms/', 3);
 DB.DBA.XML_SET_NS_DECL('gr', 'http://purl.org/goodrelations/v1#', 3);
@@ -26,7 +27,7 @@ DB.DBA.XML_SET_NS_DECL('day', 'http://data.ga-group.nl/catasess/days/', 1);
 DB.DBA.XML_SET_NS_DECL('regm', 'http://data.ga-group.nl/catasess/regimes/', 1);
 DB.DBA.XML_SET_NS_DECL('cdr', 'http://ga.local/cdr#', 1);
 DB.DBA.XML_SET_NS_DECL('intr', 'http://ga.local/intr#', 3);
-DB.DBA.XML_SET_NS_DECL('ccy', 'http://ga.local/ccy#', 3);
+DB.DBA.XML_SET_NS_DECL('ccy', 'https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/', 1);
 DB.DBA.XML_SET_NS_DECL('delta', 'http://www.w3.org/2004/delta#', 3);
 DB.DBA.XML_SET_NS_DECL('pav', 'http://purl.org/pav/', 3);
 DB.DBA.XML_SET_NS_DECL('prov', 'http://www.w3.org/ns/prov#', 3);
@@ -39,10 +40,18 @@ SPARQL
 DEFINE input:storage ""
 PREFIX fibo-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
+PREFIX day: <http://data.ga-group.nl/catasess/days/>
 SELECT ?s ?p ?o
-FROM <http://data.ga-group.nl/catasess/days/>
+FROM day:
 WHERE {
-	?s a fibo-fip:TradingDay ; ?p ?o
+	VALUES ?typ {
+	day:TradingDay
+	day:NonTradingDay
+	day:SettlementDay
+	day:NonSettlementDay
+	day:PublicHoliday
+	}
+	?s a ?typ ; ?p ?o
 }
 );
 

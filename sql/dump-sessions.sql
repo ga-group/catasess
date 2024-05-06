@@ -40,7 +40,7 @@ DEFINE input:storage ""
 PREFIX fibo-fip: <https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/>
 PREFIX sess: <http://data.ga-group.nl/catasess/sessions/>
 SELECT ?s ?p ?o
-FROM <http://data.ga-group.nl/catasess/sessions/>
+FROM sess:
 WHERE {
 	?s a fibo-fip:TradingSession ; ?p ?o
 	FILTER(?s != sess:None)
