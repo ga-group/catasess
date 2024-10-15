@@ -3185,10 +3185,10 @@ cata:XNZE-EXXXXX
 	rdfs:label	"NZX Main Board" ;
 	tempo:validFrom	"2005-06-27"^^xsd:date .
 
-cata:XNZE-FXXXXX-2540
+cata:NZXD-FXXXXX
 	a	fibo-fpas:FinancialProductCatalog ;
 	a	owl:NamedIndividual ;
-	fibo-rel:isProvidedBy	fibo-mic:Exchange-XNZE ;
+	fibo-rel:isProvidedBy	fibo-mic:Exchange-NZXD ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2024-05-13T13:33:07.905Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;

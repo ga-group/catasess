@@ -8773,10 +8773,10 @@ day:XNZE-EXXXXX-Non
 	pav:importedOn	"2022-05-09T07:39:46.513Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-04-25T07:27:38.402Z"^^xsd:dateTime .
 
-day:XNZE-FXXXXX-2540-Full
+day:NZXD-FXXXXX-Full
 	a	day:TradingDay ;
-	cata:isTradingDayOf	cata:XNZE-FXXXXX-2540 ;
-	day:activeSession	sess:XNZE-FXXXXX-2540-CT ;
+	cata:isTradingDayOf	cata:NZXD-FXXXXX ;
+	day:activeSession	sess:NZXD-FXXXXX-CT ;
 	pav:importedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2024-05-13T13:33:07.905Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-24T12:23:13.344Z"^^xsd:dateTime ;
@@ -8784,21 +8784,21 @@ day:XNZE-FXXXXX-2540-Full
 	sh:violated-shape	day:observedOn-property ;
 	sh:warned-shape	dct:source-property .
 
-day:XNZE-FXXXXX-2540-Half
+day:NZXD-FXXXXX-Half
 	a	day:TradingDay ;
-	cata:isTradingDayOf	cata:XNZE-FXXXXX-2540 ;
-	day:neverCoincidesWith	day:XNZE-FXXXXX-2540-Full , day:XNZE-FXXXXX-2540-Non ;
+	cata:isTradingDayOf	cata:NZXD-FXXXXX ;
+	day:neverCoincidesWith	day:NZXD-FXXXXX-Full , day:NZXD-FXXXXX-Non ;
 	day:observedOn	"2011-01-04"^^xsd:date , "2011-04-21"^^xsd:date , "2011-12-30"^^xsd:date , "2012-01-03"^^xsd:date , "2012-04-05"^^xsd:date , "2013-01-02"^^xsd:date , "2013-02-06"^^xsd:date , "2013-12-24"^^xsd:date , "2013-12-31"^^xsd:date , "2014-12-24"^^xsd:date , "2014-12-31"^^xsd:date , "2015-12-24"^^xsd:date , "2015-12-31"^^xsd:date , "2016-12-23"^^xsd:date , "2016-12-30"^^xsd:date , "2017-12-22"^^xsd:date , "2017-12-29"^^xsd:date , "2018-12-24"^^xsd:date , "2018-12-31"^^xsd:date , "2019-12-24"^^xsd:date , "2019-12-31"^^xsd:date , "2020-12-24"^^xsd:date , "2020-12-31"^^xsd:date , "2021-12-24"^^xsd:date , "2021-12-31"^^xsd:date , "2022-12-23"^^xsd:date , "2022-12-30"^^xsd:date ;
 	dct:source	"https://www.nzx.com/services/nzx-trading/hours-boards"^^xsd:anyURI ;
 	pav:importedOn	"2022-05-09T07:39:46.513Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2023-04-25T07:27:38.402Z"^^xsd:dateTime ;
 	sh:violated-shape	day:activeSession-property .
 
-day:XNZE-FXXXXX-2540-Non
+day:NZXD-FXXXXX-Non
 	a	day:NonTradingDay ;
-	cata:isTradingDayOf	cata:XNZE-FXXXXX-2540 ;
+	cata:isTradingDayOf	cata:NZXD-FXXXXX ;
 	day:activeSession	sess:None ;
-	day:neverCoincidesWith	day:XNZE-FXXXXX-2540-Full ;
+	day:neverCoincidesWith	day:NZXD-FXXXXX-Full ;
 	day:observedOn	"2011-01-03"^^xsd:date , "2011-04-22"^^xsd:date , "2011-04-25"^^xsd:date , "2011-06-06"^^xsd:date , "2011-10-24"^^xsd:date , "2011-12-26"^^xsd:date , "2011-12-27"^^xsd:date , "2012-01-02"^^xsd:date , "2012-02-06"^^xsd:date , "2012-04-06"^^xsd:date , "2012-04-09"^^xsd:date , "2012-04-25"^^xsd:date , "2012-06-04"^^xsd:date , "2012-10-22"^^xsd:date , "2012-12-25"^^xsd:date , "2012-12-26"^^xsd:date , "2013-01-01"^^xsd:date , "2013-03-29"^^xsd:date , "2013-04-01"^^xsd:date , "2013-04-25"^^xsd:date , "2013-06-03"^^xsd:date , "2013-10-28"^^xsd:date , "2013-12-25"^^xsd:date , "2013-12-26"^^xsd:date , "2014-01-01"^^xsd:date , "2014-01-02"^^xsd:date , "2014-02-06"^^xsd:date , "2014-04-18"^^xsd:date , "2014-04-21"^^xsd:date , "2014-04-25"^^xsd:date , "2014-06-02"^^xsd:date , "2014-10-27"^^xsd:date , "2014-12-25"^^xsd:date , "2014-12-26"^^xsd:date , "2015-01-01"^^xsd:date , "2015-01-02"^^xsd:date , "2015-02-06"^^xsd:date , "2015-04-03"^^xsd:date , "2015-04-06"^^xsd:date , "2015-04-27"^^xsd:date , "2015-06-01"^^xsd:date , "2015-10-26"^^xsd:date , "2015-12-25"^^xsd:date , "2015-12-28"^^xsd:date , "2016-01-01"^^xsd:date , "2016-01-04"^^xsd:date , "2016-02-08"^^xsd:date , "2016-03-25"^^xsd:date , "2016-03-28"^^xsd:date , "2016-04-25"^^xsd:date , "2016-06-06"^^xsd:date , "2016-10-24"^^xsd:date , "2016-12-26"^^xsd:date , "2016-12-27"^^xsd:date , "2017-01-02"^^xsd:date , "2017-01-03"^^xsd:date , "2017-02-06"^^xsd:date , "2017-04-14"^^xsd:date , "2017-04-17"^^xsd:date , "2017-04-25"^^xsd:date , "2017-06-05"^^xsd:date , "2017-10-23"^^xsd:date , "2017-12-25"^^xsd:date , "2017-12-26"^^xsd:date , "2018-01-01"^^xsd:date , "2018-01-02"^^xsd:date , "2018-02-06"^^xsd:date , "2018-03-30"^^xsd:date , "2018-04-02"^^xsd:date , "2018-04-25"^^xsd:date , "2018-06-04"^^xsd:date , "2018-10-22"^^xsd:date , "2018-12-25"^^xsd:date , "2018-12-26"^^xsd:date , "2019-01-01"^^xsd:date , "2019-01-02"^^xsd:date , "2019-02-06"^^xsd:date , "2019-04-19"^^xsd:date , "2019-04-22"^^xsd:date , "2019-04-25"^^xsd:date , "2019-06-03"^^xsd:date , "2019-10-28"^^xsd:date , "2019-12-25"^^xsd:date , "2019-12-26"^^xsd:date , "2020-01-01"^^xsd:date , "2020-01-02"^^xsd:date , "2020-02-06"^^xsd:date , "2020-04-10"^^xsd:date , "2020-04-13"^^xsd:date , "2020-04-27"^^xsd:date , "2020-06-01"^^xsd:date , "2020-10-26"^^xsd:date , "2020-12-25"^^xsd:date , "2020-12-28"^^xsd:date , "2021-01-01"^^xsd:date , "2021-01-04"^^xsd:date , "2021-02-08"^^xsd:date , "2021-04-02"^^xsd:date , "2021-04-05"^^xsd:date , "2021-04-26"^^xsd:date , "2021-06-07"^^xsd:date , "2021-10-25"^^xsd:date , "2021-12-27"^^xsd:date , "2021-12-28"^^xsd:date , "2022-01-03"^^xsd:date , "2022-01-04"^^xsd:date , "2022-02-07"^^xsd:date , "2022-04-15"^^xsd:date , "2022-04-18"^^xsd:date , "2022-04-25"^^xsd:date , "2022-06-06"^^xsd:date , "2022-06-24"^^xsd:date , "2022-09-26"^^xsd:date , "2022-10-24"^^xsd:date , "2022-12-26"^^xsd:date , "2022-12-27"^^xsd:date , "2023-01-02"^^xsd:date , "2023-01-03"^^xsd:date , "2023-02-06"^^xsd:date , "2023-04-07"^^xsd:date , "2023-04-10"^^xsd:date , "2023-04-25"^^xsd:date ;
 	dct:source	"https://www.nzx.com/services/nzx-trading/hours-boards"^^xsd:anyURI ;
 	pav:importedOn	"2022-05-09T07:39:46.513Z"^^xsd:dateTime ;

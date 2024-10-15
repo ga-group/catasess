@@ -11984,17 +11984,17 @@ sess:XNZE-EXXXXX-Pre
 	sess:efficaciousOn	day:XNZE-EXXXXX-Full , day:XNZE-EXXXXX-Half ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
 
-sess:XNZE-FXXXXX-2540-CT
+sess:NZXD-FXXXXX-CT
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://www.nzx.com/markets/nzx-dairy-derivatives/contract-specifications"^^xsd:anyURI ;
-	fibo-fip:isTradingSessionOf	cata:XNZE-FXXXXX-2540 ;
+	fibo-fip:isTradingSessionOf	cata:NZXD-FXXXXX ;
 	pav:importedOn	"2022-05-30T01:02:43.910Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-30T01:02:43.910Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2022-05-30T01:02:43.910Z"^^xsd:dateTime ;
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"07:25:00"^^xsd:time ;
 	sess:activeTill	"18:00:00"^^xsd:time ;
-	sess:efficaciousOn	day:XNZE-FXXXXX-2540-Full ;
+	sess:efficaciousOn	day:NZXD-FXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Singapore> .
 
 sess:XPAE-EXXXXX-CA
