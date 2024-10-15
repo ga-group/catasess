@@ -5617,6 +5617,34 @@ sess:XBOT-EXXXXX-TAC
 	sess:efficaciousOn	day:XBOT-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Gaborone> .
 
+sess:XBRA-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bsse.sk/bcpb/o-trhu/obchodne-dni/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBRA-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-05-13T13:49:21.070Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-05-13T13:03:17Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"11:00:00"^^xsd:time ;
+	sess:activeTill	"15:30:00"^^xsd:time ;
+	sess:efficaciousOn	day:XBRA-EXXXXX-Full ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Bratislava> .
+
+sess:XBRA-EXXXXX-OA
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.bsse.sk/bcpb/o-trhu/obchodne-dni/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XBRA-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-05-13T13:49:21.070Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-05-13T13:03:17Z"^^xsd:dateTime ;
+	rdfs:label	"Fixing" ;
+	sess:activeFrom	"10:30:00"^^xsd:time ;
+	sess:activeTill	"10:50:00"^^xsd:time ;
+	sess:efficaciousOn	day:XBRA-EXXXXX-Full ;
+	time:timeZone	<http://dbpedia.org/resource/Europe/Bratislava> .
+
 sess:XBRD-FFICSX-BT
 	a	fibo-fip:TradingSession ;
 	a	owl:NamedIndividual ;
@@ -10116,9 +10144,9 @@ sess:XLIM-EXXXXX-TAC
 	dct:source	"http://www.bvl.com.pe/mercado/resumen-mercado/feriados-y-horarios-de-negociacion"^^xsd:anyURI ;
 	fibo-fip:isTradingSessionOf	cata:XLIM-EXXXXX ;
 	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2024-04-23T11:05:19.519Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-05-13T13:45:45.996Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2024-04-23T09:54:34Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-05-13T12:38:28Z"^^xsd:dateTime ;
 	rdfs:label	"Trade at Close" ;
 	sess:activeFrom	"15:02:00"^^xsd:time ;
 	sess:activeTill	"15:10:00"^^xsd:time ;
@@ -11629,6 +11657,48 @@ sess:XNGS-EXXXXX-Pre
 	sess:activeFrom	"04:00:00"^^xsd:time ;
 	sess:activeTill	"09:30:00"^^xsd:time ;
 	sess:efficaciousOn	day:XNGS-EXXXXX-Full ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:XNIM-EXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nasdaq.com/stock-market-trading-hours-for-nasdaq"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XNIM-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-05-13T13:49:46.807Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-05-13T12:47:58Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"09:30:00"^^xsd:time ;
+	sess:activeTill	"16:00:00"^^xsd:time ;
+	sess:efficaciousOn	day:XNIM-EXXXXX-Full ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:XNIM-EXXXXX-Post
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nasdaq.com/stock-market-trading-hours-for-nasdaq"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XNIM-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-05-13T13:49:46.807Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-05-13T12:47:58Z"^^xsd:dateTime ;
+	rdfs:label	"Extended Hours After" ;
+	sess:activeFrom	"16:00:00"^^xsd:time ;
+	sess:activeTill	"20:00:00"^^xsd:time ;
+	sess:efficaciousOn	day:XNIM-EXXXXX-Full ;
+	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
+
+sess:XNIM-EXXXXX-Pre
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nasdaq.com/stock-market-trading-hours-for-nasdaq"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:XNIM-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-05-13T13:49:46.807Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-05-13T12:47:58Z"^^xsd:dateTime ;
+	rdfs:label	"Extended Hours Before" ;
+	sess:activeFrom	"04:00:00"^^xsd:time ;
+	sess:activeTill	"09:30:00"^^xsd:time ;
+	sess:efficaciousOn	day:XNIM-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/America/New_York> .
 
 sess:XNMS-EXXXXX-CT
