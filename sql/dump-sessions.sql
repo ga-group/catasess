@@ -42,7 +42,12 @@ PREFIX sess: <http://data.ga-group.nl/catasess/sessions/>
 SELECT ?s ?p ?o
 FROM sess:
 WHERE {
-	?s a fibo-fip:TradingSession ; ?p ?o
+	VALUES ?typ {
+		fibo-fip:TradingSession
+		delta:Delta
+		delta:Hunk
+	}
+	?s a ?typ ; ?p ?o
 	FILTER(?s != sess:None)
 }
 );

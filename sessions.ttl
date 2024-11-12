@@ -12,6 +12,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix regm: <http://data.ga-group.nl/catasess/regimes/> .
 @prefix sess: <http://data.ga-group.nl/catasess/sessions/> .
@@ -1063,8 +1064,51 @@ sess:BVMF-EXXXXX-After
 	rdfs:label	"After-Market trading" ;
 	sess:activeFrom	"17:30:00"^^xsd:time ;
 	sess:activeTill	"18:30:00"^^xsd:time ;
-	sess:efficaciousOn	day:BVMF-EXXXXX-Full ;
+	sess:efficaciousOn	day:BVMF-EXXXXX-Exp ;
+	tempo:validTill	"2024-11-04"^^xsd:date ;
 	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
+
+sess:BVMF-EXXXXX-AfterExp
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.b3.com.br/en_us/solutions/platforms/puma-trading-system/for-members-and-traders/trading-hours/equities/"^^xsd:anyURI , "https://www.b3.com.br/pt_br/solucoes/plataformas/puma-trading-system/para-participantes-e-traders/horario-de-negociacao/acoes/"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:BVMF-EXXXXX ;
+	pav:importedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2024-03-27T12:25:25.492Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2024-03-27T09:51:05Z"^^xsd:dateTime ;
+	rdfs:label	"After-Market trading on expiry day" ;
+	sess:activeFrom	"19:25:00"^^xsd:time ;
+	sess:activeTill	"19:40:00"^^xsd:time ;
+	sess:efficaciousOn	day:BVMF-EXXXXX-Exp ;
+	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
+
+sess:BVMF-EXXXXX-AfterExp_2024-11-04Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"18:25:00"^^xsd:time ;
+		delta:insertion	"19:25:00"^^xsd:time ;
+		rdf:predicate	sess:activeFrom ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"18:45:00"^^xsd:time ;
+		delta:insertion	"19:45:00"^^xsd:time ;
+		rdf:predicate	sess:activeTill ;
+	] ;
+	delta:patch-date	"2024-11-04"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:BVMF-EXXXXX-AfterExp .
+
+sess:BVMF-EXXXXX-After_2024-11-04Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:insertion	"2024-11-04"^^xsd:date ;
+		rdf:predicate	tempo:validTill ;
+	] ;
+	delta:patch-date	"2024-11-04"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:BVMF-EXXXXX-After .
 
 sess:BVMF-EXXXXX-CA
 	a	fibo-fip:TradingSession ;
@@ -1075,10 +1119,27 @@ sess:BVMF-EXXXXX-CA
 	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-05-13T12:37:55Z"^^xsd:dateTime ;
 	rdfs:label	"Closing Auction" ;
-	sess:activeFrom	"16:55:00"^^xsd:time ;
-	sess:activeTill	"17:00:00"^^xsd:time ;
+	sess:activeFrom	"17:55:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
 	sess:efficaciousOn	day:BVMF-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
+
+sess:BVMF-EXXXXX-CA_2024-11-04Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"16:55:00"^^xsd:time ;
+		delta:insertion	"17:55:00"^^xsd:time ;
+		rdf:predicate	sess:activeFrom ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"17:00:00"^^xsd:time ;
+		delta:insertion	"18:00:00"^^xsd:time ;
+		rdf:predicate	sess:activeTill ;
+	] ;
+	delta:patch-date	"2024-11-04"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:BVMF-EXXXXX-CA .
 
 sess:BVMF-EXXXXX-CT
 	a	fibo-fip:TradingSession ;
@@ -1090,9 +1151,21 @@ sess:BVMF-EXXXXX-CT
 	pav:sourceLastAccessedOn	"2024-05-13T12:37:55Z"^^xsd:dateTime ;
 	rdfs:label	"Continuous Trading" ;
 	sess:activeFrom	"10:00:00"^^xsd:time ;
-	sess:activeTill	"16:55:00"^^xsd:time ;
+	sess:activeTill	"17:55:00"^^xsd:time ;
 	sess:efficaciousOn	day:BVMF-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/America/Sao_Paulo> .
+
+sess:BVMF-EXXXXX-CT_2024-11-04Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"16:55:00"^^xsd:time ;
+		delta:insertion	"17:55:00"^^xsd:time ;
+		rdf:predicate	sess:activeTill ;
+	] ;
+	delta:patch-date	"2024-11-04"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:BVMF-EXXXXX-CT .
 
 sess:BVMF-EXXXXX-Pre
 	a	fibo-fip:TradingSession ;
@@ -3352,6 +3425,19 @@ sess:NILX-EXXXXX-CT
 	sess:efficaciousOn	day:NILX-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/Africa/Cairo> .
 
+sess:NZXD-FXXXXX-CT
+	a	fibo-fip:TradingSession ;
+	dct:source	"https://www.nzx.com/markets/nzx-dairy-derivatives/contract-specifications"^^xsd:anyURI ;
+	fibo-fip:isTradingSessionOf	cata:NZXD-FXXXXX ;
+	pav:importedOn	"2022-05-30T01:02:43.910Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2022-05-30T01:02:43.910Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2022-05-30T01:02:43.910Z"^^xsd:dateTime ;
+	rdfs:label	"Continuous Trading" ;
+	sess:activeFrom	"07:25:00"^^xsd:time ;
+	sess:activeTill	"18:00:00"^^xsd:time ;
+	sess:efficaciousOn	day:NZXD-FXXXXX-Full ;
+	time:timeZone	<http://dbpedia.org/resource/Asia/Singapore> .
+
 sess:ODXE-EXXXXX-CT
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://www.odx.co.jp/equity/en/library/trading_rules/market_guide/"^^xsd:anyURI ;
@@ -3576,6 +3662,18 @@ sess:SBIU-EXXXXX-Day
 	sess:efficaciousOn	day:SBIU-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
 
+sess:SBIU-EXXXXX-Day_2024-11-05Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"16:00:00"^^xsd:time ;
+		delta:insertion	"16:30:00"^^xsd:time ;
+		rdf:predicate	sess:activeTill ;
+	] ;
+	delta:patch-date	"2024-11-05"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:SBIU-EXXXXX-Day .
+
 sess:SBIU-EXXXXX-Night
 	a	fibo-fip:TradingSession ;
 	dct:source	"https://roadmap.japannext.co.jp/en/change-in-trading-hours"^^xsd:anyURI ;
@@ -3589,6 +3687,18 @@ sess:SBIU-EXXXXX-Night
 	sess:activeTill	"06:00:00"^^xsd:time ;
 	sess:efficaciousOn	day:SBIU-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+sess:SBIU-EXXXXX-Night_2024-11-05Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"16:30:00"^^xsd:time ;
+		delta:insertion	"17:00:00"^^xsd:time ;
+		rdf:predicate	sess:activeFrom ;
+	] ;
+	delta:patch-date	"2024-11-05"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:SBIU-EXXXXX-Night .
 
 sess:SHSC-EXXXXX-AMCT
 	a	fibo-fip:TradingSession ;
@@ -11984,19 +12094,6 @@ sess:XNZE-EXXXXX-Pre
 	sess:efficaciousOn	day:XNZE-EXXXXX-Full , day:XNZE-EXXXXX-Half ;
 	time:timeZone	<http://dbpedia.org/resource/Pacific/Auckland> .
 
-sess:NZXD-FXXXXX-CT
-	a	fibo-fip:TradingSession ;
-	dct:source	"https://www.nzx.com/markets/nzx-dairy-derivatives/contract-specifications"^^xsd:anyURI ;
-	fibo-fip:isTradingSessionOf	cata:NZXD-FXXXXX ;
-	pav:importedOn	"2022-05-30T01:02:43.910Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2022-05-30T01:02:43.910Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2022-05-30T01:02:43.910Z"^^xsd:dateTime ;
-	rdfs:label	"Continuous Trading" ;
-	sess:activeFrom	"07:25:00"^^xsd:time ;
-	sess:activeTill	"18:00:00"^^xsd:time ;
-	sess:efficaciousOn	day:NZXD-FXXXXX-Full ;
-	time:timeZone	<http://dbpedia.org/resource/Asia/Singapore> .
-
 sess:XPAE-EXXXXX-CA
 	a	fibo-fip:TradingSession ;
 	fibo-fip:isTradingSessionOf	cata:XPAE-EXXXXX ;
@@ -12797,9 +12894,21 @@ sess:XSBI-EXXXXX-Day
 	pav:sourceLastAccessedOn	"2024-05-13T12:52:00Z"^^xsd:dateTime ;
 	rdfs:label	"Daytime session" ;
 	sess:activeFrom	"08:20:00"^^xsd:time ;
-	sess:activeTill	"16:00:00"^^xsd:time ;
+	sess:activeTill	"16:30:00"^^xsd:time ;
 	sess:efficaciousOn	day:XSBI-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+sess:XSBI-EXXXXX-Day_2024-11-05Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"16:00:00"^^xsd:time ;
+		delta:insertion	"16:30:00"^^xsd:time ;
+		rdf:predicate	sess:activeTill ;
+	] ;
+	delta:patch-date	"2024-11-05"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:XSBI-EXXXXX-Day .
 
 sess:XSBI-EXXXXX-Night
 	a	fibo-fip:TradingSession ;
@@ -12810,10 +12919,22 @@ sess:XSBI-EXXXXX-Night
 	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-03-19T11:31:34Z"^^xsd:dateTime ;
 	rdfs:label	"Nighttime session" ;
-	sess:activeFrom	"16:30:00"^^xsd:time ;
+	sess:activeFrom	"17:00:00"^^xsd:time ;
 	sess:activeTill	"06:00:00"^^xsd:time ;
 	sess:efficaciousOn	day:XSBI-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+sess:XSBI-EXXXXX-Night_2024-11-05Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"16:30:00"^^xsd:time ;
+		delta:insertion	"17:00:00"^^xsd:time ;
+		rdf:predicate	sess:activeFrom ;
+	] ;
+	delta:patch-date	"2024-11-05"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:XSBI-EXXXXX-Night .
 
 sess:XSEC-EXXXXX-AMCT
 	a	fibo-fip:TradingSession ;
@@ -14571,10 +14692,27 @@ sess:XTKS-EXXXXX-PMCA
 	pav:sourceAccessedOn	"2022-05-09T07:39:43.910Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2024-05-13T12:53:23Z"^^xsd:dateTime ;
 	rdfs:label	"PM Closing Auction" ;
-	sess:activeFrom	"15:00:00"^^xsd:time ;
-	sess:activeTill	"15:00:00"^^xsd:time ;
+	sess:activeFrom	"15:30:00"^^xsd:time ;
+	sess:activeTill	"15:30:00"^^xsd:time ;
 	sess:efficaciousOn	day:XTKS-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+sess:XTKS-EXXXXX-PMCA_2024-11-05Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"15:00:00"^^xsd:time ;
+		delta:insertion	"15:30:00"^^xsd:time ;
+		rdf:predicate	sess:activeFrom ;
+	] , [
+		a	delta:Hunk ;
+		delta:deletion	"15:00:00"^^xsd:time ;
+		delta:insertion	"15:30:00"^^xsd:time ;
+		rdf:predicate	sess:activeTill ;
+	] ;
+	delta:patch-date	"2024-11-05"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:XTKS-EXXXXX-PMCA .
 
 sess:XTKS-EXXXXX-PMCT
 	a	fibo-fip:TradingSession ;
@@ -14586,9 +14724,21 @@ sess:XTKS-EXXXXX-PMCT
 	pav:sourceLastAccessedOn	"2024-05-13T12:53:23Z"^^xsd:dateTime ;
 	rdfs:label	"PM Continuous Trading" ;
 	sess:activeFrom	"12:30:00"^^xsd:time ;
-	sess:activeTill	"15:00:00"^^xsd:time ;
+	sess:activeTill	"15:30:00"^^xsd:time ;
 	sess:efficaciousOn	day:XTKS-EXXXXX-Full ;
 	time:timeZone	<http://dbpedia.org/resource/Asia/Tokyo> .
+
+sess:XTKS-EXXXXX-PMCT_2024-11-05Z
+	a	delta:Delta ;
+	delta:hunk	[
+		a	delta:Hunk ;
+		delta:deletion	"15:00:00"^^xsd:time ;
+		delta:insertion	"15:30:00"^^xsd:time ;
+		rdf:predicate	sess:activeTill ;
+	] ;
+	delta:patch-date	"2024-11-05"^^xsd:date ;
+	pav:createdOn	"2024-11-12T05:53:18.087396"^^xsd:dateTime ;
+	rdf:subject	sess:XTKS-EXXXXX-PMCT .
 
 sess:XTKS-EXXXXX-PMOA
 	a	fibo-fip:TradingSession ;
